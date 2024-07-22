@@ -1,6 +1,7 @@
 ## Généralités
 
-![](<../.gitbook/assets/system-icon-general.png>)
+![Icône Général](../.gitbook/assets/system-icon-general.png)
+![Paramètres généraux](../.gitbook/assets/system-general.png)
 
 Les éléments suivants peuvent être configurés ici :
 
@@ -12,9 +13,7 @@ Les éléments suivants peuvent être configurés ici :
 
 **Attributs d'affichage**
 
-Les attributs de l'écran LCD peuvent être configurés ici :
-
-![](<../.gitbook/assetssystem-general.png>)
+Les attributs de l'écran LCD peuvent être configurés ici.
 
 **Langue**
 
@@ -46,17 +45,17 @@ Veuillez noter que si Luminosité (pour le rétroéclairage activé) = « Lumino
 
 **Option potentiomètre**
 
-![](<../.gitbook/assets/system-general-brightness-menu.png>)
+![Menu pour la luminosité](../.gitbook/assets/system-general-brightness-menu.png)
 
 Appuyez sur « Utiliser une source », puis sélectionnez un potentiomètre à utiliser comme contrôle de la luminosité.
 
-![](<../.gitbook/assets/system-general-brightness-slider.png>)
+![Utilisation d'un potentiomètre pour la luminosité](../.gitbook/assets/system-general-brightness-slider.png)
 
 L'exemple ci-dessus montre que la luminosité est contrôlée via le potentiomètre sur le côté droit de la radio.
 
 **Mise en veille**
 
-![](../.gitbook/assets/system-general-sleep.png)
+![Options de mise en veille](../.gitbook/assets/system-general-sleep.png)
 
 Le rétroéclairage de l'écran peut être réveillé de l'état de veille conformément à une ou plusieurs des options suivantes :
 
@@ -84,7 +83,7 @@ Durée d'inactivité avant la désactivation du rétroéclairage. Lorsque vous s
 
 **Luminosité du mode veille**
 
-![](<../.gitbook/assets/system-general-sleep-brightness.png>)
+![Luminosité en veille](../.gitbook/assets/system-general-sleep-brightness.png)
 
 Utilisez le curseur pour contrôler la luminosité de l'écran en mode veille, de gauche à droite pour régler la luminosité de sombre à clair.
 
@@ -100,7 +99,7 @@ Permet de sélectionner la couleur de surbrillance à utiliser dans l'affichage.
 
 **Emplacement de stockage (X18 et X20 Pro/R/RS)**
 
-![](<../.gitbook/assets/6 (2).jpeg>)
+![](../.gitbook/assets/6 (2).jpeg)
 
 Les radios X18 et X20 Pro/R/RS disposent d'une carte eMMC (MultiMediaCard intégrée) de 8 Go qui est un périphérique de stockage composé d'une mémoire flash NAND et d'un simple contrôleur de stockage. Le système ETHOS sélectionne par défaut le stockage eMMC, ce qui rend l'utilisation de la carte SD facultative. Cependant, l'utilisateur peut choisir l'utilisation du stockage eMMC ou utiliser une carte SD en option ou une combinaison des deux.
 

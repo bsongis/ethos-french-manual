@@ -1,6 +1,6 @@
 ## Date et heure
 
-![Icône "Date et heure"](../.gitbook/assets/system-icon-date.png)
+![Icône Date et heure](../.gitbook/assets/system-icon-date.png)
 ![Date et heure](../.gitbook/assets/system-date.png)
 
 Les paramètres de date et d'heure sont les suivants :
