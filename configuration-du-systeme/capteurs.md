@@ -1,4 +1,4 @@
-# Capteurs
+## Capteurs
 
 ![](<../.gitbook/assets/system-icon-devices.png>)(fr)
 

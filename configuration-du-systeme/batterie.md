@@ -1,4 +1,4 @@
-# Batterie
+## Batterie
 
 ![](../.gitbook/assets/system-icon-battery.png)
 ![](../.gitbook/assets/system-battery)

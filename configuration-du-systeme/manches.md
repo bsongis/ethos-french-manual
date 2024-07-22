@@ -1,4 +1,4 @@
-# Manches
+## Manches
 
 ![](<../.gitbook/assets/system-icon-sticks.png>)
 ![](<../.gitbook/assets/system-sticks.png>)

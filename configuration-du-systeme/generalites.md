@@ -1,8 +1,6 @@
-# Généralités
+## Généralités
 
-#### Généralités <a href="#toc170159490" id="toc170159490"></a>
-
-![](<../.gitbook/assets/system-general>)
+![](<../.gitbook/assets/system-icon-general.png>)
 
 Les éléments suivants peuvent être configurés ici :
 
@@ -16,7 +14,7 @@ Les éléments suivants peuvent être configurés ici :
 
 Les attributs de l'écran LCD peuvent être configurés ici :
 
-![](<../.gitbook/assets/1 (4).jpeg>)
+![](<../.gitbook/assetssystem-general.png>)
 
 **Langue**
 
@@ -42,23 +40,23 @@ Permet de choisir entre les dispositions de clavier virtuel QWERTY, QWERTZ et AZ
 
 **Luminosité**
 
-Utilisez le curseur pour contrôler la luminosité de l'écran, de gauche à droite pour régler la luminosité de sombre à clair. Appuyez longuement sur \[ENT] pour afficher les options permettant d'utiliser une source ou de la régler au minimum ou au maximum.
+Utilisez le curseur pour contrôler la luminosité de l'écran, de gauche à droite pour régler la luminosité de sombre à clair. Appuyez longuement sur \[ENT\] pour afficher les options permettant d'utiliser une source ou de la régler au minimum ou au maximum.
 
 Veuillez noter que si Luminosité (pour le rétroéclairage activé) = « Luminosité du mode veille » (pour le rétroéclairage désactivé), l'écran tactile reste actif.
 
 **Option potentiomètre**
 
-![](<../.gitbook/assets/2 (5).jpeg>)
+![](<../.gitbook/assets/system-general-brightness-menu.png>)
 
 Appuyez sur « Utiliser une source », puis sélectionnez un potentiomètre à utiliser comme contrôle de la luminosité.
 
-![](<../.gitbook/assets/3 (6).jpeg>)
+![](<../.gitbook/assets/system-general-brightness-slider.png>)
 
-L'exemple ci-dessus montre que la luminosité est contrôlée via le potentiomètre 1.
+L'exemple ci-dessus montre que la luminosité est contrôlée via le potentiomètre sur le côté droit de la radio.
 
 **Mise en veille**
 
-![](../.gitbook/assets/4.png)(fr)
+![](../.gitbook/assets/system-general-sleep.png)
 
 Le rétroéclairage de l'écran peut être réveillé de l'état de veille conformément à une ou plusieurs des options suivantes :
 
@@ -86,7 +84,7 @@ Durée d'inactivité avant la désactivation du rétroéclairage. Lorsque vous s
 
 **Luminosité du mode veille**
 
-![](<../.gitbook/assets/5 (4).jpeg>)(fr)
+![](<../.gitbook/assets/system-general-sleep-brightness.png>)
 
 Utilisez le curseur pour contrôler la luminosité de l'écran en mode veille, de gauche à droite pour régler la luminosité de sombre à clair.
 

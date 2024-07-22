@@ -1,4 +1,4 @@
-# Matériel
+## Matériel
 
 ![](<../.gitbook/assets/system-icon-hardware.jpeg>)
 

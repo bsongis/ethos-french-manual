@@ -1,6 +1,4 @@
-# Alertes
-
-#### Alertes <a href="#toc170159476" id="toc170159476"></a>
+## Alertes
 
 ![](<../.gitbook/assets/system-icon-alerts.png>)
 ![](<../.gitbook/assets/system-alerts.png>)
