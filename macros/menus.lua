@@ -6,6 +6,8 @@ simulator.turnRotaryEncoder(1) -- File manager selected
 simulator.screenshot(".gitbook/assets/system-icon-filemanager.png")
 simulator.pressKey(KEY_ENTER)
 simulator.screenshot(".gitbook/assets/system-filemanager.png")
+simulator.pressKey(KEY_PAGE)
+simulator.screenshot(".gitbook/assets/system-filemanager-flash.png")
 simulator.pressKey(KEY_RTN)
 
 simulator.turnRotaryEncoder(1)

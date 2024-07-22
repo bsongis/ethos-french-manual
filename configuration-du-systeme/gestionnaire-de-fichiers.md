@@ -1,9 +1,6 @@
-
 ## Gestionnaire de fichiers
 
-#### Gestionnaire de fichiers <a href="#toc170159474" id="toc170159474"></a>
-
-![](<../.gitbook/assets/system-filemanager.png>)(fr)
+![](<../.gitbook/assets/system-icon-filemanager.png>)
 
 Le « gestionnaire de fichiers » permet de gérer les fichiers et les dossiers, et l'accès au micrologiciel flash du module RF, des ports S.Port externes, des appareils OTA (Over The Air) et des modules externes.
 
@@ -13,10 +10,11 @@ ETHOS dispose d'une fonction de transfert de fichiers Bluetooth radio-radio. Rep
 
 Appuyez sur « Gestionnaire de fichiers » pour ouvrir l'explorateur de fichiers.
 
-\
-![](<../.gitbook/assets/2 (1).png>)
+![](<../.gitbook/assets/system-filemanager.png>)
 
-Le radio utilise une clé USB virtuelle interne pour stocker les bitmaps et les polices du système. Appuyez sur l'onglet « Flash » pour explorer la mémoire flash (voir la capture d'écran ci-dessus).
+Le radio utilise une clé USB virtuelle interne pour stocker les bitmaps et les polices du système. Appuyez sur l'onglet « Flash » pour explorer la mémoire flash :
+
+![](<../.gitbook/assets/system-filemanager-flash.png>)
 
 Lorsqu'il est connecté à un PC :
 
