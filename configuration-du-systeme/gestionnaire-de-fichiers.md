@@ -1,8 +1,9 @@
-# Gestionnaire de fichiers
+
+## Gestionnaire de fichiers
 
 #### Gestionnaire de fichiers <a href="#toc170159474" id="toc170159474"></a>
 
-![](<../.gitbook/assets/1 (3).png>)(fr)
+![](<../.gitbook/assets/system-filemanager.png>)(fr)
 
 Le « gestionnaire de fichiers » permet de gérer les fichiers et les dossiers, et l'accès au micrologiciel flash du module RF, des ports S.Port externes, des appareils OTA (Over The Air) et des modules externes.
 
@@ -209,7 +210,8 @@ Si la radio est déjà connectée à un autre appareil Bluetooth sous Télémét
 
 #### Alertes <a href="#toc170159476" id="toc170159476"></a>
 
-![](../.gitbook/assets/2.png)(fr)![](<../.gitbook/assets/3 (1).png>)(fr)
+![](../.gitbook/assets/system-alerts.png)
+![](<../.gitbook/assets/3 (1).png>)(fr)
 
 Les alertes système sont les suivantes :
 
@@ -273,7 +275,7 @@ Lorsqu'elle est activée, l'heure et la date seront automatiquement réglées à
 
 #### Généralités <a href="#toc170159490" id="toc170159490"></a>
 
-![](../.gitbook/assets/6.jpeg)
+![](../.gitbook/assets/system-general)
 
 Les éléments suivants peuvent être configurés ici :
 

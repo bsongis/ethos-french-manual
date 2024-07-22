@@ -2,7 +2,7 @@
 
 #### Généralités <a href="#toc170159490" id="toc170159490"></a>
 
-![](<../.gitbook/assets/0 (4).jpeg>)
+![](<../.gitbook/assets/system-general>)
 
 Les éléments suivants peuvent être configurés ici :
 

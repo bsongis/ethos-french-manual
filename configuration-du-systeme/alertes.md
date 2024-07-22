@@ -2,7 +2,8 @@
 
 #### Alertes <a href="#toc170159476" id="toc170159476"></a>
 
-![](<../.gitbook/assets/0 (1).png>)(fr)![](<../.gitbook/assets/1 (1).png>)(fr)
+![](<../.gitbook/assets/system-icon-alerts.png>)
+![](<../.gitbook/assets/system-alerts.png>)
 
 Les alertes système sont les suivantes :
 

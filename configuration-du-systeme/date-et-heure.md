@@ -1,6 +1,8 @@
-# Date et heure
 
-![](../.gitbook/assets/0.jpeg)![](../.gitbook/assets/1.jpeg)
+## Date et heure
+
+![](../.gitbook/assets/system-icon-date.png)
+![](../.gitbook/assets/system-date.png)
 
 Les paramètres de date et d'heure sont les suivants :
 

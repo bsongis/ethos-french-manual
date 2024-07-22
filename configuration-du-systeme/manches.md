@@ -1,8 +1,7 @@
 # Manches
 
-![](<../.gitbook/assets/0 (2).png>)
-
-![](<../.gitbook/assets/1 (2).jpeg>)![](<../.gitbook/assets/2 (2).jpeg>)
+![](<../.gitbook/assets/system-icon-sticks.png>)
+![](<../.gitbook/assets/system-sticks.png>)
 
 Sélectionnez votre mode de manche préféré. Le mode 1 a la manette des gaz et les ailerons sur le manche droit, et la profondeur et la gouverne de direction sur le manche gauche. Le mode 2 a la manette des gaz et la gouverne de direction sur le manche gauche, et l'aileron et la profondeur sur la droite.
 

@@ -1,10 +1,11 @@
+
 # Configuration du système
 
 Le menu « Configuration du système » est utilisé pour configurer les parties du matériel du système radio qui sont communes à tous les modèles, et est accessible en sélectionnant l'onglet Engrenage en bas de l'écran. À l'inverse, la configuration spécifique au modèle est effectuée dans le menu Modèle, auquel vous pouvez accéder en sélectionnant l'onglet Avion en bas de l'écran.
 
 _Veuillez noter que les paramètres permettant de déterminer si le module RF interne ou externe est utilisé sont spécifiques au modèle, ils sont donc gérés dans la section « Système RF » du menu Modèle._
 
-![Menu système](<../.gitbook/assets/0 (4).png>)
+![Menu système](<../.gitbook/assets/system-filemanager.png>)
 
 Dans le programme de configuration du système, appuyez sur une vignette pour configurer la section sélectionnée ou utilisez le sélecteur rotatif pour déplacer la surbrillance vers la vignette souhaitée, puis appuyez sur Entrée. Vous pouvez balayer vers la gauche pour accéder à la deuxième page de fonctions ou utiliser le sélecteur rotatif pour déplacer la surbrillance vers la deuxième page.
 

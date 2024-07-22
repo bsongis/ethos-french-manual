@@ -1,6 +1,7 @@
+
 # Information
 
-![](<../.gitbook/assets/0 (3).jpeg>)
+![](<../.gitbook/assets/system-info.jpeg>)
 
 La page d'informations affiche des informations sur le micrologiciel du système, le type de cardan, la version du micrologiciel du module interne, le micrologiciel du récepteur ACCESS, TD ou TW et des informations sur le module externe.
 

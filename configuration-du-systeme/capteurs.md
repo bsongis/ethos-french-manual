@@ -1,10 +1,10 @@
 # Capteurs
 
-![](<../.gitbook/assets/0 (6).png>)(fr)
+![](<../.gitbook/assets/system-icon-devices.png>)(fr)
 
 La « configuration de l'appareil » contient des outils permettant de configurer des appareils tels que des capteurs, des récepteurs, la suite de gaz, des servomoteurs et des émetteurs vidéo.
 
-![](<../.gitbook/assets/1 (6).png>)(fr)
+![](<../.gitbook/assets/system-devices.png>)(fr)
 
 Les appareils suivants sont actuellement pris en charge :
 

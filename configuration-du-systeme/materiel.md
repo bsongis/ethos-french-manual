@@ -1,6 +1,6 @@
 # Matériel
 
-![](<../.gitbook/assets/0 (5).jpeg>)
+![](<../.gitbook/assets/system-icon-hardware.jpeg>)
 
 La section Hardware permet de tester toutes les entrées, d'effectuer l'étalonnage analogique et gyroscopique, et de définir les types de inters et la carte de la touche d'accueil.
 
