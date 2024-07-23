@@ -1,6 +1,8 @@
 #!/bin/bash
 
-simulator.exe --read-only --no-audio --no-gui --radio-settings ./x20S-fr.bin --exec ./macros/menus.lua
-simulator.exe --read-only --no-audio --no-gui --radio-settings ./x20S-fr.bin --exec ./macros/mainviews.lua
-simulator.exe --read-only --no-audio --no-gui --radio-settings ./x20S-fr.bin --exec ./macros/keyboard.lua
-simulator.exe --read-only --no-audio --no-gui --radio-settings ./x20S-fr.bin --exec ./macros/error.lua
+ETHOS='/mnt/c/Program Files (x86)/FrSky/Ethos'
+
+"${ETHOS}/X20S/simulator.exe" --read-only --no-audio --no-gui --radio-settings ./x20S-fr.bin --exec ./macros/menus.lua
+"${ETHOS}/X20S/simulator.exe" --read-only --no-audio --no-gui --radio-settings ./x20S-fr.bin --exec ./macros/mainviews.lua
+"${ETHOS}/X20S/simulator.exe" --read-only --no-audio --no-gui --radio-settings ./x20S-fr.bin --exec ./macros/keyboard.lua
+"${ETHOS}/X20S/simulator.exe" --read-only --no-audio --no-gui --radio-settings ./x20S-fr.bin --exec ./macros/error.lua

@@ -1,4 +1,3 @@
-
 # Configuration du système
 
 Le menu « Configuration du système » est utilisé pour configurer les parties du matériel du système radio qui sont communes à tous les modèles, et est accessible en sélectionnant l'onglet Engrenage en bas de l'écran. À l'inverse, la configuration spécifique au modèle est effectuée dans le menu Modèle, auquel vous pouvez accéder en sélectionnant l'onglet Avion en bas de l'écran.

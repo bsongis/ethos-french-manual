@@ -7,7 +7,7 @@ La page d'informations affiche des informations sur le micrologiciel du système
 
 **X18 et X20**
 
-![](<../.gitbook/assets/1 (5).png>)
+![](../.gitbook/assets/1 (5).png)
 
 **Numéro de série**
 
@@ -15,8 +15,7 @@ Numéro de série de la radio.
 
 **Firmware**
 
-Ethos, firmware, et type de radio (par exemple X20).\
-
+Ethos, firmware, et type de radio (par exemple X20).
 
 **Version du firmware**
 
@@ -28,7 +27,7 @@ Date et heure de la version du micrologiciel.
 
 **Erreurs**
 
-![](<../.gitbook/assets/2 (2).png>)
+<!-- ![](../.gitbook/assets/2 (2).png) -->
 
 Lorsqu'ETHOS détecte une erreur, une icône d'avertissement d'erreur en triangle rouge s'affiche dans la barre supérieure de la vue principale.
 
@@ -36,7 +35,6 @@ Les erreurs peuvent être dues à :
 
 **Erreurs de script Lua**\
 **Les problèmes liés au script Lua entraîneront des messages d'erreur.**\
-
 
 **RAM backup error (erreur Mémoire de sauvegarde)**\
 **Un modèle peut être si énorme qu'il dépasse la RAM de sauvegarde. ETHOS a maintenant étendu l'espace RAM pour la sauvegarde des modèles de 4k à 32k, il est donc peu probable qu'il soit dépassé maintenant. Il s'agit d'une erreur majeure qui ralentira le chargement du modèle en mode d'urgence à partir de la carte SD au lieu de la RAM de secours.**\
@@ -54,7 +52,8 @@ La version capteur à effet Hall à cardan installée. L'ADC est pour l'analogiq
 
 Détails du module RF interne, y compris les versions du matériel et du micrologiciel.
 
-![](<../.gitbook/assets/3 (5).jpeg>)![](<../.gitbook/assets/4 (7).jpeg>)
+<!-- ![](../.gitbook/assets/3 (5).jpeg)
+![](../.gitbook/assets/4 (7).jpeg) -->
 
 **Récepteur**
 
@@ -70,18 +69,16 @@ Les multimodules ne sont pas affichés.
 
 Permet de rétablir les paramètres d'usine de la radio. Aucune connexion USB PC n'est nécessaire, c'est tout fait à la radio.
 
-![](<../.gitbook/assets/5 (1).png>)
+<!-- ![](../.gitbook/assets/5 (1).png) -->
 
 Lorsque vous confirmez que vous souhaitez réinitialiser les paramètres d'usine, la radio efface tous les modèles, les fichiers journaux, les captures d'écran, les documents, les scripts, les bitmaps et les paramètres de la radio.\
 
-
-![](<../.gitbook/assets/6 (3).png>)
+<!-- ![](../.gitbook/assets/6 (3).png) -->
 
 Il y a une barre de progression pendant le processus d'effacement. Il démontera ensuite tous les lecteurs et redémarrera la radio.
 
 **X20 Pro/R/RS**
 
-\
 ![](../.gitbook/assets/7.png)
 
 Informations similaires pour la X20 Pro/R/RS.

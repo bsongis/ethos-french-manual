@@ -38,4 +38,3 @@ Les détails relatifs à l'avertissement sont affichés dans la page Système / 
 ![Barre inférieure](https://github.com/user-attachments/assets/7984970d-4c06-44cd-aeb4-c4bb824e04e5)
 
 La barre inférieure comporte quatre icones pour accéder aux fonctions suivantes,de gauche à droite : Ecran d'accueil du modèle, Configuration du modèle, Configurer les écrans du modèle et Configuration du système. L'heure système s'affiche à droite. Un appui sur l'heure permet d'accéder aux options de date et d'heure de la radio.
-
