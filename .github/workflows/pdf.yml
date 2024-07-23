@@ -39,5 +39,7 @@ jobs:
         python-version: '3.x'
 
     - name: Install needed packages
-      run: sudo apt-get install pandoc texlive-fonts-recommended texlive-fonts-extra texlive-lang-french texlive-xetex
+      run: |
+        sudo apt-get update
+        sudo apt-get install pandoc texlive-fonts-recommended texlive-fonts-extra texlive-lang-french texlive-xetex
     
