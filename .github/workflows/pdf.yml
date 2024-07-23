@@ -56,9 +56,11 @@ jobs:
       run: python ./build.py
 
     - name: Upload to release
-      uses: JasonEtco/upload-to-release@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      uses: svenstaro/upload-release-action@v2
       with:
-          args: ethos-french-manual.pdf
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ethos-french-manual.pdf
+          asset_name: ethos-french-manual.pdf
+          tag: 1.5.12
+          overwrite: true
     
