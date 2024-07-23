@@ -1,6 +1,8 @@
 name: PDF Generation
 
-on: [workflow_dispatch, push]
+on: 
+  - workflow_dispatch
+  - push
 
 # addons:
 #   apt:
