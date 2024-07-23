@@ -8,24 +8,25 @@ Les vues principales partagent normalement les barres supérieure et inférieure
 
 ## La barre supérieure
 
-La barre supérieure affiche le nom du modèle sur la gauche, ainsi que la phase de vol active si ces dernières sont utilisées.
+La barre supérieure affiche le nom du modèle sur la gauche, ainsi que la phase de vol active si les phases de vol sont utilisées.
 
 ![Barre supérieure](https://github.com/user-attachments/assets/ad0ca0d6-8fd5-4f75-8149-870fcbe58ef6)
 
 Sur la droite se trouvent des icônes pour :
 
+* l'avertissement d'erreur (triangle rouge)
+* le verrouillage de l'écran (cadenas)
+* la connection USB
 * l'enregistrement des données
-* l'écolage (maître ou l'élève selon le cas)
+* l'écolage (maître ou élève, filaire, bluetooth ou RF)
 * RSSI 2.4G
 * RSSI 900M
 * le volume sonore
 * l'état de la batterie radio
 
-Un appui sur les icônes du haut-parleur ou de la batterie permet d'accéder aux options Général ou Batterie de la radio.
+Un appui sur les icônes du haut-parleur ou de la batterie permet d'accéder aux options de configuration correspondantes.
 
-### Avertissement d'erreur
-
-Une icône d'avertissement d'erreur en triangle rouge s'affiche dans la barre supérieure de la vue principale lorsque ETHOS détecte une des erreurs suivantes:
+L'avertissement d'erreur (triangle rouge) s'affiche lorsque ETHOS détecte une des erreurs suivantes:
 
 * Erreurs de script Lua
 * Erreur de sauvegarde de la RAM
@@ -37,4 +38,4 @@ Les détails relatifs à l'avertissement sont affichés dans la page Système / 
 
 ![Barre inférieure](https://github.com/user-attachments/assets/7984970d-4c06-44cd-aeb4-c4bb824e04e5)
 
-La barre inférieure comporte quatre icones pour accéder aux fonctions suivantes,de gauche à droite : Ecran d'accueil du modèle, Configuration du modèle, Configurer les écrans du modèle et Configuration du système. L'heure système s'affiche à droite. Un appui sur l'heure permet d'accéder aux options de date et d'heure de la radio.
+La barre inférieure comporte quatre icones pour accéder aux fonctions suivantes, de gauche à droite : Ecran d'accueil du modèle, Configuration du modèle, Configurer les écrans du modèle et Configuration du système. L'heure système s'affiche à droite. Un appui sur l'heure permet d'accéder aux options de date et d'heure de la radio.
