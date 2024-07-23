@@ -30,7 +30,7 @@ def main():
               --number-sections \
               --variable documentclass=scrreprt \
               --pdf-engine xelatex \
-              --output book.pdf')
+              --output ethos-french-manual.pdf')
 
 
 if __name__ == "__main__":
