@@ -1,18 +1,18 @@
 name: PDF Generation
 
-on: [workflow_dispatch, push]
+on: workflow_dispatch
 
 jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
-  steps:
-  - name: Set up Python
-    uses: actions/setup-python@v4
-    with:
-      python-version: '3.x'
+    steps:
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
 
-  - name: Install needed packages
-    run: sudo apt-get install pandoc texlive-fonts-recommended texlive-fonts-extra texlive-lang-french texlive-xetex
+    - name: Install needed packages
+      run: sudo apt-get install pandoc texlive-fonts-recommended texlive-fonts-extra texlive-lang-french texlive-xetex
     
