@@ -4,13 +4,13 @@ Ethos permet à l'utilisateur une grande flexibilité dans l'affichage de diffé
 
 Les vues principales partagent normalement les barres supérieure et inférieure, mais d'autres options sont possibles, voire même configurables par l'utilisateur. Reportez vous à la section Configurer les écrans pour plus de détails sur la configuration des affichages et la programmation LUA.
 
-![Exemple de vue principale](.gitbook/assets/mainviews1.png)
+![Exemple de vue principale](.gitbook/assets/mainview.png)
 
 ## La barre supérieure
 
 La barre supérieure affiche le nom du modèle sur la gauche, ainsi que la phase de vol active si les phases de vol sont utilisées.
 
-![Barre supérieure](https://github.com/user-attachments/assets/ad0ca0d6-8fd5-4f75-8149-870fcbe58ef6)
+![Barre supérieure](.gitbook/assets/topbar.png)
 
 Sur la droite se trouvent des icônes pour :
 
@@ -36,6 +36,6 @@ Les détails relatifs à l'avertissement sont affichés dans la page Système / 
 
 ## La barre inférieure
 
-![Barre inférieure](https://github.com/user-attachments/assets/7984970d-4c06-44cd-aeb4-c4bb824e04e5)
+![Barre inférieure](.gitbook/assets/bottombar.png)
 
 La barre inférieure comporte quatre icones pour accéder aux fonctions suivantes, de gauche à droite : Ecran d'accueil du modèle, Configuration du modèle, Configurer les écrans du modèle et Configuration du système. L'heure système s'affiche à droite. Un appui sur l'heure permet d'accéder aux options de date et d'heure de la radio.
