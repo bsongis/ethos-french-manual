@@ -1,0 +1,47 @@
+name: PDF Generation
+
+on:
+  workflow_dispatch
+
+  push:
+    branches: [main]
+
+# addons:
+#   apt:
+#     packages:
+#       - fonts-croscore
+#       - fonts-crosextra-carlito
+#       - fonts-linuxlibertine
+#       - fonts-inconsolata
+#       - fonts-texgyre
+#       - lmodern
+#       - make
+#       - tex-gyre
+#       - texlive-fonts-extra
+#       - texlive-fonts-recommended
+#       - texlive-lang-french
+#       - texlive-latex-extra
+#       - texlive-science
+#       - texlive-xetex
+
+# install:
+#   - wget https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pandoc-${PANDOC_VERSION}-1-amd64.deb -O pandoc.deb
+#   - sudo dpkg -i pandoc.deb
+#   - wget https://github.com/lierdakil/pandoc-crossref/releases/download/v${PANDOC_CROSSREF_VERSION}/pandoc-crossref-Linux.tar.xz -O pandoc-crossref.tar.xz
+#   - tar xf pandoc-crossref.tar.xz
+#   - sudo mv pandoc-crossref /usr/local/bin
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install needed packages
+      run: sudo apt-get install pandoc texlive-fonts-recommended texlive-fonts-extra texlive-lang-french texlive-xetex
+    
