@@ -46,6 +46,12 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
+    - name: Install needed fonts
+      run: |
+        mkdir $HOME/.fonts
+        cp ./fonts/* $HOME/.fonts/
+        fc-cache -fv
+
     - name: Build the french manual
       run: python ./build.py
     
