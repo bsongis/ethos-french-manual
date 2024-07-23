@@ -1,6 +1,12 @@
 name: PDF Generation
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      firmware:
+        description: 'Build all firmware'
+        type: boolean
+        default: true
 
 jobs:
   build:
