@@ -15,7 +15,7 @@ def main():
                     path = match.group(1)
                     with open(path) as page:
                         content = page.read()
-                        content = content.replace("../.gitbook/", ".gitbook/")
+                        content = content.replace("../assets/", "./assets/")
                         book.write(content)
                         if content[-1] != "\n":
                             book.write("\n")
