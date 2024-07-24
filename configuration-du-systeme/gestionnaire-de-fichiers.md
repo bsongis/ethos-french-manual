@@ -46,7 +46,7 @@ Ces dossiers sont destinés aux fichiers audios de l'utilisateur, qui peuvent ê
 
 Le format doit être 16 kHz ou 32 kHz PCM linéaire 16 bits ou alaw (EU) 8 bits ou mulaw (US) 8 bits. Les noms des fichiers wav doivent avoir au maximum 31 caractères (extension comprise).
 
-Les sous-répertoires "system" sont destinés aux fichiers audios du système, par ex.
+Les sous-répertoires "system" sont destinés aux fichiers audios du système, par exemple :
 
    **audio/fr/femme/system** : Fichiers système de la voix féminine
 
