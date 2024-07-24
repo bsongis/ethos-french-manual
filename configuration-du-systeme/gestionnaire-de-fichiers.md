@@ -1,6 +1,6 @@
 ## Gestionnaire de fichiers
 
-![Icône Fichiers](../.gitbook/assets/system-icon-filemanager.png)
+![Icône Fichiers](../assets/system-icon-filemanager.png)
 
 Le « gestionnaire de fichiers » permet de gérer les fichiers et les dossiers, et l'accès au micrologiciel flash du module RF, des ports S.Port externes, des appareils OTA (Over The Air) et des modules externes.
 
@@ -10,11 +10,11 @@ ETHOS dispose d'une fonction de transfert de fichiers Bluetooth radio-radio. Rep
 
 Appuyez sur « Gestionnaire de fichiers » pour ouvrir l'explorateur de fichiers.
 
-![Gestionnaire de fichiers](../.gitbook/assets/system-filemanager.png)
+![Gestionnaire de fichiers](../assets/system-filemanager.png)
 
 Le radio utilise une clé USB virtuelle interne pour stocker les bitmaps et les polices du système. Appuyez sur l'onglet « Flash » pour explorer la mémoire flash :
 
-![Disque "Flash"](../.gitbook/assets/system-filemanager-flash.png)
+![Disque "Flash"](../assets/system-filemanager-flash.png)
 
 Lorsqu'il est connecté à un PC :
 
@@ -26,11 +26,11 @@ Clé USB (lettre de lecteur)/fonts/
 
 (les polices sont utilisées pour les différentes sélections de langue)
 
-![](<../.gitbook/assets/3 (2).jpeg>)
+![](<../assets/3 (2).jpeg>)
 
 La série X20/S/HD nécessite une carte SD de 32 Go ou moins formatée en FAT32. Les cartes SanDisk Ultra Micro SDHC Class 10 32 Go sont une bonne option. Les fichiers seront disponibles sur le site Web de FRSky.
 
-![](<../.gitbook/assets/4 (4).jpeg>)
+![](<../assets/4 (4).jpeg>)
 
 Les radios X18 et X20 Pro/R/RS utilisent une carte eMMC interne pour le stockage des fichiers par défaut, mais une carte SD externe peut être ajoutée. Appuyez sur l'onglet « Radio » pour explorer la mémoire de la carte eMMC.
 
@@ -70,7 +70,7 @@ Ces dossiers sont destinés aux fichiers audios du système, par ex.
 
 Appuyez sur le dossier \[audio] pour afficher le contenu du dossier.
 
-![](../.gitbook/assets/5.png)(fr)
+![](../assets/5.png)(fr)
 
 Appuyez sur un fichier WAV et sélectionnez l'option Lecture pour l'écouter.
 
@@ -84,7 +84,7 @@ Ce dossier est destiné aux fichiers bitmap.
 
 **bitmaps/models/**
 
-![](<../.gitbook/assets/6 (2).png>)
+![](<../assets/6 (2).png>)
 
 Ce dossier est destiné aux images de modèle utilisateur configurées dans « Modèle / Modifier le modèle » et les assistants de nouveau modèle.
 
@@ -128,19 +128,19 @@ Ce dossier est destiné aux documents texte de l'utilisateur. Ils peuvent être 
 
 Ce dossier est destiné aux fichiers du micrologiciel. Les mises à jour du micrologiciel pour le module RF interne, les modules externes et d'autres appareils tels que les récepteurs, etc. sont stockées ici. Ils peuvent ensuite être flashés à partir d'ici via le S.Port externe de la radio, ou OTA (Over The Air). Le nouveau firmware doit être copié dans le dossier Firmware après avoir placé la radio en mode bootloader et connecté à un PC via USB.
 
-![](<../.gitbook/assets/7 (3).jpeg>)
+![](<../assets/7 (3).jpeg>)
 
 Appuyez sur le dossier Firmware pour afficher les fichiers du firmware qui ont été copiés dans ce dossier. Appuyez ensuite sur l'option Flash dans la boîte de dialogue contextuelle. L'exemple ci-dessus montre le module RF interne en cours de mise à jour.
 
-![](<../.gitbook/assets/8 (3).jpeg>)
+![](<../assets/8 (3).jpeg>)
 
 L'exemple ci-dessus montre un récepteur S8R sur le point d'être mis à jour via la connexion S.Port de la radio.
 
-![](<../.gitbook/assets/9 (1).jpeg>)
+![](<../assets/9 (1).jpeg>)
 
 L'exemple ci-dessus montre un récepteur TD-R18 sur le point d'être mis à jour Over-The-Air via la liaison sans fil vers le récepteur lié.
 
-![](../.gitbook/assets/10.jpeg)
+![](../assets/10.jpeg)
 
 L'exemple ci-dessus montre la mise à jour du bootloader de la radio.
 
@@ -196,11 +196,11 @@ Ce fichier contient la version carte SD et est utilisé et maintenu par Ethos Su
 
 ETHOS dispose d'une fonction de transfert de fichiers Bluetooth radio-radio.
 
-![](<../.gitbook/assets/0 (3).png>)
+![](<../assets/0 (3).png>)
 
 Sur la radio de réception, à l'aide du Gestionnaire de fichiers, accédez au dossier du modèle dans lequel vous souhaitez recevoir le modèle. Appuyez longuement sur Entrée et sélectionnez « Recevoir le fichier ici ».
 
-![](<../.gitbook/assets/1 (2).png>)
+![](<../assets/1 (2).png>)
 
 Sur la radio qui envoie, accédez au fichier que vous souhaitez envoyer et appuyez dessus. Sélectionnez ensuite « Envoyer le fichier » et suivez les instructions sur les deux radios.
 

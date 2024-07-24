@@ -1,7 +1,7 @@
 ## Capteurs
 
-![Icône Capteurs](../.gitbook/assets/system-icon-devices.png)
-![Capteurs](../.gitbook/assets/system-devices.png)
+![Icône Capteurs](../assets/system-icon-devices.png)
+![Capteurs](../assets/system-devices.png)
 
 La « configuration de l'appareil » contient des outils permettant de configurer des appareils tels que des capteurs, des récepteurs, la suite de gaz, des servomoteurs et des émetteurs vidéo.
 
@@ -30,11 +30,11 @@ Veuillez noter que l'écran « Configuration de l'appareil » d'ETHOS vous perme
 
 **Sélection du module**
 
-![](<../.gitbook/assets/2 (3).png>)(fr)
+![](<../assets/2 (3).png>)(fr)
 
 Le module à utiliser pour Device Config peut être configuré.
 
-![](<../.gitbook/assets/3 (2).png>)(fr)
+![](<../assets/3 (2).png>)(fr)
 
 Les options de sélection du module à utiliser sont les suivantes :
 

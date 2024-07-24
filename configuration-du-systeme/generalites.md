@@ -1,7 +1,7 @@
 ## Généralités
 
-![Icône Général](../.gitbook/assets/system-icon-general.png)
-![Paramètres généraux](../.gitbook/assets/system-general.png)
+![Icône Général](../assets/system-icon-general.png)
+![Paramètres généraux](../assets/system-general.png)
 
 Les éléments suivants peuvent être configurés ici :
 
@@ -45,17 +45,17 @@ Veuillez noter que si Luminosité (pour le rétroéclairage activé) = « Lumino
 
 **Option potentiomètre**
 
-![Menu pour la luminosité](../.gitbook/assets/system-general-brightness-menu.png)
+![Menu pour la luminosité](../assets/system-general-brightness-menu.png)
 
 Appuyez sur « Utiliser une source », puis sélectionnez un potentiomètre à utiliser comme contrôle de la luminosité.
 
-![Utilisation d'un potentiomètre pour la luminosité](../.gitbook/assets/system-general-brightness-slider.png)
+![Utilisation d'un potentiomètre pour la luminosité](../assets/system-general-brightness-slider.png)
 
 L'exemple ci-dessus montre que la luminosité est contrôlée via le potentiomètre sur le côté droit de la radio.
 
 **Mise en veille**
 
-![Options de mise en veille](../.gitbook/assets/system-general-sleep.png)
+![Options de mise en veille](../assets/system-general-sleep.png)
 
 Le rétroéclairage de l'écran peut être réveillé de l'état de veille conformément à une ou plusieurs des options suivantes :
 
@@ -83,7 +83,7 @@ Durée d'inactivité avant la désactivation du rétroéclairage. Lorsque vous s
 
 **Luminosité du mode veille**
 
-![Luminosité en veille](../.gitbook/assets/system-general-sleep-brightness.png)
+![Luminosité en veille](../assets/system-general-sleep-brightness.png)
 
 Utilisez le curseur pour contrôler la luminosité de l'écran en mode veille, de gauche à droite pour régler la luminosité de sombre à clair.
 
@@ -99,7 +99,7 @@ Permet de sélectionner la couleur de surbrillance à utiliser dans l'affichage.
 
 **Emplacement de stockage (X18 et X20 Pro/R/RS)**
 
-![](../.gitbook/assets/6 (2).jpeg)
+![](../assets/6 (2).jpeg)
 
 Les radios X18 et X20 Pro/R/RS disposent d'une carte eMMC (MultiMediaCard intégrée) de 8 Go qui est un périphérique de stockage composé d'une mémoire flash NAND et d'un simple contrôleur de stockage. Le système ETHOS sélectionne par défaut le stockage eMMC, ce qui rend l'utilisation de la carte SD facultative. Cependant, l'utilisateur peut choisir l'utilisation du stockage eMMC ou utiliser une carte SD en option ou une combinaison des deux.
 
@@ -107,7 +107,7 @@ Veuillez-vous référer à l'écran de sélection de l'emplacement de stockage c
 
 **Paramètres audio**
 
-![](<../.gitbook/assets/7 (1).png>)(fr)
+![](<../assets/7 (1).png>)(fr)
 
 **Langue audio**
 
@@ -171,7 +171,7 @@ Utilisez le curseur pour contrôler le volume audio. Un appui long sur \[ENT] pe
 
 **Mode audio**
 
-![](<../.gitbook/assets/8 (1).png>)(fr)
+![](<../assets/8 (1).png>)(fr)
 
 **Silencieux**
 
@@ -197,27 +197,27 @@ En plus des sons dans « Souvent », il y aura également des bips lorsque le me
 
 Les modèles X20S, HD et X20 Pro/R/RS disposent d'un mode audio supplémentaire pour relayer l'audio vers un appareil Bluetooth comme un casque.
 
-![](<../.gitbook/assets/9 (3).jpeg>)
+![](<../assets/9 (3).jpeg>)
 
 Appuyez sur « Rechercher des appareils ».
 
-![](<../.gitbook/assets/10 (1).jpeg>)
+![](<../assets/10 (1).jpeg>)
 
 Le message « En attente d'appareils » s'affiche. Allumez votre appareil Bluetooth et placez-le en mode d'appairage.
 
-![](<../.gitbook/assets/11 (4).jpeg>)
+![](<../assets/11 (4).jpeg>)
 
 Une fois le périphérique Bluetooth trouvé, son nom s'affiche. Touchez-le pour sélectionner l'appareil.
 
-![](<../.gitbook/assets/12 (4).jpeg>)
+![](<../assets/12 (4).jpeg>)
 
 Le message « En attente de l'appareil » s'affiche.
 
-![](<../.gitbook/assets/13 (3).jpeg>)
+![](<../assets/13 (3).jpeg>)
 
 Lorsque la radio et l'appareil sont couplés, le message « Appareil Bluetooth connecté » s'affiche. Appuyez sur OK.
 
-![](<../.gitbook/assets/14 (2).jpeg>)
+![](<../assets/14 (2).jpeg>)
 
 L'écran Bluetooth s'affichera à nouveau.
 
@@ -229,7 +229,7 @@ Le système se souvient de l'appareil Bluetooth. Pour un fonctionnement normal, 
 
 **Vario**
 
-![](../.gitbook/assets/15.png)
+![](../assets/15.png)
 
 Les caractéristiques audio des tonalités vario peuvent être configurées ici.
 
@@ -253,7 +253,7 @@ Reportez-vous au capteur VSpeed dans Télémétrie et à la fonction spéciale L
 
 **Vibration**
 
-![](../.gitbook/assets/16.png)
+![](../assets/16.png)
 
 _**Intensité**_
 
@@ -261,13 +261,13 @@ Utilisez le curseur pour contrôler l'intensité des vibrations haptiques.
 
 _**Mode**_
 
-![](<../.gitbook/assets/17 (1).jpeg>)
+![](<../assets/17 (1).jpeg>)
 
 Similaire au mode audio ci-dessus.
 
 **Barre d'infos sup**
 
-![](<../.gitbook/assets/18 (1).jpeg>)
+![](<../assets/18 (1).jpeg>)
 
 _**Tension numérique (volts)**_
 
@@ -279,7 +279,7 @@ De même, l'état RSSI peut être modifié d'un affichage à barres à une valeu
 
 **Sélectionnez le modèle à la mise sous tension**
 
-![](<../.gitbook/assets/19 (1).jpeg>)
+![](<../assets/19 (1).jpeg>)
 
 Lorsque cette option est activée, l'écran de sélection du modèle s'affiche à la mise sous tension, de sorte qu'un modèle peut être choisi avant que les alertes de la liste de contrôle du modèle précédemment sélectionné ne s'affichent. Cela évite d'avoir à annuler les alertes de la liste de contrôle avant de sélectionner un autre modèle.
 
@@ -287,7 +287,7 @@ Par défaut, le dernier modèle utilisé dans la session précédente est mis en
 
 **Présélection du mode USB**
 
-![](<../.gitbook/assets/20 (1).jpeg>)
+![](<../assets/20 (1).jpeg>)
 
 Les présélections suivantes sont disponibles lorsque la radio est connectée à un PC via un câble USB :
 

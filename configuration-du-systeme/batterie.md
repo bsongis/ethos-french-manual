@@ -1,7 +1,7 @@
 ## Batterie
 
-![Icône Batterie](../.gitbook/assets/system-icon-battery.png)
-![Batterie](../.gitbook/assets/system-battery.png)
+![Icône Batterie](../assets/system-icon-battery.png)
+![Batterie](../assets/system-battery.png)
 
 La section Batterie permet de calibrer la batterie et la pile de la radio et de régler les seuils d'alarme.
 

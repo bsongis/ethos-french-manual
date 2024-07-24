@@ -1,13 +1,13 @@
 ## Information
 
-![Icône Information](../.gitbook/assets/system-icon-info.png)
-![Information](../.gitbook/assets/system-info.png)
+![Icône Information](../assets/system-icon-info.png)
+![Information](../assets/system-info.png)
 
 La page d'informations affiche des informations sur le micrologiciel du système, le type de cardan, la version du micrologiciel du module interne, le micrologiciel du récepteur ACCESS, TD ou TW et des informations sur le module externe.
 
 **X18 et X20**
 
-![](../.gitbook/assets/1 (5).png)
+![](../assets/1 (5).png)
 
 **Numéro de série**
 
@@ -27,7 +27,7 @@ Date et heure de la version du micrologiciel.
 
 **Erreurs**
 
-<!-- ![](../.gitbook/assets/2 (2).png) -->
+<!-- ![](../assets/2 (2).png) -->
 
 Lorsqu'ETHOS détecte une erreur, une icône d'avertissement d'erreur en triangle rouge s'affiche dans la barre supérieure de la vue principale.
 
@@ -52,8 +52,8 @@ La version capteur à effet Hall à cardan installée. L'ADC est pour l'analogiq
 
 Détails du module RF interne, y compris les versions du matériel et du micrologiciel.
 
-<!-- ![](../.gitbook/assets/3 (5).jpeg)
-![](../.gitbook/assets/4 (7).jpeg) -->
+<!-- ![](../assets/3 (5).jpeg)
+![](../assets/4 (7).jpeg) -->
 
 **Récepteur**
 
@@ -69,16 +69,16 @@ Les multimodules ne sont pas affichés.
 
 Permet de rétablir les paramètres d'usine de la radio. Aucune connexion USB PC n'est nécessaire, c'est tout fait à la radio.
 
-<!-- ![](../.gitbook/assets/5 (1).png) -->
+<!-- ![](../assets/5 (1).png) -->
 
 Lorsque vous confirmez que vous souhaitez réinitialiser les paramètres d'usine, la radio efface tous les modèles, les fichiers journaux, les captures d'écran, les documents, les scripts, les bitmaps et les paramètres de la radio.\
 
-<!-- ![](../.gitbook/assets/6 (3).png) -->
+<!-- ![](../assets/6 (3).png) -->
 
 Il y a une barre de progression pendant le processus d'effacement. Il démontera ensuite tous les lecteurs et redémarrera la radio.
 
 **X20 Pro/R/RS**
 
-![](../.gitbook/assets/7.png)
+![](../assets/7.png)
 
 Informations similaires pour la X20 Pro/R/RS.

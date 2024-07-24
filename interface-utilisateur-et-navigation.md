@@ -10,7 +10,7 @@ Un appui long sur la touche \[RTN] vous ramènera à l'écran d'accueil à parti
 
 Un appui long sur la touche \[ENT] depuis l’écran d’accueil fait apparaître un menu de réinitialisation
 
-![Menu de réinitialisation](.gitbook/assets/resetmenu.png)
+![Menu de réinitialisation](assets/resetmenu.png)
 
 ### **Réinitialiser le vol**
 
@@ -34,10 +34,10 @@ L'écran tactile LCD peut être verrouillé pour éviter toute opération par in
 
 Ethos fournit un clavier virtuel pour l'édition des champs de texte.
 
-![Clavier AZERTY](.gitbook/assets/keyboard1.png)
+![Clavier AZERTY](assets/keyboard1.png)
 
 Il suffit d'appuyer sur n'importe quel champ de texte (ou de cliquer sur \[ENT]) pour faire apparaître le clavier.
 
-![Clavier chiffres](.gitbook/assets/keyboard2.png)
+![Clavier chiffres](assets/keyboard2.png)
 
 Appuyez sur la touche « ?123 » ou « abc » pour basculer entre les claviers alphabétiques et numériques. Il y a aussi un verrou en majuscules pour saisir des lettres majuscules.

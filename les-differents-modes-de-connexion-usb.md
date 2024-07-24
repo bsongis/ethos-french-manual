@@ -18,7 +18,7 @@ Ce mode peut également être utilisé pour se connecter à Ethos Suite afin de 
 
 Si la radio est connectée à un PC via un câble de données USB alors qu'elle est sous tension, la boîte de dialogue suivante s'affiche
 
-![Options de connection USB](.gitbook/assets/usbmenu.png)
+![Options de connection USB](assets/usbmenu.png)
 
 * En mode joystick, la radio peut être configurée pour contrôler les simulateurs RC.
 * En mode Frsky Suite, la radio entrera en « mode Ethos » pour communiquer avec Ethos Suite. Veuillez-vous référer au mode Ethos dans la section Ethos Suite.

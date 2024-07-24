@@ -1,7 +1,7 @@
 ## Alertes
 
-![Icône Alertes](../.gitbook/assets/system-icon-alerts.png)
-![Gestionnaire des alertes](<../.gitbook/assets/system-alerts.png>)
+![Icône Alertes](../assets/system-icon-alerts.png)
+![Gestionnaire des alertes](<../assets/system-alerts.png>)
 
 Les alertes système sont les suivantes :
 
