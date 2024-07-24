@@ -8,7 +8,7 @@ ETHOS dispose d'une fonction de transfert de fichiers Bluetooth radio-radio. Rep
 
 Appuyez sur « Fichiers » pour ouvrir l'explorateur de fichiers.
 
-![Gestionnaire de fichiers](../assets/system-filemanager-sd.png)
+## Le disque Flash
 
 Le radio utilise un stockage interne pour conserver les bitmaps et les polices du système. Appuyez sur l'onglet « Flash » pour l'explorer :
 
@@ -16,55 +16,41 @@ Le radio utilise un stockage interne pour conserver les bitmaps et les polices d
 
 Répertoires du disque "Flash" :
 
-* bitmaps
-* fonts
+* bitmaps/system : les bitmaps / icônes utilisées pour le système
+* fonts : les fontes additionnelles
+* i18n : les traductions du système
 
-(les cartes de bits utilisées pour les affichages à l'écran et les icônes sont stockées ici)
+## Les disques SD et Radio
 
-Clé USB (lettre de lecteur)/fonts/
+La série X20/S/HD nécessite une carte SD de 32 Go ou moins formatée en FAT32. Les cartes SanDisk Ultra Micro SDHC Class 10 32 Go sont une bonne option.
 
-(les polices sont utilisées pour les différentes sélections de langue)
+![Disque "SD"](../assets/system-filemanager-sd.png)
 
-![](<../assets/3 (2).jpeg>)
+Les radios Twin XLite, X14, X18, XE et X20 Pro/R/RS utilisent une carte eMMC interne pour le stockage des fichiers par défaut, mais une carte SD externe peut être ajoutée. Appuyez sur l'onglet « Radio » pour explorer la mémoire de la carte eMMC.
 
-La série X20/S/HD nécessite une carte SD de 32 Go ou moins formatée en FAT32. Les cartes SanDisk Ultra Micro SDHC Class 10 32 Go sont une bonne option. Les fichiers seront disponibles sur le site Web de FRSky.
+![Disque "Radio"](../assets/system-filemanager-radio.png)
 
-![](<../assets/4 (4).jpeg>)
+Le système créera certains des dossiers si l'utilisateur ne les crée pas, comme les répertoires "log" (enregistrements), "models" (modèles) et "screenshots" (captures d'écran). Le dossier "firmware" a été créé manuellement pour conserver les firmware des modules / récepteurs / capteurs de télémétrie / etc.
 
-Les radios X18 et X20 Pro/R/RS utilisent une carte eMMC interne pour le stockage des fichiers par défaut, mais une carte SD externe peut être ajoutée. Appuyez sur l'onglet « Radio » pour explorer la mémoire de la carte eMMC.
+Répertoires des disques "SD" et "Radio" :
 
-Le système créera certains des dossiers si l'utilisateur ne les crée pas, comme les journaux, les modèles et les captures d'écran. Le dossier Firmware a été créé manuellement pour conserver le firmware de l'appareil comme les récepteurs, etc.
+* audio : les fichiers audio réparties par voix, par exemple :
 
-Chemin d'accès au lecteur de la carte SD lorsqu'il est connecté à un PC :
+   **audio/fr/femme** : Voix féminine
+   **audio/fr/homme** : Voix masculine
 
-Carte SD (lettre de lecteur)/ ou
+   Ces dossiers sont destinés aux fichiers audios de l'utilisateur, qui peuvent être lus par la fonction spéciale « Lire audio ». Reportez-vous à la section Modèle / Fonctions spéciales et aussi la section Choix des voix.
 
-RADIO (lettre de lecteur)/ {radios avec carte eMMC interne}
+   Le format doit être 16 kHz ou 32 kHz PCM linéaire 16 bits ou alaw (EU) 8 bits ou mulaw (US) 8 bits. Les noms des fichiers wav doivent avoir au maximum 31 caractères (extension comprise).
 
-Les dossiers de niveau supérieur sont les suivants :
+   **audio/fr/femme/system**
+   **audio/fr/homme/system**
 
-**audio/**
+   Ces dossiers sont destinés aux fichiers audios du système, par ex.
 
-Ce dossier est destiné aux fichiers audio.
-
-**audio/fr/femme** Voix féminine\
-**audio/fr/homme** Voix masculine\
-**audio/fr/default** Voix masculine
-
-Ces dossiers sont destinés aux fichiers audios de l'utilisateur, qui peuvent être lus par la fonction spéciale « Lire audio ». Reportez-vous à la section Modèle / Fonctions spéciales et aussi la section Choix des voies.
-
-Le format doit être 16 kHz ou 32 kHz PCM linéaire 16 bits ou alaw (EU) 8 bits ou mulaw (US) 8 bits. Il peut y avoir 31 caractères dans les noms des fichiers wav plus l'extension.
-
-**audio/fr/femme/system**\
-**audio/fr/homme/system**
-
-**audio/fr/default/system**\\
-
-Ces dossiers sont destinés aux fichiers audios du système, par ex.
-
-| hello.wav | Le message d'accueil « Bienvenue chez Ethos »                                             |
-| --------- | ----------------------------------------------------------------------------------------- |
-| bye.wav   | Ce n'est pas fourni par Ethos, mais vous pouvez ajouter votre propre fichier WAV d'adieu. |
+   | hello.wav | Le message d'accueil « Bienvenue dans Ethos »                                             |
+   | --------- | ----------------------------------------------------------------------------------------- |
+   | bye.wav   | Ce n'est pas fourni par Ethos, mais vous pouvez ajouter votre propre fichier WAV d'adieu. |
 
 Appuyez sur le dossier \[audio] pour afficher le contenu du dossier.
 
