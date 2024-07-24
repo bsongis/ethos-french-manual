@@ -1,24 +1,23 @@
-## Gestionnaire de fichiers
+# Gestionnaire de fichiers
 
 ![Icône Fichiers](../assets/system-icon-filemanager.png)
 
-Le « gestionnaire de fichiers » permet de gérer les fichiers et les dossiers, et l'accès au micrologiciel flash du module RF, des ports S.Port externes, des appareils OTA (Over The Air) et des modules externes.
-
-Notez que lors de la mise à jour du micrologiciel du système, les fichiers de la clé USB et de la carte SD ou eMMC peuvent également avoir besoin d'être mis à jour.
+Le gestionnaire de fichiers permet de gérer les fichiers des différents espaces de stockage de la radio (Flash / Carte SD / Stockage interne). Il est possible de passer en revue les répertoires dans ces espaces de stockage, de sélectionner n'importe quel fichier. En fonction du type du fichier sélectionné, il est possible d'exécuter différentes actions (visionner un texte, un enregistrement de logs ou une image, flasher un module, un récepteur ou un capteur de télémétrie, écouter un fichier audio, etc.)
 
 ETHOS dispose d'une fonction de transfert de fichiers Bluetooth radio-radio. Reportez-vous à l'exemple de la section Partage de fichiers via Bluetooth ci-dessous.
 
-Appuyez sur « Gestionnaire de fichiers » pour ouvrir l'explorateur de fichiers.
+Appuyez sur « Fichiers » pour ouvrir l'explorateur de fichiers.
 
 ![Gestionnaire de fichiers](../assets/system-filemanager.png)
 
-Le radio utilise une clé USB virtuelle interne pour stocker les bitmaps et les polices du système. Appuyez sur l'onglet « Flash » pour explorer la mémoire flash :
+Le radio utilise un stockage interne pour conserver les bitmaps et les polices du système. Appuyez sur l'onglet « Flash » pour l'explorer :
 
 ![Disque "Flash"](../assets/system-filemanager-flash.png)
 
-Lorsqu'il est connecté à un PC :
+Répertoires du disque "Flash" :
 
-Clé USB (lettre de lecteur)/bitmaps/système
+* bitmaps
+* fonts
 
 (les cartes de bits utilisées pour les affichages à l'écran et les icônes sont stockées ici)
 
@@ -59,8 +58,7 @@ Le format doit être 16 kHz ou 32 kHz PCM linéaire 16 bits ou alaw (EU) 8 bits 
 **audio/fr/femme/system**\
 **audio/fr/homme/system**
 
-**audio/fr/default/system**\
-
+**audio/fr/default/system**\\
 
 Ces dossiers sont destinés aux fichiers audios du système, par ex.
 
@@ -78,7 +76,7 @@ Le fichier peut également être copié, déplacé ou supprimé. Il existe égal
 
 Remarque : Les trois dossiers sont mis à jour par Ethos Suite, quel que soit le dossier que vous avez sélectionné dans les options vocales.
 
-bitmaps**/**
+bitmaps\*\*/\*\*
 
 Ce dossier est destiné aux fichiers bitmap.
 
@@ -192,7 +190,7 @@ _**sdcard.version**_
 
 Ce fichier contient la version carte SD et est utilisé et maintenu par Ethos Suite.
 
-### Partage de fichiers via Bluetooth
+## Partage de fichiers via Bluetooth
 
 ETHOS dispose d'une fonction de transfert de fichiers Bluetooth radio-radio.
 

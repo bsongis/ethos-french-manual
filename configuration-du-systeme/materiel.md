@@ -1,7 +1,6 @@
-## Matériel
+# Matériel
 
-![Icône Matériel](../assets/system-icon-hardware.png)
-![Matériel](../assets/system-hardware.png)
+![Icône Matériel](../assets/system-icon-hardware.png) ![Matériel](../assets/system-hardware.png)
 
 La section Hardware permet de tester toutes les entrées, d'effectuer l'étalonnage analogique et gyroscopique, et de définir les types de inters et la carte de la touche d'accueil.
 
@@ -20,8 +19,7 @@ La vérification du matériel pour les radios X20 Pro/R/RS comprend les deux bou
 
 **X18**
 
-Les radios X18 ont également les trims supplémentaires T5 et T6.\
-
+Les radios X18 ont également les trims supplémentaires T5 et T6.\\
 
 **Calibrage des analogues**
 
@@ -53,7 +51,7 @@ La X20 Pro/R/RS peut accueillir deux potentiomètres supplémentaires Ext1 et Ex
 
 **Configuration Inters**
 
-![](<../assets/8 (2).png>)
+![](<../assets/8 (2) (1).png>)
 
 ![](<../assets/9 (4).jpeg>)
 
