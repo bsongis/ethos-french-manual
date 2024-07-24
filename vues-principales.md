@@ -18,7 +18,7 @@ Sur la droite se trouvent des icônes pour :
 * le verrouillage de l'écran (cadenas)
 * la connection USB
 * l'enregistrement des données
-* l'écolage (maître ou élève, filaire, bluetooth ou RF)
+* l'écolage (maître ou élève, filaire, bluetooth ou RF selon les modèles de radio)
 * RSSI 2.4G
 * RSSI 900M
 * le volume sonore
@@ -32,7 +32,7 @@ L'avertissement d'erreur (triangle rouge) s'affiche lorsque ETHOS détecte une d
 * erreur de sauvegarde de la RAM (nécessaire pour le mode "Emergency")
 * exécution d'une version de test du firmware non utilisable pour le vol.
 
-Les détails relatifs à l'avertissement sont affichés dans la page Système / Infos. Veuillez vous référer à la section Erreurs.
+Les détails relatifs à l'avertissement sont affichés dans la page Système / Infos. Reportez-vous à la section Erreurs.
 
 ## La barre inférieure
 
@@ -46,3 +46,12 @@ La barre inférieure comporte quatre icones pour accéder aux fonctions suivante
 * configuration de la radio
 
 L'heure système s'affiche à droite. Un appui sur l'heure permet d'accéder aux options de date et d'heure de la radio.
+
+## La zone des widgets
+
+La zone centrale se compose de différents widgets pouvant être configurés pour afficher différentes informations (images, chronos, données de télémétrie, valeurs radio, scripts LUA, etc). L'écran principal par défaut comporte un widget sur la gauche pour une image de modèle et trois widgets pour les chronos, ainsi que l'affichage des trims et des potentiomètres. Plusieurs écrans peuvent être configurés, un geste de balayage tactile ou une commande de navigation permet de passer d'un écran à l'autre.
+
+Reportez-vous à la section Configurer les écrans pour plus de détails.
+
+Note : Le widget 'Throttle ACTIVE' ci-dessus est le widget Status disponible dans le fil de discussion FrSky - ETHOS Lua Script Programming sur rcgroups.
+
