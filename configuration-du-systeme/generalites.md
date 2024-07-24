@@ -1,7 +1,6 @@
-## Généralités
+# Généralités
 
-![Icône Général](../assets/system-icon-general.png)
-![Paramètres généraux](../assets/system-general.png)
+![Icône Général](../assets/system-icon-general.png) ![Paramètres généraux](../assets/system-general.png)
 
 Les éléments suivants peuvent être configurés ici :
 
@@ -39,7 +38,7 @@ Permet de choisir entre les dispositions de clavier virtuel QWERTY, QWERTZ et AZ
 
 **Luminosité**
 
-Utilisez le curseur pour contrôler la luminosité de l'écran, de gauche à droite pour régler la luminosité de sombre à clair. Appuyez longuement sur \[ENT\] pour afficher les options permettant d'utiliser une source ou de la régler au minimum ou au maximum.
+Utilisez le curseur pour contrôler la luminosité de l'écran, de gauche à droite pour régler la luminosité de sombre à clair. Appuyez longuement sur \[ENT] pour afficher les options permettant d'utiliser une source ou de la régler au minimum ou au maximum.
 
 Veuillez noter que si Luminosité (pour le rétroéclairage activé) = « Luminosité du mode veille » (pour le rétroéclairage désactivé), l'écran tactile reste actif.
 
@@ -99,7 +98,7 @@ Permet de sélectionner la couleur de surbrillance à utiliser dans l'affichage.
 
 **Emplacement de stockage (X18 et X20 Pro/R/RS)**
 
-![](../assets/6 (2).jpeg)
+!\[]\(../assets/6 (2).jpeg)
 
 Les radios X18 et X20 Pro/R/RS disposent d'une carte eMMC (MultiMediaCard intégrée) de 8 Go qui est un périphérique de stockage composé d'une mémoire flash NAND et d'un simple contrôleur de stockage. Le système ETHOS sélectionne par défaut le stockage eMMC, ce qui rend l'utilisation de la carte SD facultative. Cependant, l'utilisateur peut choisir l'utilisation du stockage eMMC ou utiliser une carte SD en option ou une combinaison des deux.
 
@@ -155,7 +154,7 @@ Pour éviter les problèmes de conversion à partir de la version 1.4.X, une voi
 
 Les fichiers se trouvent dans ce dossier:
 
-a_udio/fr/default/system_
+a\_udio/fr/default/system\_
 
 Fichiers audios de l'utilisateur
 
@@ -201,23 +200,23 @@ Les modèles X20S, HD et X20 Pro/R/RS disposent d'un mode audio supplémentaire 
 
 Appuyez sur « Rechercher des appareils ».
 
-![](<../assets/10 (1).jpeg>)
+![](<../assets/10 (1) (3).jpeg>)
 
 Le message « En attente d'appareils » s'affiche. Allumez votre appareil Bluetooth et placez-le en mode d'appairage.
 
-![](<../assets/11 (4).jpeg>)
+![](<../assets/11 (4) (3).jpeg>)
 
 Une fois le périphérique Bluetooth trouvé, son nom s'affiche. Touchez-le pour sélectionner l'appareil.
 
-![](<../assets/12 (4).jpeg>)
+![](<../assets/12 (4) (3).jpeg>)
 
 Le message « En attente de l'appareil » s'affiche.
 
-![](<../assets/13 (3).jpeg>)
+![](<../assets/13 (3) (3).jpeg>)
 
 Lorsque la radio et l'appareil sont couplés, le message « Appareil Bluetooth connecté » s'affiche. Appuyez sur OK.
 
-![](<../assets/14 (2).jpeg>)
+![](<../assets/14 (2) (3).jpeg>)
 
 L'écran Bluetooth s'affichera à nouveau.
 
@@ -261,13 +260,13 @@ Utilisez le curseur pour contrôler l'intensité des vibrations haptiques.
 
 _**Mode**_
 
-![](<../assets/17 (1).jpeg>)
+![](<../assets/17 (1) (1).jpeg>)
 
 Similaire au mode audio ci-dessus.
 
 **Barre d'infos sup**
 
-![](<../assets/18 (1).jpeg>)
+![](<../assets/18 (1) (1).jpeg>)
 
 _**Tension numérique (volts)**_
 
@@ -279,7 +278,7 @@ De même, l'état RSSI peut être modifié d'un affichage à barres à une valeu
 
 **Sélectionnez le modèle à la mise sous tension**
 
-![](<../assets/19 (1).jpeg>)
+![](<../assets/19 (1) (1).jpeg>)
 
 Lorsque cette option est activée, l'écran de sélection du modèle s'affiche à la mise sous tension, de sorte qu'un modèle peut être choisi avant que les alertes de la liste de contrôle du modèle précédemment sélectionné ne s'affichent. Cela évite d'avoir à annuler les alertes de la liste de contrôle avant de sélectionner un autre modèle.
 
