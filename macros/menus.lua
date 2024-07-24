@@ -7,6 +7,10 @@ simulator.pressKey(KEY_SYS) -- System page
 simulator.turnRotaryEncoder(1) -- File manager selected
 simulator.screenshot("../assets/system-icon-filemanager.png")
 simulator.pressKey(KEY_ENTER)
+if system.getVersion()["board"] == "X20PRO" then
+    simulator.screenshot("../assets/system-filemanager-radio.png")
+    simulator.pressKey(KEY_PAGE)
+end    
 simulator.screenshot("../assets/system-filemanager-sd.png")
 simulator.pressKey(KEY_PAGE)
 simulator.screenshot("../assets/system-filemanager-flash.png")
