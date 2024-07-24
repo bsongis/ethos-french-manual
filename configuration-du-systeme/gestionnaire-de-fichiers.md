@@ -10,7 +10,7 @@ ETHOS dispose d'une fonction de transfert de fichiers Bluetooth radio-radio. Rep
 
 Appuyez sur « Gestionnaire de fichiers » pour ouvrir l'explorateur de fichiers.
 
-![Gestionnaire de fichiers](../assets/system-filemanager.png)
+![Gestionnaire de fichiers](../assets/system-filemanager-sd.png)
 
 Le radio utilise une clé USB virtuelle interne pour stocker les bitmaps et les polices du système. Appuyez sur l'onglet « Flash » pour explorer la mémoire flash :
 
