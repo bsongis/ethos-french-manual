@@ -28,9 +28,9 @@ Un appui sur les icônes du haut-parleur ou de la batterie permet d'accéder aux
 
 L'avertissement d'erreur (triangle rouge) s'affiche lorsque ETHOS détecte une des erreurs suivantes:
 
-* Erreurs de script Lua
-* Erreur de sauvegarde de la RAM
-* Exécution d'une version de test du firmware non utilisable pour le vol.
+* erreurs de script Lua
+* erreur de sauvegarde de la RAM (nécessaire pour le mode "Emergency")
+* exécution d'une version de test du firmware non utilisable pour le vol.
 
 Les détails relatifs à l'avertissement sont affichés dans la page Système / Infos. Veuillez vous référer à la section Erreurs.
 
@@ -38,4 +38,11 @@ Les détails relatifs à l'avertissement sont affichés dans la page Système / 
 
 ![Barre inférieure](.gitbook/assets/bottombar.png)
 
-La barre inférieure comporte quatre icones pour accéder aux fonctions suivantes, de gauche à droite : Ecran d'accueil du modèle, Configuration du modèle, Configurer les écrans du modèle et Configuration du système. L'heure système s'affiche à droite. Un appui sur l'heure permet d'accéder aux options de date et d'heure de la radio.
+La barre inférieure comporte quatre icones pour accéder aux fonctions suivantes, de gauche à droite :&#x20;
+
+* vue principale
+* configuration du modèle
+* configuration des écrans de la vue principale
+* configuration de la radio
+
+L'heure système s'affiche à droite. Un appui sur l'heure permet d'accéder aux options de date et d'heure de la radio.
