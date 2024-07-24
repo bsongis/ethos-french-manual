@@ -20,6 +20,6 @@ Si la radio est connectée à un PC via un câble de données USB alors qu'elle 
 
 ![Options de connection USB](.gitbook/assets/usbmenu.png)
 
-* En mode joystick, la radio peut être configurée pour contrôler les simulateurs RC.
-* En mode Frsky Suite, la radio entrera en « mode Ethos » pour communiquer avec Ethos Suite. Veuillez-vous référer au mode Ethos dans la section Ethos Suite.
-* En mode Serial ... TODO
+* En mode "Joystick", la radio peut être configurée pour contrôler les simulateurs RC.
+* En mode "Ethos Suite", la radio peut communiquer avec Ethos Suite (transfert de fichiers et contrôle de la radio)
+* En mode "Série", la radio envoie les traces de Debug, ces traces peuvent être affichées dans Ethos Suite.
