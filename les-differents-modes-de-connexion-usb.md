@@ -1,10 +1,10 @@
 # Les différents modes de connexion USB
 
-## Connexion en mode hors tension (radio éteinte)
+## Connexion USB en mode hors tension (radio éteinte)
 
-La connexion de la radio, lorsqu'elle est éteinte, à un PC via un câble USB est le mode DFU pour flasher le chargeur de démarrage.
+La connexion de la radio, lorsqu'elle est éteinte, à un PC via un câble USB est le mode DFU pour flasher le bootloader (chargeur de démarrage).
 
-## Connexion mode bootloader
+## Connexion USB en mode "bootloader"
 
 La radio est placée en mode bootloader en allumant la radio avec la touche Entrée enfoncée. Le message d'état 'Bootloader' s'affichera à l'écran.
 
@@ -14,11 +14,11 @@ Ce mode est utilisé pour la lecture et l'écriture de fichiers sur une carte SD
 
 Ce mode peut également être utilisé pour se connecter à Ethos Suite afin de mettre à jour la radio. Veuillez-vous référer au mode Bootloader dans la section Ethos Suite.
 
-## Mode de mise sous tension
+## Connection USB en mode "normal"
 
 Si la radio est connectée à un PC via un câble de données USB alors qu'elle est sous tension, la boîte de dialogue suivante s'affiche
 
-![Options de connection USB](.gitbook/assets/mainview.png)
+![Options de connection USB](.gitbook/assets/usbmenu.png)
 
 * En mode joystick, la radio peut être configurée pour contrôler les simulateurs RC.
 * En mode Frsky Suite, la radio entrera en « mode Ethos » pour communiquer avec Ethos Suite. Veuillez-vous référer au mode Ethos dans la section Ethos Suite.
