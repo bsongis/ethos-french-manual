@@ -1,4 +1,4 @@
-# Gestionnaire de fichiers
+## Gestionnaire de fichiers
 
 ![Icône Fichiers](../assets/system-icon-filemanager.png)
 
@@ -8,7 +8,7 @@ ETHOS dispose d'une fonction de transfert de fichiers Bluetooth radio-radio. Rep
 
 Appuyez sur « Fichiers » pour ouvrir l'explorateur de fichiers.
 
-## Le disque Flash
+### Le disque Flash
 
 Le radio utilise un stockage interne pour conserver les bitmaps et les polices du système. Appuyez sur l'onglet « Flash » pour l'explorer :
 
@@ -20,7 +20,7 @@ Répertoires du disque "Flash" :
 * fonts : les fontes additionnelles
 * i18n : les traductions du système
 
-## Les disques SD et Radio
+### Les disques SD et Radio
 
 La série X20/S/HD nécessite une carte SD de 32 Go ou moins formatée en FAT32. Les cartes SanDisk Ultra Micro SDHC Class 10 32 Go sont une bonne option.
 
@@ -34,7 +34,7 @@ Le système créera certains des dossiers si l'utilisateur ne les crée pas, com
 
 Répertoires des disques "SD" et "Radio" :
 
-### Le répertoire "audio"
+#### Le répertoire "audio"
 
 Le répertoire "audio" contient les fichiers audio réparties par voix, par exemple :
 
@@ -70,7 +70,7 @@ Le fichier peut également être copié, déplacé ou supprimé. Il existe égal
 
 _Remarque : Les trois dossiers sont mis à jour par Ethos Suite, quel que soit le dossier que vous avez sélectionné dans les options vocales._
 
-### Le répertoire "bitmaps"
+#### Le répertoire "bitmaps"
 
 Ce dossier est destiné aux fichiers images :
 
@@ -97,13 +97,13 @@ Règles de nommage des fichiers image :
 
 Ethos Suite possède un module pour la conversion des images au format de la radio.
 
-### Le répertoire "documents"
+#### Le répertoire "documents"
 
 Ce dossier est destiné aux documents.
 
 * Le dossier **documents/user** est destiné aux documents texte de l'utilisateur. Ils peuvent être appelés dans le widget "Texte".
 
-### Le répertoire "firmware"
+#### Le répertoire "firmware"
 
 Ce dossier peut être utilisé pour stocker les fichiers de mise à jour des composants par la radio :&#x20;
 
@@ -130,15 +130,15 @@ Il est également possible (quoique plus rare) de flasher le bootloader de la ra
 
 ![Mise à jour bootloader](../assets/system-filemanager-flash-bootloader.png)
 
-### Le répertoire "i18n"
+#### Le répertoire "i18n"
 
 Ce dossier contient les fichiers de traduction de la langue.
 
-### Le répertoire "logs"
+#### Le répertoire "logs"
 
 Ce dossier contient les journaux de logs des modèles, enregistrés grâce à la fonction spéciale "Enreg. donnnées".
 
-### Le répertoire "models"
+#### Le répertoire "models"
 
 La radio stocke les fichiers de modèles ici. Ces fichiers ne peuvent pas être modifiés par l'utilisateur, mais peuvent être sauvegardés ou partagés à partir d'ici. Initialement, les modèles étaient simplement nommés à partir de "model01.bin", mais à partir d'Ethos v1.2.11, le nom du modèle est utilisé, par exemple un modèle nommé 'Extra' aura comme nom de fichier "extra.bin". S'il y a plus d'un "Extra", les modèles supplémentaires seront nommés "Extra01.bin", etc.
 
@@ -146,11 +146,11 @@ Lors de la modification des noms de modèle dans l'écran « Modifier le modèle
 
 À partir de la version 1.1.0 Alpha 17, il existe des sous-dossiers pour chaque dossier de catégorie de modèle créé par l'utilisateur.
 
-### Le répertoire "screenshots"
+#### Le répertoire "screenshots"
 
 Les captures d'écran créées par la fonction spéciale "Capture écran" sont stockées ici. Reportez-vous à la section Modèle / Fonctions spéciales .
 
-### Le répertoire "scripts"
+#### Le répertoire "scripts"
 
 Ce dossier est utilisé pour stocker les scripts Lua. Les scripts peuvent être organisés dans des dossiers individuels.
 
@@ -165,11 +165,11 @@ Chaque module externe tiers possède son propre fichier Lua et doit être stock�
 
 Veuillez-vous référer à la section [Modules externes tiers](https://www.rcgroups.com/forums/showpost.php?p=49550649\&postcount=18844) postez sur le fil X20 et Ethos sur rcgroups pour plus d'informations.
 
-### Le fichier "radio.bin"
+#### Le fichier "radio.bin"
 
 Ce fichier se trouve dans le dossier racine et est créé par le système de la radio lorsqu'il initialise et conserve les paramètres système. Il doit être sauvegardé avec le dossier "models" avant de mettre à jour le micrologiciel, pour permettre un retour vers la version antérieure si nécessaire.
 
-## Partage de fichiers via Bluetooth
+### Partage de fichiers via Bluetooth
 
 ETHOS dispose d'une fonction de transfert de fichiers Bluetooth radio-radio.
 

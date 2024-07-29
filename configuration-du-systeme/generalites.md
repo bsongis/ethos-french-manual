@@ -1,4 +1,4 @@
-# Généralités
+## Généralités
 
 ![Icône Général](../assets/system-icon-general.png)
 
@@ -10,13 +10,13 @@ Les éléments suivants peuvent être configurés ici :
 * Les paramètres de retour haptique
 * La barre d'outils supérieure
 
-## Paramètres d'affichage
+### Paramètres d'affichage
 
 Les attributs de l'écran LCD peuvent être configurés ici :
 
 ![Paramètres d'affichage](../assets/system-general.png)
 
-### Langue
+#### Langue
 
 Les langues suivantes sont prises en charge pour les menus d'affichage :
 
@@ -34,11 +34,11 @@ Les langues suivantes sont prises en charge pour les menus d'affichage :
 * Polish
 * Português
 
-### Clavier
+#### Clavier
 
 Permet de choisir entre les dispositions de clavier virtuel QWERTY, QWERTZ et AZERTY.
 
-### Luminosité
+#### Luminosité
 
 Utilisez le curseur pour contrôler la luminosité de l'écran, de gauche à droite pour régler la luminosité de sombre à clair. Appuyez longuement sur [Enter] pour afficher les options permettant d'utiliser une source ou de la régler au minimum ou au maximum.
 
@@ -54,7 +54,7 @@ Appuyez sur « Utiliser une source », puis sélectionnez un potentiomètre à u
 
 L'exemple ci-dessus montre que la luminosité est contrôlée via le potentiomètre sur le côté droit de la radio.
 
-### Activation de la mise en veille
+#### Activation de la mise en veille
 
 ![Activation de la mise en veille](../assets/system-general-sleep.png)
 
@@ -67,11 +67,11 @@ Le rétroéclairage de l'écran peut être réveillé de l'état de veille confo
 
 Notez que plusieurs options peuvent être sélectionnées en même temps.
 
-### Mise en veille
+#### Mise en veille
 
 Durée d'inactivité avant la désactivation du rétroéclairage. Lorsque vous sélectionnez « Toujours » comme option d'activation, ce paramètre est grisé.
 
-### Luminosité veille
+#### Luminosité veille
 
 ![Luminosité en veille](../assets/system-general-sleep-brightness.png)
 
@@ -79,11 +79,11 @@ Utilisez le curseur pour contrôler la luminosité de l'écran en mode veille, d
 
 Veuillez noter que si Luminosité (pour le rétroéclairage activé) = « Luminosité du mode veille » (pour le rétroéclairage désactivé), l'écran tactile reste actif.
 
-### Mode sombre
+#### Mode sombre
 
 Permet de choisir entre les modes clair et sombre pour l'affichage.
 
-### Couleur de surbrillance
+#### Couleur de surbrillance
 
 Permet de sélectionner la couleur de surbrillance à utiliser dans l'affichage. La valeur par défaut est jaune (#F8B038).
 
@@ -130,7 +130,7 @@ Utilisez le curseur de "Volume principal" pour contrôler le volume audio. Un ap
 
 Les modes audio permettent de contrôler quand les annonces seront jouées automatiquement par Ethos :
 
-![Modes audio](../assets/system-general-audio.png)
+![Modes audio](../assets/system-general-audio-modes.png)
 
 * Silencieux : Pas d'audio. Notez qu'une alerte sera émise au démarrage si la vérification du « mode silencieux » dans Système / Alertes est activée
 
@@ -142,7 +142,7 @@ Les modes audio permettent de contrôler quand les annonces seront jouées autom
 
 * Toujours : En plus des sons dans « Souvent », il y aura également des bips lors de la navigation
 
-### Bluetooth (X20S/HD/Pro/R/RS)
+#### Bluetooth (X20S/HD/Pro/R/RS)
 
 Les modèles X20S, HD et X20 Pro/R/RS disposent d'un mode audio supplémentaire pour relayer l'audio vers un appareil Bluetooth comme un casque.
 
@@ -164,7 +164,7 @@ Lorsque la radio et l'appareil sont couplés, le message « Appareil Bluetooth c
 
 ![Appareil Bluetooth connecté](../assets/system-general-audio-bluetooth-connected.png)
 
-### Mise en sourdine du haut-parleur
+#### Mise en sourdine du haut-parleur
 
 Pour couper le son du haut-parleur du système (par exemple lors de l'utilisation d'un écouteur BT), sélectionnez l'option Toujours allumée, ou activée uniquement lorsque la télémétrie est active, ou contrôlée par une source telle qu'un inter ou toute autre condition.
 
