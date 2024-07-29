@@ -1,1 +1,1 @@
-# Introduction
+# French manual

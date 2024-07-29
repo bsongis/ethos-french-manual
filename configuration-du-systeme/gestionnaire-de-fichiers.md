@@ -116,19 +116,19 @@ Les récepteurs peuvent être flashés à partir de ce répertoire via le S.Port
 
 L'exemple ci-dessous montre comment flasher le module interne de la radio :
 
-![](<../assets/7 (3).jpeg>)
+![Mise à jour module interne](../assets/system-filemanager-flash-TD-ISRM.png)
 
 De même pour un récepteur (ici un S8R), via le port S.Port de la radio :
 
-![](<../assets/8 (3).jpeg>)
+![Mise à jour récepteur](../assets/system-filemanager-flash-S8R.png)
 
 Ou encore pour un récepteur (ici un TD-R18), via la liaison OTA (Over The Air) :
 
-![](<../assets/9 (1).jpeg>)
+![Mise à jour par OTA](../assets/system-filemanager-flash-OTA.png)
 
 Il est également possible (quoique plus rare) de flasher le bootloader de la radio, de cette manière :
 
-![](../assets/10.jpeg)
+![Mise à jour bootloader](../assets/system-filemanager-flash-bootloader.png)
 
 ### Le répertoire "i18n"
 
@@ -173,11 +173,11 @@ Ce fichier se trouve dans le dossier racine et est créé par le système de la 
 
 ETHOS dispose d'une fonction de transfert de fichiers Bluetooth radio-radio.
 
-![](<../assets/0 (3).png>)
+![Transfert bluetooth (réception)](../assets/system-filemanager-bluetooth-receive.png>)
 
 Sur la radio de réception, à l'aide du Gestionnaire de fichiers, accédez au dossier du modèle dans lequel vous souhaitez recevoir le modèle. Appuyez longuement sur Entrée et sélectionnez « Recevoir le fichier ici ».
 
-![](<../assets/1 (2).png>)
+![Transfert bluetooth (envoi)](../assets/system-filemanager-bluetooth-send.png>)
 
 Sur la radio qui envoie, accédez au fichier que vous souhaitez envoyer et appuyez dessus. Sélectionnez ensuite « Envoyer le fichier » et suivez les instructions sur les deux radios.
 

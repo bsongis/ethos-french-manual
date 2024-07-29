@@ -25,18 +25,18 @@ jobs:
     - name: Install needed fonts
       run: |
         mkdir $HOME/.fonts
-        cp ./fonts/* $HOME/.fonts/
+        cp ./forge/fonts/* $HOME/.fonts/
         fc-cache -fv
 
-    - name: Build the french manual
-      run: python ./build.py
+    - name: Build the PDF
+      run: python ./forge/pdf.py
 
     - name: Upload to release
       uses: xresloader/upload-to-github-release@v1.6.0
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-          file: ethos-french-manual.pdf
+          file: ./forge/ethos-french-manual.pdf
           update_latest_release: true
           overwrite: true
     
