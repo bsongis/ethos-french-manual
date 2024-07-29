@@ -210,8 +210,7 @@ simulator.pressKey(KEY_ENTER)
 simulator.screenshot("../assets/system-sticks-rx-order.png")
 simulator.pressKey(KEY_RTN)
 simulator.turnRotaryEncoder(1)
-simulator.screenshot("../assets/test.png")
-
+simulator.pressKey(KEY_RTN)
 simulator.pressKey(KEY_RTN)
 
 simulator.turnRotaryEncoder(1)
