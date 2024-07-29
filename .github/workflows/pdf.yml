@@ -36,7 +36,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-          file: ./forge/ethos-french-manual.pdf
+          file: ./ethos-french-manual.pdf
           update_latest_release: true
           overwrite: true
     

@@ -173,11 +173,11 @@ Ce fichier se trouve dans le dossier racine et est créé par le système de la 
 
 ETHOS dispose d'une fonction de transfert de fichiers Bluetooth radio-radio.
 
-![Transfert bluetooth (réception)](../assets/system-filemanager-bluetooth-receive.png>)
+![Transfert bluetooth (réception)](../assets/system-filemanager-bluetooth-receive.png)
 
 Sur la radio de réception, à l'aide du Gestionnaire de fichiers, accédez au dossier du modèle dans lequel vous souhaitez recevoir le modèle. Appuyez longuement sur Entrée et sélectionnez « Recevoir le fichier ici ».
 
-![Transfert bluetooth (envoi)](../assets/system-filemanager-bluetooth-send.png>)
+![Transfert bluetooth (envoi)](../assets/system-filemanager-bluetooth-send.png)
 
 Sur la radio qui envoie, accédez au fichier que vous souhaitez envoyer et appuyez dessus. Sélectionnez ensuite « Envoyer le fichier » et suivez les instructions sur les deux radios.
 
