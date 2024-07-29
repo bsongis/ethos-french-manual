@@ -217,7 +217,17 @@ simulator.turnRotaryEncoder(1)
 simulator.screenshot("../assets/system-icon-devices.png")
 simulator.pressKey(KEY_ENTER)
 simulator.screenshot("../assets/system-devices.png")
-simulator.pressKey(KEY_RTN)
+simulator.turnRotaryEncoder(2)
+simulator.pressKey(KEY_ENTER)
+simulator.turnRotaryEncoder(1)
+simulator.screenshot("../assets/system-devices-current.png")
+simulator.pressKey(KEY_ENTER)
+simulator.screenshot("../assets/system-devices-module-choice.png")
+simulator.pressKey(KEY_RTN) -- close the menu
+simulator.pressKey(KEY_RTN) -- remove the selection
+simulator.pressKey(KEY_RTN) -- back to devices
+simulator.pressKey(KEY_RTN) -- remove the selection
+simulator.pressKey(KEY_RTN) -- back to system page
 
 simulator.turnRotaryEncoder(1)
 simulator.screenshot("../assets/system-icon-info.png")
