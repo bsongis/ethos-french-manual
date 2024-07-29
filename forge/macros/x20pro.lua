@@ -1,6 +1,6 @@
 dofile("common.lua")
 
-simulator.loadModel("models/fwexample.bin")
+simulator.loadModel("fwexample.bin")
 simulator.pressKey(KEY_ENTER) -- Ack the checklist warnings
 simulator.pressKey(KEY_SYS) -- System page
 
