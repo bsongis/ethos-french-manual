@@ -222,5 +222,15 @@ simulator.pressKey(KEY_RTN)
 simulator.turnRotaryEncoder(1)
 simulator.screenshot("../assets/system-icon-info.png")
 simulator.pressKey(KEY_ENTER)
+simulator.sleep(5)
 simulator.screenshot("../assets/system-info.png")
+simulator.turnRotaryEncoder(-1)
+simulator.screenshot("../assets/system-info-factory-reset.png")
+simulator.pressKey(KEY_ENTER)
+simulator.screenshot("../assets/system-info-factory-reset-confirm.png")
+simulator.pressKey(KEY_RTN) -- canncel
+simulator.turnRotaryEncoder(-1)
+simulator.screenshot("../assets/system-info-internal-module.png")
+
 simulator.pressKey(KEY_RTN)
+
