@@ -71,9 +71,9 @@ Les valeurs de télémétrie peuvent être saisies de la même manière :
 
 ### Options des champs de saisie
 
-Ethos dispose d'une fonction « Options » très puissante. Presque partout où une valeur ou une source est attendue, un appui long sur la touche Entrée fera apparaître une boîte de dialogue d'options. Ethos dispose d'une fonction « Options » très puissante. Presque partout où une valeur ou une source est attendue, un appui long sur la touche Entrée fera apparaître une boîte de dialogue d'options.
+Ethos dispose d'une fonction « Options » très puissante. Après avoir sélectionné le champ souhaité, un appui long sur la touche Entrée ou un appui long sur l'écran fera apparaître une boîte de dialogue d'options.
 
-Les champs dotés de cette fonctionnalité peuvent être identifiés par l'icône de menu (symbole hamburger) dans le coin supérieur gauche du champ :
+Les champs dotés de cette fonctionnalité peuvent être identifiés par un icône de menu (symbole hamburger) dans le coin supérieur gauche du champ :
 
 ![Valeur numérique avec options](assets/source-with-options.png)
 
