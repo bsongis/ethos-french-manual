@@ -99,7 +99,19 @@ simulator.pressKey(KEY_RTN)
 simulator.pressKey(KEY_ENTER) -- open the dialog
 simulator.turnRotaryEncoder(1) -- select the category column
 simulator.pressKey(KEY_ENTER) -- category menu
+simulator.turnRotaryEncoder(2)
+simulator.pressKey(KEY_ENTER) -- choose the trim category
+simulator.pressKey(KEY_RTN) -- remove selection
+simulator.pressKey(KEY_RTN) -- close the dialog
+simulator.pressKey(KEY_ENTER, 0.6)
 simulator.turnRotaryEncoder(4)
+simulator.pressKey(KEY_ENTER) -- trim source options
+simulator.screenshot("../assets/source-trim-options.png")
+simulator.pressKey(KEY_RTN)
+simulator.pressKey(KEY_ENTER) -- open the dialog
+simulator.turnRotaryEncoder(1) -- select the category column
+simulator.pressKey(KEY_ENTER) -- category menu
+simulator.turnRotaryEncoder(2)
 simulator.pressKey(KEY_ENTER) -- choose the vars category
 simulator.pressKey(KEY_RTN) -- remove selection
 simulator.pressKey(KEY_RTN) -- close the dialog
