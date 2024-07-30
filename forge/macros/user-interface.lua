@@ -99,7 +99,7 @@ simulator.pressKey(KEY_RTN)
 simulator.pressKey(KEY_ENTER) -- open the dialog
 simulator.turnRotaryEncoder(1) -- select the category column
 simulator.pressKey(KEY_ENTER) -- category menu
-simulator.turnRotaryEncoder(3)
+simulator.turnRotaryEncoder(4)
 simulator.pressKey(KEY_ENTER) -- choose the vars category
 simulator.pressKey(KEY_RTN) -- remove selection
 simulator.pressKey(KEY_RTN) -- close the dialog
