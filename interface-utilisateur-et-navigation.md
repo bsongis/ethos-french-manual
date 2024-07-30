@@ -48,8 +48,8 @@ Lorsque vous touchez une valeur numérique, une boîte de dialogue apparaît en 
 
 ![Clavier valeurs numériques](assets/keyboard-numbers.png)
 
-1. Les touches '<' et '>' modifient le pas entre le minimum (selon le cas) et l'augmentation en facteur 10, par exemple 0,01 %, 0,1 %, 1,0 % ou 10,0 %.
-2. Les touches '-' et '+' incrémentent ou décrémentent de la valeur de la taille de pas sélectionnée. Le sélecteur rotatif peut également être utilisé pour ajuster la valeur.
+1. Les touches '<' et '>' modifient la valeur du pas entre un minimum et un maximum selon le champ utilisé par incrément de facteur 10, par exemple 0,01 %, 0,1 %, 1,0 % ou 10,0 %.
+2. Les touches '-' et '+' incrémentent ou décrémentent de la valeur du pas sélectionné en 1. Le sélecteur rotatif peut également être utilisé pour ajuster la valeur.
 3. Le bouton « Plus » à droite offre des options supplémentaires :
 
 ![Options de saisie de valeurs numériques](assets/keyboard-numbers-options.png)
@@ -57,11 +57,11 @@ Lorsque vous touchez une valeur numérique, une boîte de dialogue apparaît en 
 * la valeur par défaut
 * le minimum
 * le maximum
-* affichage d'un curseur pour le réglage :
+* affichage d'un curseur pour le réglage : "Activer curseur"
 
 ![Affichage du curseur de saisie](assets/keyboard-numbers-slider.png)
 
-Le curseur permet d'ajuster rapidement la valeur. Pour revenir aux touches de réglage des nombres, sélectionnez « Désactiver le curseur »
+Le curseur permet d'ajuster rapidement la valeur. Sélectionnez « Désactiver curseur » pour revenir aux saisies par valeurs.
 
 ![Retour au clavier de saisie](assets/keyboard-numbers-options-disable-slider.png)
 
@@ -71,9 +71,9 @@ Les valeurs de télémétrie peuvent être saisies de la même manière :
 
 ### Options des champs de saisie
 
-Ethos dispose d'une fonction « Options » très puissante. Presque partout où une valeur ou une source est attendue, un appui long sur la touche Entrée fera apparaître une boîte de dialogue d'options. Ethos dispose d'une fonction « Options » très puissante. Presque partout où une valeur ou une source est attendue, un appui long sur la touche Entrée fera apparaître une boîte de dialogue d'options.
+Ethos dispose d'une fonction « Options » très puissante. Après avoir sélectionné le champ souhaité, un appui long sur la touche Entrée ou un appui long sur l'écran fera apparaître une boîte de dialogue d'options.
 
-Les champs dotés de cette fonctionnalité peuvent être identifiés par l'icône de menu (symbole hamburger) dans le coin supérieur gauche du champ :
+Les champs dotés de cette fonctionnalité peuvent être identifiés par un icône de menu (symbole hamburger) dans le coin supérieur gauche du champ :
 
 ![Valeur numérique avec options](assets/source-with-options.png)
 
@@ -81,10 +81,10 @@ Les champs dotés de cette fonctionnalité peuvent être identifiés par l'icôn
 
 ![Valeur numérique avec options](assets/source-menu.png)
 
-Dans cet exemple, vous avez le choix de régler le Débattement/les taux au maximum ou au minimum, ou d'utiliser une source.
-L'utilisation d'une source comme un potard permettrait d'ajuster le débattement en vol.
+Dans cet exemple, vous avez un choix de courses parmis le minimum / maximum ou une source.
+Le choix d'une source comme un potentiomètre par exemple permet d'ajuster la course en vol.
 
-Si vous appuyez longuement sur la touche Entrée d'un champ de valeur qui a déjà été modifié pour utiliser une source, une boîte de dialogue s'affiche vous permettant de convertir la valeur actuelle de la source en une valeur fixe :
+Dans le cas d'une utilisation d'une source, sur le champ correspondant, un appui long sur Entrée ou avec l'écran, une boîte de dialogue vous permet de convertir la valeur actuelle de la source en une valeur fixe :
 
 ![Valeur numérique avec options](assets/source-convert-to-value.png)
 
@@ -96,13 +96,17 @@ Les options des sources sont disponibles en fonction du contexte :
 
 * Inverser : permet d'annuler ou d'inverser une source telle qu'une position d'inter. Par exemple, au lieu d'être actif lorsque l'interrupteur SA est en haut, il serait actif lorsque l'interrupteur SA n'est PAS en haut, c'est-à-dire en position médiane ou basse.
 
-* Front : si vous avez besoin d'une action unique lorsque la source passe de False à True ou de True à False. Seule la transition est prise en compte, et non l'état Vrai ou Faux.
+* Front : si vous avez besoin d'une action unique lorsque la source passe de FAUX à VRAI ou de VRAI à FAUX. Seule le changement d'état est prise en compte, et non la valeur de l'état.
 
 ![Options des inters utilisés comme sources](assets/source-2pos-options.png)
 
 * Negatif : rend la valeur négative
 
 * Demi-course et Course complète : ces options sont disponibles lors de l'utilisation d'un commutateur à 2 positions ou d'un commutateur logique comme source. La plage devient [0-100%] au lieu de [-100%-100%]
+  
+![Options des trims](assets/source-trim-options.png)
+
+* Par défaut, les trims ont une plage de +/- 25 % de la course. Lorsqu'il est utilisé comme source, les trims peuvent éventuellement être modifiés en course complète +/- 100 % (appuyez longuement sur Entrée sur le trim).
 
 ![Options des inters](assets/source-stick-options.png)
 
