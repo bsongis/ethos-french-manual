@@ -1,12 +1,12 @@
 # Configuration du système
 
-Le menu « Configuration du système » est utilisé pour configurer les paramètres radio qui sont communes à tous les modèles. Il est accessible en sélectionnant l'onglet Engrenage en bas de l'écran, ou en appuyant sur le bouton \[SYS]. À l'inverse, la configuration spécifique au modèle est effectuée dans le menu Modèle, auquel vous pouvez accéder en sélectionnant l'onglet Avion en bas de l'écran.
+Ce menu est utilisé pour configurer les paramètres de la radio communs à tous les modèles. Il est accessible en appuyant sur l'icone "Engrenage" en bas à droite de l'écran, ou en appuyant sur le bouton \[SYS]. La configuration spécifique d'un modèle est effectuée via l'icone "Avion",en bas à gauche de l'écran ou via le bouton \[MDL].
 
-_Veuillez noter que les paramètres permettant de déterminer si le module RF interne ou externe est utilisé sont spécifiques au modèle, ils sont donc gérés dans la section « Système RF » du menu Modèle._
+NB: La configuration du système HF étant spécifique à chaque modèle, reportez-vous à la section correspondante "Système RF"» du menu Modèle.
 
 ![Menu système](../assets/system-icon-filemanager.png)
 
-Dans la page de Configuration du système, appuyez sur une vignette pour configurer la section sélectionnée ou utilisez le sélecteur rotatif pour déplacer la surbrillance vers la vignette souhaitée, puis appuyez sur Entrée. Vous pouvez balayer vers la gauche pour accéder à la deuxième page de fonctions ou utiliser le sélecteur rotatif pour déplacer la surbrillance vers la deuxième page.
+Sur la page de "Système", appuyez sur l'icone pour configurer la section sélectionnée ou utilisez le sélecteur rotatif pour déplacer la surbrillance vers l'icone souhaitée, puis appuyez sur Entrée. Un balayage vers la gauche de l'écran permet l'accès à la seconde page de configuration ou utiliser le sélecteur rotatif pour déplacer la surbrillance vers la deuxième page.
 
 **Gestionnaire de fichiers**
 
