@@ -81,10 +81,10 @@ Les champs dotés de cette fonctionnalité peuvent être identifiés par un icô
 
 ![Valeur numérique avec options](assets/source-menu.png)
 
-Dans cet exemple, vous avez le choix de régler le Débattement/les taux au maximum ou au minimum, ou d'utiliser une source.
-L'utilisation d'une source comme un potard permettrait d'ajuster le débattement en vol.
+Dans cet exemple, vous avez un choix de courses parmis le minimum / maximum ou une source.
+Le choix d'une source comme un potentiomètre par exemple permet d'ajuster la course en vol.
 
-Si vous appuyez longuement sur la touche Entrée d'un champ de valeur qui a déjà été modifié pour utiliser une source, une boîte de dialogue s'affiche vous permettant de convertir la valeur actuelle de la source en une valeur fixe :
+Dans le cas d'une utilisation d'une source, sur le champ correspondant, un appui long sur Entrée ou avec l'écran, une boîte de dialogue vous permet de convertir la valeur actuelle de la source en une valeur fixe :
 
 ![Valeur numérique avec options](assets/source-convert-to-value.png)
 
