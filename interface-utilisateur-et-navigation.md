@@ -48,8 +48,8 @@ Lorsque vous touchez une valeur numérique, une boîte de dialogue apparaît en 
 
 ![Clavier valeurs numériques](assets/keyboard-numbers.png)
 
-1. Les touches '<' et '>' modifient le pas entre le minimum (selon le cas) et l'augmentation en facteur 10, par exemple 0,01 %, 0,1 %, 1,0 % ou 10,0 %.
-2. Les touches '-' et '+' incrémentent ou décrémentent de la valeur de la taille de pas sélectionnée. Le sélecteur rotatif peut également être utilisé pour ajuster la valeur.
+1. Les touches '<' et '>' modifient la valeur du pas entre un minimum et un maximum selon le champ utilisé par incrément de facteur 10, par exemple 0,01 %, 0,1 %, 1,0 % ou 10,0 %.
+2. Les touches '-' et '+' incrémentent ou décrémentent de la valeur du pas sélectionné en 1. Le sélecteur rotatif peut également être utilisé pour ajuster la valeur.
 3. Le bouton « Plus » à droite offre des options supplémentaires :
 
 ![Options de saisie de valeurs numériques](assets/keyboard-numbers-options.png)
@@ -57,11 +57,11 @@ Lorsque vous touchez une valeur numérique, une boîte de dialogue apparaît en 
 * la valeur par défaut
 * le minimum
 * le maximum
-* affichage d'un curseur pour le réglage :
+* affichage d'un curseur pour le réglage : "Activer curseur"
 
 ![Affichage du curseur de saisie](assets/keyboard-numbers-slider.png)
 
-Le curseur permet d'ajuster rapidement la valeur. Pour revenir aux touches de réglage des nombres, sélectionnez « Désactiver le curseur »
+Le curseur permet d'ajuster rapidement la valeur. Sélectionnez « Désactiver curseur » pour revenir aux saisies par valeurs.
 
 ![Retour au clavier de saisie](assets/keyboard-numbers-options-disable-slider.png)
 
