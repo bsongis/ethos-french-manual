@@ -106,7 +106,7 @@ Les options des sources sont disponibles en fonction du contexte :
   
 ![Options des trims](assets/source-trim-options.png)
 
-* Par défaut, les versions ont une plage de +/- 25 %. Lorsqu'il est utilisé comme source, les trims peuvent éventuellement être modifiés en plage complète +/- 100 % (appuyez longuement sur Entrée sur le trim).
+* Par défaut, les trims ont une plage de +/- 25 % de la course. Lorsqu'il est utilisé comme source, les trims peuvent éventuellement être modifiés en course complète +/- 100 % (appuyez longuement sur Entrée sur le trim).
 
 ![Options des inters](assets/source-stick-options.png)
 
