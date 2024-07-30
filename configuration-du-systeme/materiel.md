@@ -1,4 +1,4 @@
-# Matériel
+## Matériel
 
 ![Icône Matériel](../assets/system-icon-hardware.png)
 
@@ -6,7 +6,7 @@ La section Hardware permet de tester toutes les entrées, d'effectuer l'étalonn
 
 ![Matériel](../assets/system-hardware.png)
 
-## Vérification du matériel
+### Vérification du matériel
 
 ![Vérification du matériel / X20S](../assets/system-hardware-check.png)
 
@@ -20,23 +20,23 @@ Les radios X18 ont également les trims supplémentaires T5 et T6 :
 
 ![Vérification du matériel / X18(S)](../assets/system-hardware-check-x18s.png)
 
-## Calibrage des manches et potentiomètres
+### Calibrage des manches et potentiomètres
 
 ![Calibrage manches / potentiomètres](../assets/system-hardware-analogs-calibration.png)
 
 L'étalonnage des analogues est effectué de manière à ce que la radio sache exactement où se trouvent les centres et les limites de chaque cardan, potentiomètre et curseur. Il est automatiquement exécuté au démarrage initial. Il doit être répété après le remplacement d'un cardan, d'un potentiomètre ou d'un curseur.
 
-## Calibrage gyros
+### Calibrage gyros
 
 ![Calibrage gyros](../assets/system-hardware-gyro-calibration.png)
 
 L'étalonnage gyroscopique peut être effectué de manière à ce que les sorties du capteur gyroscopique réagissent correctement à l'inclinaison de la radio. Il est automatiquement exécuté au démarrage initial. Par exemple, la position de « niveau » de la radio serait l'angle auquel vous tenez normalement la radio.
 
-## Filtre analogique
+### Filtre analogique
 
 Le filtre convertisseur analogique-numérique pour les manches peut être activé/désactivé avec ce réglage. La valeur par défaut est ON, ce qui peut améliorer la précision autour du neutre (centre de la course du manche). Il s'agit d'un paramètre global. Une option spécifique au modèle est disponible dans la section « Modèle / Editer le modèle » sous Filtre analogique.
 
-## Configuration Pots / Sliders
+### Configuration Pots / Sliders
 
 Les potentiomètres et les curseurs peuvent être inversés, et recevoir des noms personnalisés :
 
@@ -46,7 +46,7 @@ Les radios X20 Pro/R/RS peuvent accueillir deux potentiomètres supplémentaires
 
 ![Configuration pots X20-PRO](../assets/system-hardware-pots-x20pro.png)
 
-## Configuration Inters
+### Configuration Inters
 
 ![Configuration switches](../assets/system-hardware-switches.png)
 
@@ -67,7 +67,7 @@ La radio X20 Pro dispose de deux boutons-poussoirs à verrouillage supplémentai
 
 ![Configuration switches X20 Pro](../assets/system-hardware-switches-x20pro.png)
 
-## Raccourcis touches
+### Raccourcis touches
 
 ![Raccourcis touches](../assets/system-hardware-shortcuts.png)
 
@@ -82,7 +82,7 @@ Pour la touche \[DISP], les options d'appui court et long peuvent être réaffec
 
 Pour les touches \[SYS] et \[MDL], seules les options d'appui long peuvent être réaffectées, car une pression courte appelle respectivement la section Système ou Modèle.
 
-## Configuration Vibreurs multiples (X20 Pro uniquement)
+### Configuration Vibreurs multiples (X20 Pro uniquement)
 
 La X20 Pro permet d'utiliser un vibreur (par défaut) ou deux vibreurs. La choix doit être configuré ici :
 
@@ -90,7 +90,7 @@ La X20 Pro permet d'utiliser un vibreur (par défaut) ou deux vibreurs. La choix
 
 La X20 Pro AW n'a pas cette option, car les 2 moteurs Haptic sont montés en usine.
 
-## Vérif. Analogique (inspection des valeurs ADC)
+### Vérif. Analogique (inspection des valeurs ADC)
 
 ![Vérif. analogique X20S](../assets/system-hardware-adc-check-x20s.png)
 
