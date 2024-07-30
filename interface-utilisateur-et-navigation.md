@@ -96,13 +96,17 @@ Les options des sources sont disponibles en fonction du contexte :
 
 * Inverser : permet d'annuler ou d'inverser une source telle qu'une position d'inter. Par exemple, au lieu d'être actif lorsque l'interrupteur SA est en haut, il serait actif lorsque l'interrupteur SA n'est PAS en haut, c'est-à-dire en position médiane ou basse.
 
-* Front : si vous avez besoin d'une action unique lorsque la source passe de False à True ou de True à False. Seule la transition est prise en compte, et non l'état Vrai ou Faux.
+* Front : si vous avez besoin d'une action unique lorsque la source passe de FAUX à VRAI ou de VRAI à FAUX. Seule le changement d'état est prise en compte, et non la valeur de l'état.
 
 ![Options des inters utilisés comme sources](assets/source-2pos-options.png)
 
 * Negatif : rend la valeur négative
 
 * Demi-course et Course complète : ces options sont disponibles lors de l'utilisation d'un commutateur à 2 positions ou d'un commutateur logique comme source. La plage devient [0-100%] au lieu de [-100%-100%]
+  
+![Options des trims](assets/source-trim-options.png)
+
+* Par défaut, les versions ont une plage de +/- 25 %. Lorsqu'il est utilisé comme source, les trims peuvent éventuellement être modifiés en plage complète +/- 100 % (appuyez longuement sur Entrée sur le trim).
 
 ![Options des inters](assets/source-stick-options.png)
 
