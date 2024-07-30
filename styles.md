@@ -30,7 +30,7 @@ monofontoptions: Scale=.8
 toc: true
 toc-depth: 1
 lof: true
-lot: true
+# lot: true
 tblPrefix: tab
 lolTitle: Liste des extraits de code
 listingtitle: Extrait de code
