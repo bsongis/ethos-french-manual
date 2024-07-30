@@ -26,7 +26,7 @@ Doit être réglé sur l'heure actuelle. Ceci est utilisé dans les journaux.
 
 Permet de configurer le fuseau horaire de l'utilisateur.
 
-### Ajuster la vitesse RTC
+### Calibrage RTC
 
 L'horloge en temps réel peut être calibrée pour compenser toute dérive de l'horloge, jusqu'à 41 secondes par jour.
 
