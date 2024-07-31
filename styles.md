@@ -44,7 +44,6 @@ header-includes:
   \usepackage{lmodern}
   \usepackage{xspace}
   \usepackage{xltxtra}
-  \usepackage[nolists,nomarkers]{endfloat}
   \let\tex\TeX
   \renewcommand{\TeX}{\tex\xspace}
 ---
