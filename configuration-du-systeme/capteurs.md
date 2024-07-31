@@ -31,7 +31,7 @@ Veuillez noter que la page « Capteurs » permet la modification des adresses ph
 
 Exemple de configuration du capteur d'intensité :
 
-La configuration du capteur peut-être effectué via un ou des modules RF ou via la prise S.Port de la radio.
+La configuration du capteur peut-être effectué via un ou des modules RF ou via le connecteur S.Port de la radio.
 
 ![Capteur de courant](../assets/system-devices-current.png)
 
