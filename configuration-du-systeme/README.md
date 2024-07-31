@@ -1,6 +1,6 @@
 # Configuration du système
 
-Ce menu est utilisé pour configurer les paramètres de la radio communs à tous les modèles. Il est accessible en appuyant sur l'icone "Engrenage" en bas à droite de l'écran, ou en appuyant sur le bouton \[SYS]. La configuration spécifique d'un modèle est effectuée via l'icone "Avion",en bas à gauche de l'écran ou via le bouton \[MDL].
+Configuration des paramètres de la radio communs à tous les modèles. Accessible en appuyant sur l'icone "Engrenage" en bas à droite de l'écran, ou en appuyant sur le bouton \[SYS]. La configuration spécifique d'un modèle est effectuée via l'icone "Avion",en bas à gauche de l'écran ou via le bouton \[MDL].
 
 NB: La configuration du système HF étant spécifique à chaque modèle, reportez-vous à la section correspondante "Système RF"» du menu Modèle.
 
