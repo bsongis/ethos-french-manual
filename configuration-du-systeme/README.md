@@ -40,8 +40,8 @@ Configuration du mode de la radio (Mode1, 2, 3 ou 4) ainsi que l'ordre des voies
 
 **Capteurs**
 
-Outils de configuration d'appareils tels que les capteurs, les récepteurs, la suite de gaz, les servos et les émetteurs vidéo.
+Configuration des capteurs et accessoires natifs FrSKY, des récepteurs avec gyros FrSky, des servos Frsky et émetteurs vidéo.
 
 **Info**
 
-Informations système pour la version du micrologiciel, les types de cardans et les modules RF.
+Informations des versions firmware de la radio, son temps d'utilisation, du module RF interne, des récepteurs, des éventuelles erreurs sur des scripts lua ou autres (saturation mémoire, etc..) et du type de manches installé.
