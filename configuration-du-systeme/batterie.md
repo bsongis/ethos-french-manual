@@ -8,19 +8,19 @@ La section Batterie permet de calibrer la batterie et la pile de la radio et de 
 
 ### Tension radio
 
-La « tension principale » affiche la tension actuelle de la batterie, mais il s'agit également du réglage de l'étalonnage de la tension de la batterie. Vous pouvez entrer la tension réelle de la batterie mesurée à l'aide d'un multimètre. La valeur par défaut est de 8,4 V pour une batterie LIPO 2S chargée.
+La « Tensio radio » affiche la tension actuelle de la batterie. Cette valeur peut-être étalonnée en cas d'écart constaté avec un multimètre. L'appui du le champ correspondant permet le réglage. La batterie LIPO 2S de la radio chargée sera de l'ordre de 8,4V.
 
 ### Alerte tension basse
 
 Il s'agit de la tension de seuil d'alarme. La valeur par défaut est de 7,2 V. Une valeur de 7,4 V donnerait une marge de sécurité supplémentaire.
 
-Une alerte vocale « La batterie de la radio est faible » sera émise lorsque la vérification de la « Tension principale » est activée dans Système / Alertes / La tension principale et la batterie principale de la radio sont inférieures au seuil défini ici.
+Une alerte vocale « Batterie radio faible » est émise lorsque la vérification de la « Tension radio » est activée dans Système / Alertes et que la tension de la radio est inférieure au seuil défini ici.
 
 _**Avertissement!**_
 
 Lorsque cette alerte est donnée, il est prudent d'atterrir et de charger la batterie de la radio !
 
-Veuillez noter que lorsque la tension de la batterie de la radio tombe à 6,0 V, la radio s'éteint malgré tout pour protéger la batterie LiIon (2 x 3,0 V) !
+NB:  lorsque la tension de la batterie de la radio atteint 6,0 V, la radio s'éteint automatiquement pour protéger la batterie (2 x 3,0 V) !
 
 ### Plage d’affichage tension
 
