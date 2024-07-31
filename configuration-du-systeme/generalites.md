@@ -12,8 +12,6 @@ Les éléments suivants peuvent être configurés ici :
 
 ### Affichage
 
-Les attributs de l'écran LCD peuvent être configurés ici :
-
 ![Paramètres d'affichage](../assets/system-general.png)
 
 #### Langue
@@ -40,52 +38,52 @@ Choix de la disposition du clavier virtuel parmis QWERTY, QWERTZ et AZERTY.
 
 #### Luminosité
 
-Utilisez le curseur pour contrôler la luminosité de l'écran, de gauche à droite pour régler la luminosité de sombre à clair. Appuyez longuement sur [Enter] pour afficher les options permettant d'utiliser une source ou de la régler au minimum ou au maximum.
+Ajustement de la luminosité de l'écran en utilisant le curser. Les options sont accessibles par un appui long sur le champ ou sur [Enter] lorsque le champ est en surbrillance. 3 choix possibles pour les réglages de luminosité : minimum / maximun ou une source ( pot / curseur ).
 
-Veuillez noter que si Luminosité (pour le rétroéclairage activé) = « Luminosité du mode veille » (pour le rétroéclairage désactivé), l'écran tactile reste actif.
+NB: si Luminosité (pour le rétroéclairage activé) = « Luminosité veille » (pour le rétroéclairage désactivé), l'écran tactile reste actif.
 
-Il est possible d'utiliser un potentiomètre pour régler la luminosité de l'écran, comme ceci :
+Exemple d'utilisation un potentiomètre pour régler la luminosité de l'écran :
 
 ![Menu pour la luminosité](../assets/system-general-brightness-menu.png)
 
-Appuyez sur « Utiliser une source », puis sélectionnez un potentiomètre à utiliser comme contrôle de la luminosité.
+Appuyez sur « Utilisation source », puis sélectionnez un potentiomètre à utiliser comme contrôle de la luminosité.
 
 ![Utilisation d'un potentiomètre pour la luminosité](../assets/system-general-brightness-slider.png)
 
 L'exemple ci-dessus montre que la luminosité est contrôlée via le potentiomètre sur le côté droit de la radio.
 
-#### Activation de la mise en veille
+#### Activation (de l'écran après la mise en veille)
 
 ![Activation de la mise en veille](../assets/system-general-sleep.png)
 
-Le rétroéclairage de l'écran peut être réveillé de l'état de veille conformément à une ou plusieurs des options suivantes :
+L'activation de l'écran suite à la mise en veille est possible selon les options ci-dessous :
 
-* Toujours : Le rétroéclairage reste allumé en permanence.
-* Manches : Le rétroéclairage s'allume lorsque vous actionnez des manches ou des touches.
-* Inters : Le rétroéclairage s'allume lorsque des interrupteurs ou des touches sont actionnés.
-* Gyro : Le rétroéclairage s'allume lorsque vous inclinez la radio ou lorsque vous actionnez les touches.
+* Toujours : l'écran reste activé en permanence.
+* Manches : l'écran s'active lorsque vous actionnez des manches ou des touches.
+* Inters : l'écran s'active lorsque des interrupteurs ou des touches sont actionnés.
+* Gyro : l'écran s'active lorsque vous inclinez la radio ou lorsque vous actionnez les touches.
 
-Notez que plusieurs options peuvent être sélectionnées en même temps.
+NB : plusieurs options peuvent être sélectionnées simultanément.
 
 #### Mise en veille
 
-Durée d'inactivité avant la désactivation du rétroéclairage. Lorsque vous sélectionnez « Toujours » comme option d'activation, ce paramètre est grisé.
+Durée d'inactivité avant la mise en veille de l'écran. Si « Toujours » est activé dans les options activation, ce paramètre n'est pas modifiable.
 
 #### Luminosité veille
 
 ![Luminosité en veille](../assets/system-general-sleep-brightness.png)
 
-Utilisez le curseur pour contrôler la luminosité de l'écran en mode veille, de gauche à droite pour régler la luminosité de sombre à clair.
+Ajustement de la luminosité de l'écran en mode veille. Les options sont identiques au règlages de luminosité en début de chapitre.
 
-Veuillez noter que si Luminosité (pour le rétroéclairage activé) = « Luminosité du mode veille » (pour le rétroéclairage désactivé), l'écran tactile reste actif.
+NB : Luminosité (pour le rétroéclairage activé) = « Luminosité du mode veille » (pour le rétroéclairage désactivé), l'écran tactile reste actif.
 
 #### Mode sombre
 
-Permet de choisir entre les modes clair et sombre pour l'affichage.
+Choix entre les modes clair ou sombre pour l'affichage.
 
 #### Couleur de surbrillance
 
-Permet de sélectionner la couleur de surbrillance à utiliser dans l'affichage. La valeur par défaut est jaune (#F8B038).
+Choix de la couleur de surbrillance à utiliser dans l'affichage. La valeur par défaut est jaune (#F8B038).
 
 ### Emplacement de stockage (X18(S), XE(S) et X20 Pro/R/RS)
 
