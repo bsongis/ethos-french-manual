@@ -31,12 +31,12 @@ Configuration des valeurs / des plages de valeurs déclenchant les alertes sur l
 **Matériel**
 
 Configuration matériel de la radio avec le choix du type de potentiomètres/ Interrupteurs avec leur affectation.
-Etalonnage et vérification du bon fonctionnement du matériel et calibration du gyroscope interne de la radio
+Etalonnage et vérification du bon fonctionnement du matériel et calibration du gyroscope interne de la radio.
 Configuration des raccourcis des touches de la radio [DISP / MDL / SYS].
 
 **Manches**
 
-Configuration du mode manches et de l'ordre des voies par défaut. Les 4 manches peuvent également être renommées.
+Configuration du mode de la radio (Mode1, 2, 3 ou 4) ainsi que l'ordre des voies par défaut. Les 4 manches peuvent également être renommées par l'utilisateur.
 
 **Capteurs**
 
