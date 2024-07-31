@@ -18,7 +18,7 @@ Activation / désactivation des différentes alertes surveillées par ETHOS (Con
 
 **Date / heure**
 
-Configuration de la date et horloge système et des options associés .
+Configuration de la date et horloge système et des options associées .
 
 **Général**
 
