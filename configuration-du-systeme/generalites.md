@@ -16,7 +16,7 @@ Les éléments suivants peuvent être configurés ici :
 
 #### Langue
 
-Les langues suivantes sont prises en charge pour les menus d'affichage :
+Les langues suivantes sont prises en charge pour les menus de la radio :
 
 * English
 * 中文
