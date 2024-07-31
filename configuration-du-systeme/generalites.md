@@ -1,4 +1,4 @@
-## Généralités
+## Général
 
 ![Icône Général](../assets/system-icon-general.png)
 
@@ -7,10 +7,10 @@ Les éléments suivants peuvent être configurés ici :
 * Affichage
 * Les paramètres audio
 * Les réglages vario
-* Les paramètres de retour haptique
+* Les paramètres de retour vibreur
 * La barre d'outils supérieure
 
-### Paramètres d'affichage
+### Affichage
 
 Les attributs de l'écran LCD peuvent être configurés ici :
 
@@ -26,7 +26,7 @@ Les langues suivantes sont prises en charge pour les menus d'affichage :
 * Deutsch
 * Español
 * Français
-* עִברִית
+* עִברִי*
 * Italiano
 * Nederlands
 * Norsk
@@ -36,7 +36,7 @@ Les langues suivantes sont prises en charge pour les menus d'affichage :
 
 #### Clavier
 
-Permet de choisir entre les dispositions de clavier virtuel QWERTY, QWERTZ et AZERTY.
+Choix de la disposition du clavier virtuel parmis QWERTY, QWERTZ et AZERTY.
 
 #### Luminosité
 
