@@ -7,7 +7,7 @@ La connexion via un adaptateur secteur USB-C (2A mini) charge la batterie de la 
 
 ## Connexion USB en mode "bootloader"
 
-La radio démarre en mode bootloader en allumant la radio en maintenant la touche Entrée. Le message d'état 'Bootloader' s'affiche à l'écran pour confirmer le mode bootloader..
+La radio démarre en mode bootloader en allumant la radio en maintenant la touche Entrée. Le message d'état 'Bootloader' s'affiche à l'écran pour confirmer le mode.
 
 La radio, connectée à un PC via un câble de données USB affiche « USB Connecté » et deux disques apparaissent comme lecteurs externes. Le premier correspond à la mémoire flash interne de la radio et le second au contenu de la carte SD ou eMMC.
 
