@@ -2,22 +2,22 @@
 
 ![Icône Capteurs](../assets/system-icon-devices.png)
 
-La « configuration de l'appareil » contient des outils permettant de configurer des appareils tels que des capteurs, des récepteurs, la suite de gaz, des servomoteurs et des émetteurs vidéo.
+La page "capteurs" permet de configurer des périphériques FrSKy tels que des capteurs, des récepteurs avec Gyro intégré, le GasSuite, des servos, des émetteurs vidéo, etc...
 
 ![Capteurs](../assets/system-devices.png)
 
-Les appareils suivants sont actuellement pris en charge :
+Les capteurs / périphériques suivants sont actuellement pris en charge :
 
 * Vitesse
 * Intensité
 * Le SBEC
-* gaz suite
+* Gaz suite
 * GPS
 * Tension Lipo
 * RB 30/40
 * RPM (Tr / min)
 * SxR
-* Calibrage SxR
+* Calibration SxR
 * Variomètre
 * Émetteur vidéo VS600
 * Servos XAct
@@ -27,7 +27,7 @@ Les appareils suivants sont actuellement pris en charge :
 
 Veuillez vous référer au manuel de l'appareil pour plus de détails.
 
-Veuillez noter que l'écran « Configuration de l'appareil » de Ethos vous permet de modifier les ID physiques du capteur S.Port et les ID d'application. Si vous avez plusieurs appareils qui ont la même fonction, vous devez les connecter un par un, les découvrir dans Télémétrie / « Découvrir de nouveaux capteurs », puis dans « Configuration de l'appareil », modifier l'ID physique et l'ID d'application, puis revenir en arrière et les redécouvrir avec le nouvel ID. Reportez vous à la section Télémétrie S.Port.
+Veuillez noter que la page « Capteurs » permet la modification des adresses physiques d'un capteur S.Port et des adresses d'application. Si vous avez plusieurs périphériques / Capteurs ayant les mêmes adresses, vous devez les connecter un par un, les découvrir dans la configuration du modèle / " Télémétrie / Découverte capteurs ", puis dans « Capteurs », modifier l'ID physique et l'ID d'application, puis revenir en arrière et les redécouvrir avec le nouvel ID. Reportez vous à la section Télémétrie S.Port.
 
 ![Capteur de courant](../assets/system-devices-current.png)
 
