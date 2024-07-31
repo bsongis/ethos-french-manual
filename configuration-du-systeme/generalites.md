@@ -42,7 +42,7 @@ Ajustement de la luminosité de l'écran en utilisant le curser. Les options son
 
 NB: si Luminosité (pour le rétroéclairage activé) = « Luminosité veille » (pour le rétroéclairage désactivé), l'écran tactile reste actif.
 
-Exemple d'utilisation un potentiomètre pour régler la luminosité de l'écran :
+Exemple pour l'utilisation d'un potentiomètre pour régler la luminosité de l'écran :
 
 ![Menu pour la luminosité](../assets/system-general-brightness-menu.png)
 
