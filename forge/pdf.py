@@ -30,7 +30,6 @@ def main():
               --number-sections \
               --variable documentclass=scrreprt \
               --pdf-engine xelatex \
-              -H disable-float.tex \
               --output ethos-french-manual.pdf')
 
 

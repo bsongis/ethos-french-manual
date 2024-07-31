@@ -46,6 +46,14 @@ header-includes:
   \usepackage{xltxtra}
   \let\tex\TeX
   \renewcommand{\TeX}{\tex\xspace}
+  \usepackage{float}
+  \let\origfigure\figure
+  \let\endorigfigure\endfigure
+  \renewenvironment{figure}[1][2] {
+    \expandafter\origfigure\expandafter[H]
+  } {
+    \endorigfigure
+  }
 ---
 
 <!-- \listoflistings -->
