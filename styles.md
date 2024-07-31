@@ -44,6 +44,7 @@ header-includes:
   \usepackage{lmodern}
   \usepackage{xspace}
   \usepackage{xltxtra}
+  \usepackage[section]{placeins}
   \let\tex\TeX
   \renewcommand{\TeX}{\tex\xspace}
 ---
