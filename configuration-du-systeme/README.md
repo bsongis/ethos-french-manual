@@ -8,29 +8,30 @@ NB: La configuration du système HF étant spécifique à chaque modèle, report
 
 Sur la page de "Système", appuyez sur l'icone pour configurer la section sélectionnée ou utilisez le sélecteur rotatif pour déplacer la surbrillance vers l'icone souhaitée, puis appuyez sur Entrée. Un balayage vers la gauche de l'écran permet l'accès à la seconde page de configuration ou utiliser le sélecteur rotatif pour déplacer la surbrillance vers la deuxième page.
 
-**Gestionnaire de fichiers**
+**Fichiers**
 
-Le gestionnaire de fichiers permet de gérer les fichiers des différents espaces de stockage de la radio.
+Accès au gestionnaire de fichiers des espaces de stockage de la radio (Carte SD , FLASH, etc..)
 
 **Alertes**
 
-Configuration du mode silencieux, des tensions de la batterie radio et RTC, des conflits de capteurs et des alertes d'inactivité.
+Activation / désactivation des différentes alertes surveillées par ETHOS (Configuration du mode silencieux, des tensions de la batterie radio et RTC, des conflits de capteurs et temps d'inactivité de la radio).
 
-**Date et heure**
+**Date / heure**
 
-Configuration de l'horloge système et des options d'affichage de l'heure.
+Configuration de la date et horloge système et des options associés .
 
-**Généralités**
+**Général**
 
-Pour configurer le style de menu, la langue du système et les attributs de l'écran LCD tels que la luminosité et le rétroéclairage, ainsi que les modes et paramètres audio, vario et haptique. De plus, les options de la barre d'outils supérieure, la sélection du modèle à la mise sous tension et la présélection du mode USB peuvent être configurées.
+Configuration de l'écran LCD (luminosité, rétroéclairage, couleurs, etc..) , de la langue des menus, des paramètres audio (langue, voix), du vario et des vibreurs, des options de la barre supérieure, du choix du modèle à la mise sous tension et du mode USB par défaut lors de la connexion à un PC.
 
 **Batterie**
 
-Configuration des paramètres de gestion de la batterie.
+Configuration des valeurs / des plages de valeurs déclenchant les alertes sur les différentes batteries de la radio.
 
 **Matériel**
 
-Cette section permet de vérifier les périphériques d'entrée physiques matériels, ainsi que l'étalonnage des entrées analogiques et du gyroscope. Il permet également de modifier les affectations des inters et de définir les fonctions du bouton d'accueil.
+Configuration matériel de la radio avec le choix du type de potentiomètres/ Interrupteurs.
+Etalonnage et vérification du bon fonctionnement du matériel et calibration du gyroscope interne de la radio. Il permet également de modifier les affectations des inters et de définir les fonctions du bouton d'accueil.
 
 **Manches**
 
