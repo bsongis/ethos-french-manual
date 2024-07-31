@@ -30,8 +30,9 @@ Configuration des valeurs / des plages de valeurs déclenchant les alertes sur l
 
 **Matériel**
 
-Configuration matériel de la radio avec le choix du type de potentiomètres/ Interrupteurs.
-Etalonnage et vérification du bon fonctionnement du matériel et calibration du gyroscope interne de la radio. Il permet également de modifier les affectations des inters et de définir les fonctions du bouton d'accueil.
+Configuration matériel de la radio avec le choix du type de potentiomètres/ Interrupteurs avec leur affectation.
+Etalonnage et vérification du bon fonctionnement du matériel et calibration du gyroscope interne de la radio
+Configuration des raccourcis des touches de la radio [DISP / MDL / SYS].
 
 **Manches**
 
