@@ -2,8 +2,6 @@
 
 ![Icône Batterie](../assets/system-icon-battery.png)
 
-La section Batterie permet de calibrer la batterie et la pile de la radio et de régler les seuils d'alarme.
-
 ![Batterie](../assets/system-battery.png)
 
 ### Tension radio
@@ -20,14 +18,13 @@ _**Avertissement!**_
 
 Lorsque cette alerte est donnée, il est prudent d'atterrir et de charger la batterie de la radio !
 
-NB:  lorsque la tension de la batterie de la radio atteint 6,0 V, la radio s'éteint automatiquement pour protéger la batterie (2 x 3,0 V) !
+NB:  lorsque la tension de la batterie de la radio atteint 6.0v, la radio s'éteint automatiquement pour protéger la batterie (2 x 3.0v) !
 
-### Plage d’affichage tension
+### Plage affichage tension
 
-Ces paramètres définissent la portée de l'affichage graphique de la batterie en haut à droite de l'écran. Les limites de portée par défaut de la batterie Li-Ion intégrée sont de 6,4 et 8,4 V. De nombreux pilotes augmentent la tension de détection inférieure pour déclencher l'alerte de faible tension TX plus tôt et éviter de trop décharger leur batterie TX.
-
-Si la batterie est remplacée par un autre type, les limites doivent être réglées de manière appropriée.
+Ce règlage permet l'étalonnage de l'icône de batterie sur la barre supérieure. La plage d'utilisation de la batterie d'origine Frsky par défaut est de 7.0v à 8.4v. La valeur minimum peut être ajustée afin d'avoir l'alerte "Tension batterie faible" assez tôt pour éviter une décharge trop importante de la batterie de la radio.
+En cas de changement de type de batterie, il est nécessaire d'adapter la plage d'affichage selon les caractéristiques de la batterie de remplacement.
 
 ### Tension pile RTC
 
-Affiche la tension de la batterie RTC (Real Time Clock) dans la radio. La tension est de 3,0 V pour une batterie neuve. Si la tension est inférieure à 2,7 V, veuillez remplacer la pile à l'intérieur de la radio pour vous assurer que l'horloge fonctionne correctement. Si la tension descend en dessous de 2,5 V et qu'une alerte sera donnée, veuillez-vous référer à Alertes / tension RTC.
+Affiche la tension de la batterie RTC (Real Time Clock) interne de la radio. La tension est de 3,0 V pour une batterie neuve. Si la tension est inférieure à 2,7 V, veuillez remplacer la pile (CR2020) à l'intérieur de la radio pour assurer le fonctionnement de l'horloge temps réel. En dessous de 2.5v, une alerte "Batterie RTC faible" est émise.
