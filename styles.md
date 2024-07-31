@@ -47,7 +47,7 @@ header-includes:
   \let\tex\TeX
   \renewcommand{\TeX}{\tex\xspace}
   \makeatletter
-  \def\fps@figure{H}
+  \def\fps@figure{[hbt!]}
   \makeatother
 ---
 
