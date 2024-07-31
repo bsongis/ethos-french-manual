@@ -44,9 +44,11 @@ header-includes:
   \usepackage{lmodern}
   \usepackage{xspace}
   \usepackage{xltxtra}
-  \usepackage{float}
   \let\tex\TeX
   \renewcommand{\TeX}{\tex\xspace}
+  \makeatletter
+  \def\fps@figure{h}
+  \makeatother
 ---
 
 <!-- \listoflistings -->
