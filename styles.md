@@ -46,9 +46,6 @@ header-includes:
   \usepackage{xltxtra}
   \let\tex\TeX
   \renewcommand{\TeX}{\tex\xspace}
-  \makeatletter
-  \def\fps@figure{[hbt!]}
-  \makeatother
 ---
 
 <!-- \listoflistings -->
