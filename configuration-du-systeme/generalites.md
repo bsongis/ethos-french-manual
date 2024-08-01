@@ -79,19 +79,19 @@ NB : Luminosité (pour le rétroéclairage activé) = « Luminosité du mode vei
 
 #### Mode sombre
 
-Choix entre les modes clair ou sombre pour l'affichage.
+Choix entre les modes clair ou sombre de l'affichage.
 
 #### Couleur de surbrillance
 
-Choix de la couleur de surbrillance à utiliser dans l'affichage. La valeur par défaut est jaune (#F8B038).
+Choix de la couleur de surbrillance des champs sélectionnés. La valeur par défaut est jaune (#F8B038).
 
 ### Emplacement de stockage (X18(S), XE(S) et X20 Pro/R/RS)
 
 ![Emplacement stockage](../assets/system-general-storage.png)
 
-Les radios X18(S), XE(S) et X20 Pro/R/RS disposent d'une carte eMMC (MultiMediaCard intégrée) de 8 Go qui est un périphérique de stockage composé d'une mémoire flash NAND et d'un simple contrôleur de stockage. Le système ETHOS sélectionne par défaut le stockage eMMC, ce qui rend l'utilisation de la carte SD facultative. Cependant, l'utilisateur peut choisir d'utiliser une carte SD pour l'un ou l'autre des répertoires utilisateurs.
+Les radios X18(S), XE(S) et X20 Pro/R/RS disposent d'une carte eMMC (MultiMediaCard intégrée) de 8 Go qui est un périphérique de stockage composé d'une mémoire flash NAND et d'un simple contrôleur de stockage. Le système ETHOS sélectionne par défaut le stockage eMMC (Radio), ce qui rend l'utilisation de la carte SD facultative. Cependant, l'utilisateur peut choisir d'utiliser une carte SD pour l'un ou l'autre des répertoires utilisateurs.
 
-Si le système et les modèles sont déplacés vers la carte SD, ces dossiers et fichiers doivent être copiés sur la carte SD avant d'effectuer la sélection. Il en va de même pour l'audio et les bitmaps.
+Si le choix se porte sur l'utilisaiton de la carte SD, ces dossiers et fichiers doivent être copiés sur la carte SD avant d'effectuer la sélection. Il en va de même pour l'audio et les bitmaps.
 
 ### Paramètres audio
 
