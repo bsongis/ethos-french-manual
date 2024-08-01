@@ -91,13 +91,13 @@ Choix de la couleur de surbrillance des champs sélectionnés. La valeur par dé
 
 Les radios X18(S), XE(S) et X20 Pro/R/RS disposent d'une carte eMMC (MultiMediaCard intégrée) de 8 Go qui est un périphérique de stockage composé d'une mémoire flash NAND et d'un simple contrôleur de stockage. Le système ETHOS sélectionne par défaut le stockage eMMC (Radio), ce qui rend l'utilisation de la carte SD facultative. Cependant, l'utilisateur peut choisir d'utiliser une carte SD pour l'un ou l'autre des répertoires utilisateurs.
 
-Si le choix se porte sur l'utilisaiton de la carte SD, ces dossiers et fichiers doivent être copiés sur la carte SD avant d'effectuer la sélection. Il en va de même pour l'audio et les bitmaps.
+Si le choix se porte sur l'utilisaton de la carte SD, tous les fichiers et dossiers copiés sur la carte SD avant d'effectuer la sélection. Il en va de même pour l'audio et les bitmaps.
 
-### Paramètres audio
+### Audio
 
 ![Audio](../assets/system-general-audio.png)
 
-Il est possible de choisir la langue des annonces vocales, et la fonction "multi-voix" offre la possibilité de choisir parmi différents ensembles de voix dans une langue donnée.
+Un choix de 3 voix est à votre disposition, une voix principale et deux voix secondaires.
 
 La voix "Voix 1 (Princ.)" est la voix principale. Elle est utilisée pour toutes les annonces système Ethos.
 
