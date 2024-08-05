@@ -57,7 +57,7 @@ Les détails des récepteurs liés sont affichés après le module interne. Si u
 
 Détails de tout module RF FrSky externe (le cas échéant), y compris les versions du matériel et du micrologiciel si le protocole ACCESS.
 
-Les multimodules ne sont pas affichés.
+NB : Les infos des multimodules ne sont pas affichées.
 
 ### Réinitialiser les paramètres d'usine
 
@@ -69,4 +69,4 @@ Lorsque vous confirmez que vous souhaitez réinitialiser les paramètres d'usine
 
 ![Confirmation de réinitialisation de la radio](../assets/system-info-factory-reset-confirm.png)
 
-Une barre de progression est affichée pendant le processus d'effacement, puis la radio redémarre, remise à neuf.
+Une barre de progression est affichée pendant le processus d'effacement, puis la radio redémarre, avec les paramètres par défaut d'usine.
