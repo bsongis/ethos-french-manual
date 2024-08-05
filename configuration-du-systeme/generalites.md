@@ -58,10 +58,10 @@ L'exemple ci-dessus montre que la luminosité est contrôlée via le potentiomè
 
 L'activation de l'écran suite à la mise en veille est possible selon les options ci-dessous :
 
-* Toujours : l'écran reste activé en permanence.
-* Manches : l'écran s'active lorsque vous actionnez des manches ou des touches.
-* Inters : l'écran s'active lorsque des interrupteurs ou des touches sont actionnés.
-* Gyro : l'écran s'active lorsque vous inclinez la radio ou lorsque vous actionnez les touches.
+* Toujours : pas de mise en veille.
+* Manches : activation lors d'action sur un manche ou une touche.
+* Inters : activation lors d'action sur un inter ou une touche.
+* Gyro : activation lors d'utilisation du gyro de la radio ( inclinaison ) ou action sur une touche.
 
 NB : plusieurs options peuvent être sélectionnées simultanément.
 
@@ -122,9 +122,9 @@ Pour garantir la sortie vocale appropriée pour "Voix 2" ou "Voix 3", vous devre
 * /audio/fr/Susan pour les fichiers audio de l'utilisateur
 * /audio/fr/Susan/system pour les fichiers audio système
 
-Veuillez noter que chaque voix doit avoir un dossier /system, contenant les fichiers audio nécessaires pour les annonces de la valeur de jeu et de le chrono. Une liste des fichiers audio système fournis en standard est incluse sous forme de fichier .csv avec chaque version audio.
+Veuillez noter que chaque voix doit avoir un dossier /system, contenant les fichiers audio nécessaires pour les annonces système et du chrono. Une liste des fichiers audio système fournis en standard est incluse sous forme de fichier .csv avec chaque version audio.
 
-Utilisez le curseur de "Volume principal" pour contrôler le volume audio. Un appui long sur \[ENT] permet d'utiliser un potentiomètre (comme pour la luminosité écran). Les bips pendant le réglage aident à juger du volume.
+Utilisez le curseur de "Volume principal" pour contrôler le volume audio. Un appui long sur \[ENT] permet d'utiliser un potentiomètre (comme pour la luminosité écran). Les bips aident au réglage du volume.
 
 Les modes audio permettent de contrôler quand les annonces seront jouées automatiquement par Ethos :
 
@@ -138,7 +138,7 @@ Les modes audio permettent de contrôler quand les annonces seront jouées autom
 
 * Fréquent : Il y aura également des bips d'erreur lorsque vous tenterez de dépasser la valeur maximale ou minimale sur les nombres modifiables
 
-* Toujours : En plus des sons dans « Souvent », il y aura également des bips lors de la navigation
+* Toujours : En plus des sons dans « Fréquent », il y aura également des bips lors de la navigation
 
 #### Bluetooth (X20S/HD/Pro/R/RS)
 
@@ -150,7 +150,7 @@ Appuyez sur « Chercher périphériques ».
 
 ![Message d'attente de périphériques](../assets/system-general-audio-bluetooth-searching.png)
 
-Le message « En attente périphériques ... » s'affiche. Allumez votre appareil Bluetooth et placez-le en mode d'appairage. Une fois le périphérique Bluetooth trouvé, son nom s'affiche. Touchez-le pour sélectionner l'appareil.
+Le message « En attente périphériques ... » s'affiche. Allumez votre appareil Bluetooth et placez-le en mode d'appairage. Une fois le périphérique Bluetooth trouvé, son nom s'affiche. Sélectionner le périphériqe détecté.
 
 ![Choix de périphérique Bluetooth](../assets/system-general-audio-bluetooth-device-selected.png)
 
@@ -162,11 +162,11 @@ Lorsque la radio et l'appareil sont couplés, le message « Appareil Bluetooth c
 
 ![Appareil Bluetooth connecté](../assets/system-general-audio-bluetooth-connected.png)
 
-#### Mise en sourdine du haut-parleur
+#### Couper haut-parleur
 
 Pour couper le son du haut-parleur du système (par exemple lors de l'utilisation d'un écouteur BT), sélectionnez l'option Toujours allumée, ou activée uniquement lorsque la télémétrie est active, ou contrôlée par une source telle qu'un inter ou toute autre condition.
 
-Le système se souvient de l'appareil Bluetooth. Pour un fonctionnement normal, allumez la radio, puis l'appareil Bluetooth. L'appareil Bluetooth se connectera, ce qui prendra quelques secondes pour que la sourdine du haut-parleur s'active à nouveau.
+Le système se souvient du périphérique Bluetooth. Pour un fonctionnement normal, allumez la radio, et ensuite le périphérique Bluetooth. Ce dernier se connectera, ce qui prendra quelques secondes pour que la coupure haut-parleur s'active à nouveau.
 
 ### Vario
 
@@ -185,22 +185,22 @@ Reportez-vous au capteur VSpeed dans Télémétrie et à la fonction spéciale "
 
 ![Vibreur](../assets/system-general-haptic.png)
 
-* Intensité: intensité des vibrations haptiques.
+* Intensité: intensité des vibrations.
 * Mode : modes (similaires aux modes audio ci-dessus) 
 
-### Barre d'infos supérieure
+### Barre infos supérieure
 
 ![Barre infos sup.](../assets/system-general-topbar.png)
 
-* Affichage numérique : L'état de la batterie dans la barre d'outils supérieure peut être modifié à partir de l'affichage de la barre par défaut pour afficher la tension de la batterie radio sous forme de valeur numérique à la place.
+* Affichage numérique : Choix de l'affichage en mode numérique des infos dans la barre supérieure ( tension radio, etc..).
 
-* RSSI numérique :  De même, l'état RSSI peut être modifié d'un affichage à barres à une valeur numérique pour 2,4G et 900M.
+* RSSI numérique :  Choix de l'affichage en mode numérique des RSSI 2.4Ghz et 900 Mhz.
 
 ### Choix modèle au démarrage
 
 ![Choix modèle au démarrage](../assets/system-general-model-start.png)
 
-Lorsque cette option est activée, l'écran de sélection du modèle s'affiche à la mise sous tension, de sorte qu'un modèle peut être choisi avant que les alertes de la liste de contrôle du modèle précédemment sélectionné ne s'affichent. Cela évite d'avoir à annuler les alertes de la liste de contrôle avant de sélectionner un autre modèle.
+Le choix du modèle au démarrage peut-être systématisé à chaque mise en route de la radio. L'écran de sélection du modèle s'affiche à la mise sous tension, de sorte qu'un modèle peut être choisi avant que les alertes de la liste de contrôle du modèle précédemment sélectionné ne s'affichent. Cela évite d'avoir à annuler les alertes de la checklist avant de sélectionner un autre modèle.
 
 Par défaut, le dernier modèle utilisé dans la session précédente est mis en surbrillance pour la sélection.
 
