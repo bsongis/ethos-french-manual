@@ -154,11 +154,11 @@ Le message « En attente périphériques ... » s'affiche. Allumez votre apparei
 
 ![Choix de périphérique Bluetooth](../assets/system-general-audio-bluetooth-device-selected.png)
 
-Le message « En attente de l'appareil » s'affiche.
+Le message « Connexion en cours » s'affiche.
 
 ![Message d'attente de l'appareil](../assets/system-general-audio-bluetooth-connecting.png)
 
-Lorsque la radio et l'appareil sont couplés, le message « Appareil Bluetooth connecté » s'affiche. Appuyez sur OK.
+Lorsque la radio et l'appareil sont couplés, le message « Périphérique Bluetooth connecté » s'affiche. Appuyez sur OK.
 
 ![Appareil Bluetooth connecté](../assets/system-general-audio-bluetooth-connected.png)
 
@@ -204,13 +204,14 @@ Le choix du modèle au démarrage peut-être systématisé à chaque mise en rou
 
 Par défaut, le dernier modèle utilisé dans la session précédente est mis en surbrillance pour la sélection.
 
-### Présélection du mode USB
+### Mode USB par défaut
 
 ![Présélection du mode USB](../assets/system-general-usb.png)
 
-Les présélections suivantes sont disponibles lorsque la radio est connectée à un PC via un câble USB :
+Choix par l'utilisateur du mode USB par défaut lors de la connextion de la radio à un PC :
 
-* Non défini : Si ce mode est choisi, une boîte de dialogue apparaîtra au moment de la connexion pour qu'une sélection soit effectuée à ce moment-là.
-* Joystick : Lors de la connexion, la radio entrera automatiquement en mode joystick pour une utilisation avec un simulateur RC.
-* Ethos Suite : Lors de la connexion, la radio entrera automatiquement en « mode Ethos » pour la communication avec Ethos Suite. Veuillez-vous référer au mode Ethos dans la section Ethos Suite.
-* Série : Lors de la connexion, la radio entrera automatiquement en mode série, dans lequel les traces de débogage Lua sont envoyées à USB-série s'il y en a. La vitesse de transmission est de 115200 bps. Un pilote de port COM virtuel Windows approprié peut être trouvé [ici](https://www.st.com/en/development-tools/stsw-stm32102.html).
+* Non défini : Une boîte de dialogue apparaîtra au moment de la connexion proposera le choix à l'utilisateur.
+* Joystick : Mode Joystick pour l'utilisation avec un simulateur RC.
+* Ethos Suite : Mode ETHOS pour l'utilisation avec ETHOS SUITE pour les mises à jour et sauvegarde de la radio.
+  NB: Référez-vous à la section Ethos Suite.
+* Série : Mode série pour l'utilisation de la radio en mode débuggage. les données seront transmises au PC. La vitesse de transmission est de 115200 bps. Un pilote de port COM virtuel Windows approprié peut être trouvé [ici](https://www.st.com/en/development-tools/stsw-stm32102.html).
