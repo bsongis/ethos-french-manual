@@ -1,5 +1,5 @@
 ---
-title: Manuel français de Ethos 1.5.10
+title: Manuel français de Ethos 1.5.12
 subtitle: Traduction de la doc anglaise écrite par Lothar Thole
 lang: fr
 tags: [FrSky, Ethos]
@@ -11,7 +11,7 @@ papersize: a4
 documentoptions: twoside
 
 # Styles
-fontsize: 12pt
+fontsize: 10pt
 colorlinks: true
 linkcolor: Blue
 citecolor: MidnightBlue
