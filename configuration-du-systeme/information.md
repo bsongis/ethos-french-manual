@@ -2,7 +2,7 @@
 
 ![Icône Information](../assets/system-icon-info.png)
 
-La page d'informations affiche des informations sur le micrologiciel du système, le type de cardan, la version du micrologiciel du module interne, le micrologiciel du récepteur ACCESS, TD ou TW et des informations sur le module externe.
+La page d'informations affiche des informations sur la version du firmawe de la radio, le type de manches installe, la version du firmwre du module RF, les versions de firmware des récepteur ACCESS, TD ou TW et des informations sur le module externe si disponibles.
 
 ![Information](../assets/system-info.png)
 
@@ -14,13 +14,19 @@ Numéro de série de la radio.
 
 Ethos, firmware, et type de radio (par exemple X20).
 
-### Version du firmware
+### Version firmware
 
-Version et type actuels du micrologiciel, par exemple FCC, LBT ou Flex.
+Version et type actuels du firmware, par exemple FCC, LBT ou Flex.
 
 ### Date
 
-Date et heure de la version du micrologiciel.
+Date et heure de la version du firmware.
+
+### Utilisation radio
+
+Durée d'utilisation de la radio depuis la mise en service de la radio ou une réinitialisation d'usine.
+
+NB : Ce paramètre ne peut être réinitialisé pour le moment sans une réinitialisation d'usine.
 
 ### Erreurs
 
@@ -36,12 +42,12 @@ Les erreurs peuvent être dues à :
 **RAM backup error (erreur Mémoire de sauvegarde)**\
 **Un modèle peut être si énorme qu'il dépasse la RAM de sauvegarde. ETHOS a maintenant étendu l'espace RAM pour la sauvegarde des modèles de 4k à 32k, il est donc peu probable qu'il soit dépassé maintenant. Il s'agit d'une erreur majeure qui ralentira le chargement du modèle en mode d'urgence à partir de la carte SD au lieu de la RAM de secours.**\
 
-**Exécution d'une version nocturne (version de test) du firmware**\
-**Si une version de test du firmware a été chargée, l'icône d'avertissement sert à rappeler à l'utilisateur que les versions nocturnes ne sont pas destinées à voler.**\
+**Exécution d'une version de developpement / test  du firmware**\
+**Si une version de test du firmware a été chargée, l'icône d'avertissement sert à rappeler à l'utilisateur que ces versions ne sont pas sécurisées pour voler.**\
 
 ### Manches
 
-La version capteur à effet Hall à cardan installée. L'ADC est pour l'analogique.
+La version capteur à effet Hall des manches installée. L'ADC est pour l'analogique.
 
 ### Module interne
 
@@ -57,9 +63,9 @@ Les détails des récepteurs liés sont affichés après le module interne. Si u
 
 Détails de tout module RF FrSky externe (le cas échéant), y compris les versions du matériel et du micrologiciel si le protocole ACCESS.
 
-NB : Les infos des multimodules ne sont pas affichées.
+NB : Les infos des multimodules ne sont pas affichées à ce jour.
 
-### Réinitialiser les paramètres d'usine
+### Réinitialiser paramètres usine
 
 Permet de rétablir les paramètres d'usine de la radio. Aucune connexion USB PC n'est nécessaire.
 
