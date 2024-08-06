@@ -2,11 +2,11 @@
 
 ![Icône Matériel](../assets/system-icon-hardware.png)
 
-La section Hardware permet de tester toutes les entrées, d'effectuer l'étalonnage analogique et gyroscopique, et de définir les types de inters et la carte de la touche d'accueil.
+Permet de tester toutes les entrées, d'effectuer l'étalonnage analogique et gyroscopique, et de définir les types de inters ainsi que les raccourcis des touches.
 
 ![Matériel](../assets/system-hardware.png)
 
-### Vérification du matériel
+### Vérification matériel
 
 ![Vérification du matériel / X20S](../assets/system-hardware-check.png)
 
@@ -20,29 +20,29 @@ Les radios X18 ont également les trims supplémentaires T5 et T6 :
 
 ![Vérification du matériel / X18(S)](../assets/system-hardware-check-x18s.png)
 
-### Calibrage des manches et potentiomètres
+### Calibration analogique
 
 ![Calibrage manches / potentiomètres](../assets/system-hardware-analogs-calibration.png)
 
-L'étalonnage des analogues est effectué de manière à ce que la radio sache exactement où se trouvent les centres et les limites de chaque cardan, potentiomètre et curseur. Il est automatiquement exécuté au démarrage initial. Il doit être répété après le remplacement d'un cardan, d'un potentiomètre ou d'un curseur.
+La calibration analogique est nécessaire pour définir les centres et limites de positions de chaque manche / potentiomètre ou curseur.Il est automatiquement exécuté à la première mise en service de la radio. Il doit être répété après le remplacement d'un manche, d'un potentiomètre ou d'un curseur.
 
-### Calibrage gyros
+### Calibration gyros
 
 ![Calibrage gyros](../assets/system-hardware-gyro-calibration.png)
 
-L'étalonnage gyroscopique peut être effectué de manière à ce que les sorties du capteur gyroscopique réagissent correctement à l'inclinaison de la radio. Il est automatiquement exécuté au démarrage initial. Par exemple, la position de « niveau » de la radio serait l'angle auquel vous tenez normalement la radio.
+La calibration gyroscopique peut être effectué de manière à ce que les sorties du capteur gyroscopique réagissent correctement à l'inclinaison de la radio. Il est automatiquement exécuté à la première mise en service de la radio. Par exemple, la position de « niveau » de la radio serait l'angle auquel vous tenez normalement la radio.
 
 ### Filtre analogique
 
-Le filtre convertisseur analogique-numérique pour les manches peut être activé/désactivé avec ce réglage. La valeur par défaut est ON, ce qui peut améliorer la précision autour du neutre (centre de la course du manche). Il s'agit d'un paramètre global. Une option spécifique au modèle est disponible dans la section « Modèle / Editer le modèle » sous Filtre analogique.
+Le filtre convertisseur analogique-numérique pour les manches peut être activé/désactivé avec ce réglage. La valeur par défaut est ON, ce qui peut améliorer la précision autour du neutre (centre de la course du manche). Il s'agit d'un paramètre global. Une option spécifique au modèle est disponible dans la section « Modèle / Editer modèle » sous Filtre analogique.
 
-### Configuration Pots / Sliders
+### Configuration Pots / Curseurs
 
 Les potentiomètres et les curseurs peuvent être inversés, et recevoir des noms personnalisés :
 
 ![Configuration pots X20S](../assets/system-hardware-pots-x20s.png)
 
-Les radios X20 Pro/R/RS peuvent accueillir deux potentiomètres supplémentaires Ext1 et Ext2. Ceux-ci peuvent généralement être utilisés lors de l'installation de cardans à 3 axes.
+Les radios X20 Pro/R/RS peuvent accueillir deux potentiomètres supplémentaires Ext1 et Ext2. Ceux-ci peuvent généralement être utilisés lors de l'installation de manche à 3 axes.
 
 ![Configuration pots X20-PRO](../assets/system-hardware-pots-x20pro.png)
 
@@ -63,7 +63,7 @@ Cela permet d'intervertir les interrupteurs, par exemple l'interrupteur momentan
 
 Les inters peuvent également être renommés des noms par défaut SA à SJ en noms personnalisés. Notez que ces noms seront globaux pour tous les modèles.
 
-La radio X20 Pro dispose de deux boutons-poussoirs à verrouillage supplémentaires K et L sur les épaules arrière. De plus, les positions de inter M et N peuvent être câblées à la carte de circuit imprimé, généralement utilisée pour les interrupteurs d'extrémité de manche :
+La radio X20 Pro dispose de deux boutons-poussoirs à verrouillage supplémentaires K et L à l'arrière. De plus, les positions de inter M et N peuvent être câblées à la carte de circuit imprimé, généralement utilisée pour les interrupteurs d'extrémité de manche :
 
 ![Configuration switches X20 Pro](../assets/system-hardware-switches-x20pro.png)
 
@@ -88,7 +88,7 @@ La X20 Pro permet d'utiliser un vibreur (par défaut) ou deux vibreurs. La choix
 
 ![Vérif. analogique X20S](../assets/system-hardware-haptic-x20pro.png)
 
-La X20 Pro AW n'a pas cette option, car les 2 moteurs Haptic sont montés en usine.
+La X20 Pro AW n'a pas cette option, car les 2 vibreurs sont montés en usine.
 
 ### Vérif. Analogique (inspection des valeurs ADC)
 
