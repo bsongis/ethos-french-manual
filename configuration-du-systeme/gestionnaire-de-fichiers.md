@@ -2,11 +2,10 @@
 
 ![Icône Fichiers](../assets/system-icon-filemanager.png)
 
-Appuyez sur « Fichiers » pour ouvrir le gestionnaire de fichiers.
-
 Ce dernier permet de gérer les fichiers des différents espaces de stockage de la radio (Flash / Carte SD / Stockage interne). Il est possible de lister le contenu des répertoires dans les diférents espaces de stockage, de sélectionner n'importe quel fichier. En fonction du type du fichier sélectionné, Ethos proposera d'exécuter différentes actions (visionner un texte, un enregistrement de logs ou une image, flasher un module, un récepteur ou un capteur de télémétrie, écouter un fichier audio, etc.)
 
-ETHOS dispose d'une fonction de transfert de fichiers Bluetooth radio-radio. Reportez-vous à l'exemple de la section Partage de fichiers via Bluetooth ci-dessous.
+ETHOS dispose d'une fonction de transfert de fichiers Bluetooth vers une autre radio.
+Reportez-vous à l'exemple de la section Partage de fichiers via Bluetooth.
 
 ### Le disque Flash
 
@@ -22,7 +21,7 @@ Répertoires du disque "Flash" :
 
 ### Les disques SD et Radio
 
-La série X20/S/HD nécessite une carte SD de 32 Go ou moins formatée en FAT32. Les cartes SanDisk Ultra Micro SDHC Class 10 32 Go sont une bonne option.
+La série X20/S/HD nécessite une carte SD de 32 Go ou moins formatée en FAT32. Une carte SDHC classe 10 32 Go est vivement recommandée.
 
 ![Disque "SD"](../assets/system-filemanager-sd.png)
 
@@ -44,7 +43,7 @@ Le répertoire "audio" contient les fichiers audio réparties par voix, par exem
 
 Ces dossiers sont destinés aux fichiers audios de l'utilisateur, qui peuvent être lus par la fonction spéciale « Lire audio ». Reportez-vous à la section Modèle / Fonctions spéciales et aussi la section Choix des voix.
 
-Le format doit être 16 kHz ou 32 kHz PCM linéaire 16 bits ou alaw (EU) 8 bits ou mulaw (US) 8 bits. Les noms des fichiers wav doivent avoir au maximum 31 caractères (extension comprise).
+Le format doit être 16 kHz ou 32 kHz PCM linéaire 16 bits ou alaw (EU) 8 bits ou mulaw (US) 8 bits. Les noms des fichiers .wav doivent avoir au maximum 31 caractères (extension comprise).
 
 Les sous-répertoires "system" sont destinés aux fichiers audios du système, par exemple :
 
@@ -66,7 +65,7 @@ Appuyez sur le dossier \[audio] pour afficher le contenu du dossier. Puis sélec
 
 Pour l'écouter, choisissez l'option "Lire".
 
-Le fichier peut également être copié, déplacé ou supprimé. Il existe également des options pour envoyer ou recevoir le fichier via Bluetooth. Veuillez vous référer à la section Partage de fichiers via Bluetooth ci-dessous.
+Le fichier peut également être copié, déplacé ou supprimé. Il existe également des options pour envoyer ou recevoir le fichier via Bluetooth. Veuillez vous référer à la section Partage de fichiers via Bluetooth.
 
 _Remarque : Les trois dossiers sont mis à jour par Ethos Suite, quel que soit le dossier que vous avez sélectionné dans les options vocales._
 
@@ -74,21 +73,21 @@ _Remarque : Les trois dossiers sont mis à jour par Ethos Suite, quel que soit l
 
 Ce dossier est destiné aux fichiers images :
 
-* Le dossier **bitmaps/models** est destiné aux images de modèles pouvant être utilisées dans « Modèle / Modifier le modèle » et les assistants de nouveau modèle :
+* Le dossier **bitmaps/models** est destiné aux images de modèles pouvant être utilisées dans « Modèle / Editer modèle » et les assistants de nouveau modèle :
 
 ![Répertoire /bitmaps/models](../assets/system-filemanager-bitmaps.png)
 
 * le dossier **bitmaps/user/** est destiné aux images pouvant être utilisées par le Widget "Bitmap"
 * le dossier **bitmaps/map/** est destiné aux images pouvant être utilisées par le Widget "Carte GPS"
 
-Le format d'image recommandé est le format BMP suivant :
+Le format d'image recommandé est le format .BMP suivant :
 
 * BMP 32 bits
 * 8 bits par couleur
 * Canal alpha (utilisé pour la transparence de l'image)
 * Taille : taille du widget où l'image est affichée
 
-Ce format réduit la charge de calcul sur le microcontrôleur embarqué de la radio. De plus, ETHOS redimensionnera les BMP à la volée, contrairement aux formats PNG ou JPG.
+Ce format réduit la charge de calcul sur le microcontrôleur embarqué de la radio. De plus, ETHOS redimensionnera les BMP à la volée, contrairement aux formats PNG ou JPG. 
 
 Règles de nommage des fichiers image :
 
@@ -140,11 +139,11 @@ Ce dossier contient les journaux de logs des modèles, enregistrés grâce à la
 
 #### Le répertoire "models"
 
-La radio stocke les fichiers de modèles ici. Ces fichiers ne peuvent pas être modifiés par l'utilisateur, mais peuvent être sauvegardés ou partagés à partir d'ici. Initialement, les modèles étaient simplement nommés à partir de "model01.bin", mais à partir d'Ethos v1.2.11, le nom du modèle est utilisé, par exemple un modèle nommé 'Extra' aura comme nom de fichier "extra.bin". S'il y a plus d'un "Extra", les modèles supplémentaires seront nommés "Extra01.bin", etc.
+La radio stocke les fichiers de modèles ici. Ces fichiers ne peuvent pas être modifiés par l'utilisateur, mais peuvent être sauvegardés ou partagés à partir d'ici. Le nom du modèle est utilisé comme nom de fichier, par exemple un modèle nommé 'Extra' aura comme nom de fichier "extra.bin". S'il y a plus d'un "Extra", les modèles supplémentaires seront nommés "Extra01.bin", etc.
 
-Lors de la modification des noms de modèle dans l'écran « Modifier le modèle », le nom de fichier du modèle (.bin) sera également modifié. Le nom de fichier du modèle sera en minuscules (le nom réel du modèle avec les majuscules et les minuscules sera enregistré à l'intérieur du fichier). Tous les caractères ne sont pas pris en charge pour le nom de groupe du fichier modèle, il est donc possible qu'il ne corresponde pas exactement au nom du modèle.
+Lors de la modification des noms de modèle dans l'écran « Editer modèle », le nom de fichier du modèle (.bin) sera également modifié. Le nom de fichier du modèle sera en minuscules (le nom réel du modèle avec les majuscules et les minuscules sera enregistré à l'intérieur du fichier). Tous les caractères ne sont pas pris en charge pour le nom de groupe du fichier modèle, il est donc possible qu'il ne corresponde pas exactement au nom du modèle.
 
-À partir de la version 1.1.0 Alpha 17, il existe des sous-dossiers pour chaque dossier de catégorie de modèle créé par l'utilisateur.
+NB: Attention, lors d'une mise à jour, les fichiers modèles sont également mis à jour. Il n'y a pas conséquent pas de rétrocompatibilité des modèles. Une copie d'un modèle vers une autre radio ne fonctionnera qu'avec des versions de ETHOS identiques.
 
 #### Le répertoire "screenshots"
 
