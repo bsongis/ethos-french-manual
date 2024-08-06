@@ -2,11 +2,11 @@
 
 ![Icône Fichiers](../assets/system-icon-filemanager.png)
 
-Le gestionnaire de fichiers permet de gérer les fichiers des différents espaces de stockage de la radio (Flash / Carte SD / Stockage interne). Il est possible de passer en revue les répertoires dans ces espaces de stockage, de sélectionner n'importe quel fichier. En fonction du type du fichier sélectionné, il est possible d'exécuter différentes actions (visionner un texte, un enregistrement de logs ou une image, flasher un module, un récepteur ou un capteur de télémétrie, écouter un fichier audio, etc.)
+Appuyez sur « Fichiers » pour ouvrir le gestionnaire de fichiers.
+
+Ce dernier permet de gérer les fichiers des différents espaces de stockage de la radio (Flash / Carte SD / Stockage interne). Il est possible de lister le contenu des répertoires dans les diférents espaces de stockage, de sélectionner n'importe quel fichier. En fonction du type du fichier sélectionné, Ethos proposera d'exécuter différentes actions (visionner un texte, un enregistrement de logs ou une image, flasher un module, un récepteur ou un capteur de télémétrie, écouter un fichier audio, etc.)
 
 ETHOS dispose d'une fonction de transfert de fichiers Bluetooth radio-radio. Reportez-vous à l'exemple de la section Partage de fichiers via Bluetooth ci-dessous.
-
-Appuyez sur « Fichiers » pour ouvrir l'explorateur de fichiers.
 
 ### Le disque Flash
 
