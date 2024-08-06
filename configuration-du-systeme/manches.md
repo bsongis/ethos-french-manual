@@ -23,3 +23,5 @@ L'ordre des voies pour la création des nouveaux modèles est choisie ici :
 ### 4 premières voies fixes
 
 Lorsque cette option est activée, le regroupement des voies ne se produit pas sur les quatre premières voies. Si l'ordre des voies est APGD (AETR), l'assistant créera un modèle adapté aux récepteurs stabilisés SRx. Par exemple, un modèle avec 2 ailerons, 1 gouverne de profondeur, 1 moteur, 1 gouvernail de direction et 2 volets sera créé avec un ordre de canal APGDAFF (AETRAFF). Si cette option n'est pas activée, l'ordre des voies sera AAPGDFF (AAETRFF).
+
+NB: Utiliser cette option lors de l'utilisation du multimodule
