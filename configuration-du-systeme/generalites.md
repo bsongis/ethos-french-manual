@@ -136,9 +136,9 @@ Les modes audio permettent de contrôler quand les annonces seront jouées autom
 
 * Par défaut : Les sons sont activés.
 
-* Fréquent : Il y aura également des bips d'erreur lorsque vous tenterez de dépasser la valeur maximale ou minimale sur les nombres modifiables
+* Fréquent : Bips d'erreur lors de dépassement des valeurs maximale ou minimale sur les nombres modifiables
 
-* Toujours : En plus des sons dans « Fréquent », il y aura également des bips lors de la navigation
+* Toujours : Bips lors de la navigation en plus des sons du mode « Fréquent ».
 
 #### Bluetooth (X20S/HD/Pro/R/RS)
 
