@@ -1,18 +1,19 @@
 # Configuration du modèle
 
-Le menu « Configuration du modèle » permet de configurer la configuration spécifique de chaque modèle. Pour y accéder, sélectionnez l'onglet Avion en bas de l'écran d'accueil. À l'inverse, les réglages communs à tous les modèles sont effectués dans le menu Système, auquel on accède en sélectionnant plutôt l'onglet Engrenage (voir la section Système).
+Un appui sur l'icône avion en bas de l'écran permet la configuration spécifique à chaque modèle. 
 
-#### Aperçu <a href="#toc170159525" id="toc170159525"></a>
+#### Aperçu
 
 ![](<../.gitbook/assets/0 (1).png>)
 
-Dans le programme de configuration du système, appuyez sur une vignette pour configurer la section sélectionnée ou utilisez le sélecteur rotatif pour déplacer la surbrillance vers la vignette souhaitée, puis appuyez sur Entrée. Vous pouvez balayer vers la gauche pour accéder à la deuxième page de fonctions ou utiliser le sélecteur rotatif pour déplacer la surbrillance vers la deuxième page.
+2 pages sont disponibles pour configurer chaque modèle, en balayant l'écran de droite à gauche et inversement, ou en utilisant le sélecteur rotatif.
 
 **Choix modèle**
 
-L'option « Sélection du modèle » permet de créer, de sélectionner, d'ajouter, de cloner ou de supprimer des modèles. Il est également utilisé pour créer et gérer des dossiers de catégories de modèles spécifiques à l'utilisateur.
+La liste des modèles par catégorie s'affiche avec leurs images si ces dernières ont été configuré dans "Editer modè..le" et que le fichier .BMP se trouve sur la carte SD.
+L'option de « Sélection du modèle » permet de créer, de sélectionner, d'ajouter, de cloner ou de supprimer des modèles. Il est également utilisé pour créer et gérer des dossiers de catégories de modèles spécifiques à l'utilisateur.
 
-**Edition modèle**
+**Editer modèle**
 
 L'option « Modifier le modèle » est utilisée pour modifier les paramètres de base du modèle tels que configurés par l'assistant, et est principalement utilisée pour modifier le nom ou l'image du modèle. Il est également utilisé pour configurer les inters de fonction, qui sont spécifiques au modèle.
 
