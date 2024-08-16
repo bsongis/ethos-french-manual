@@ -9,3 +9,7 @@ simulator.screenshot("../assets/model-icon-modelselect.png")
 
 simulator.turnRotaryEncoder(1)
 simulator.screenshot("../assets/model-icon-edit.png")
+simulator.pressKey(KEY_ENTER)
+simulator.screenshot("../assets/model-edit.png")
+simulator.pressKey(KEY_RTN)
+

@@ -1,10 +1,10 @@
-# Edition modèle
+## Edition modèle
 
 ![Icône édition du modèle](../assets/model-icon-edit.png)
 
 L'option 'Modifier le modèle' permet de modifier les paramètres de base du modèle tels qu'ils ont été configurés par l'assistant.
 
-![](<../.gitbook/assets/1 (2).jpeg>)
+![Edition du modèle](../assets/model-edit.png)
 
 **Nom, Image**
 
