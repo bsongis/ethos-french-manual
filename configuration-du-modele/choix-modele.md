@@ -1,12 +1,14 @@
-# Choix modèle
+## Choix modèle
 
-![](../.gitbook/assets/1.jpeg)
+![Icône Sélection du modèle](../assets/model-icon-modelselect.png)
 
 L'option de sélection du modèle est accessible en sélectionnant « Sélection du modèle » dans le menu Modèle. Il permet de sélectionner le modèle actuel, d'ajouter un nouveau modèle, de le cloner ou de le supprimer.
 
-**Gestion des dossiers de modèles**
+### Gestion des dossiers de modèles
 
 Ethos vous permet de créer vos propres dossiers de modèles pour trier et regrouper vos modèles. Les noms de dossier de modèle typiques peuvent être Avion, Planeur, Hélicoptère, Quad, Warbird, Bateau, Voiture, Modèle, Archive, etc.
+
+Tant que vous n'avez pas créé et organisé vos dossiers, Ethos créera automatiquement le dossier « Non trié »
 
 ![](<../.gitbook/assets/2 (1).jpeg>)
 
@@ -14,7 +16,9 @@ Tant que vous n'avez pas créé et organisé vos dossiers, Ethos créera automat
 
 ![](../.gitbook/assets/3.jpeg)
 
-Pour créer votre premier dossier, appuyez sur le « + » à droite de l'étiquette « Non catégorisé ». Entrez le nom dans la boîte de dialogue « Créer un dossier », puis appuyez sur OK. Les noms de dossiers peuvent comporter jusqu'à 15 caractères. Répétez l'opération pour vos autres catégories. Notez que ces dossiers apparaissent sous forme de sous-dossiers sous le dossier \Models sur la carte SD ou eMMC.
+Pour créer votre premier dossier, appuyez sur le « + » à droite de l'étiquette « Non catégorisé ». Entrez le nom dans la boîte de dialogue « Créer un dossier », puis appuyez sur OK. Les noms de dossiers peuvent comporter jusqu'à 15 caractères. Répétez l'opération pour vos autres catégories.
+
+*Notez que ces dossiers apparaissent sous forme de sous-dossiers sous le dossier \Models sur la carte SD ou eMMC.*
 
 Les dossiers de catégories de modèles sont triés par ordre alphabétique, mais le dossier « Non catégorisé » apparaît toujours en dernier dans la liste.
 
@@ -22,7 +26,7 @@ Les dossiers de catégories de modèles sont triés par ordre alphabétique, mai
 
 Appuyez sur le nom d'un dossier pour faire apparaître une boîte de dialogue permettant de renommer ou de supprimer le dossier. S'il y avait des modèles dans le dossier en cours de suppression, Ethos les placera automatiquement dans le dossier « Non classé ».
 
-**Déplacement de modèles vers un autre dossier**
+### Déplacement de modèles vers un autre dossier
 
 ![](../.gitbook/assets/5.jpeg)
 
@@ -30,9 +34,9 @@ Pour déplacer un modèle vers un autre dossier, appuyez sur l'icône du modèle
 
 ![](../.gitbook/assets/6.jpeg)
 
-Appuyez sur le dossier vers lequel le déplacer.
+Choisissez le dossier vers lequel le déplacer.
 
-**Ajout d'un nouveau modèle**
+### Ajout d'un nouveau modèle
 
 ![](../.gitbook/assets/7.jpeg)
 
@@ -56,7 +60,6 @@ Il existe des assistants pour :
 
 Les assistants vous assistent dans la configuration de base pour le type de modèle donné. Notez que les noms de modèles peuvent comporter jusqu'à 15 caractères.
 
-\
 ![](../.gitbook/assets/10.png)
 
 Les assistants incluent la configuration optionnelle de mixages prédéfinis pour les récepteurs stabilisés FrSky.
@@ -69,7 +72,7 @@ Le modèle créé apparaîtra dans le dossier de catégorie de modèle défini p
 
 Par exemple, l'assistant Avion vous aide à configurer la configuration de base d'un modèle d'aéronef à voilure fixe. Il vous guide à travers un certain nombre d'étapes pour configurer la configuration de base du modèle, vous permettant de choisir le nombre de moteurs/moteurs, d'ailerons, de volets, le type d'empennage (par exemple, traditionnel avec profondeur et gouvernail ou empennage en V). Enfin, il vous demande de nommer votre modèle et éventuellement de lier une image de celui-ci. (Veuillez-vous référer à la section Exemple d'avion à voilure fixe de base dans la section Tutoriels de programmation pour un exemple fonctionnel.)
 
-**Réception d'un modèle d'une autre radio Ethos**
+### Réception d'un modèle d'une autre radio Ethos
 
 ![](../.gitbook/assets/12.png)
 
@@ -89,9 +92,9 @@ Sur la radio d'envoi, appuyez sur l'icône du modèle et sélectionnez « Envoye
 ![](../.gitbook/assets/16.png)\
 La radio réceptrice annoncera le fichier modèle sur le point d'être reçu pour confirmation. Appuyez sur Oui pour recevoir le modèle.
 
-**Sélection d'un modèle**
+### Sélection d'un modèle
 
-![](../.gitbook/assets/17.jpeg)
+![Icône Sélection du modèle](../assets/model-icon-modelselect.png)
 
 Appuyez sur « Sélectionner le modèle » pour afficher une liste de vos modèles.
 
@@ -99,11 +102,11 @@ Appuyez sur « Sélectionner le modèle » pour afficher une liste de vos modèl
 
 Veuillez noter qu'après une mise à niveau de la version d'Ethos, ETHOS convertit les modèles individuellement lorsqu'ils sont sélectionnés avec l'écran de sélection des modèles. Il n'est pas nécessaire de sélectionner chaque modèle après une mise à jour car la conversion peut avoir lieu à une date ultérieure lorsqu'ils sont sélectionnés, même avec une version ultérieure d'Ethos. Il n'y a pas de retard notable dans le processus de conversion lorsqu'un modèle est sélectionné. Lorsque la conversion a lieu, la date de dernière modification en bas de l'écran de sélection du modèle passe à la date du jour. Si aucune conversion n'est nécessaire, la date ne change que si vous apportez une modification au modèle.
 
-_**Sélection rapide**_
+### Sélection rapide
 
 Touch\_long ou Enter\_long sur l'icône d'un modèle basculera immédiatement vers ce modèle.
 
-_**Menu de gestion des modèles**_
+### Menu de gestion des modèles
 
 Appuyez sur un modèle pour le mettre en surbrillance, puis appuyez à nouveau dessus pour afficher le menu de gestion des modèles.
 
