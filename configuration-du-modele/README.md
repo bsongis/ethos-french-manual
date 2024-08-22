@@ -10,16 +10,16 @@ Un appui sur l'icône avion en bas de l'écran permet la configuration spécifiq
 
 **Choix modèle**
 
-La liste des modèles par catégorie s'affiche avec leurs images si ces dernières ont été configuré dans "Editer modè..le" et que le fichier .BMP se trouve sur la carte SD.
-L'option de « Sélection du modèle » permet de créer, de sélectionner, d'ajouter, de cloner ou de supprimer des modèles. Il est également utilisé pour créer et gérer des dossiers de catégories de modèles spécifiques à l'utilisateur.
+La liste des modèles par catégorie s'affiche avec leurs images si ces dernières ont été configurées dans "Editer modèle" et que le fichier .BMP se trouve sur la carte SD.
+En sélectionnant un modèle, plusieurs options sont disponibles : sélectionner, dupliquer, déplacer, récevoir / envoyer en BT , ou supprimer des modèles. Il est également utilisé pour créer et gérer des catégories de modèles définies par l'utilisateur.
 
 **Editer modèle**
 
-L'option « Modifier le modèle » est utilisée pour modifier les paramètres de base du modèle tels que configurés par l'assistant, et est principalement utilisée pour modifier le nom ou l'image du modèle. Il est également utilisé pour configurer les inters de fonction, qui sont spécifiques au modèle.
+Modification des paramètres de base du modèle tels que configurés par l'assistant, ainsi que différentes options spécifiques au modèle
 
 **Phases de vol**
 
-Les modes de vol permettent de configurer les modèles pour des tâches spécifiques ou un comportement de vol sélectionnables par inter. Par exemple, les planeurs peuvent être configurés pour avoir des modes de vol tels que le décollage, la croisière, la vitesse et le thermique. Les avions à moteur peuvent avoir des modes de vol pour le vol normal, le décollage et l'atterrissage. Les hélicoptères ont des modes tels que Normal pour la mise en file d'attente et le décollage/atterrissage, Idle Up 1 pour le vol acrobatique et Idle Up 2 pour peut-être 3D.
+Les modes de vol permettent de configurer les modèles pour des tâches spécifiques ou un comportement de vol sélectionnables par inter. Par exemple, les planeurs peuvent être configurés pour avoir des phases de vol tels que le décollage, la croisière, la vitesse et le thermique. Les avions à moteur peuvent avoir des phases de vol pour le vol normal, le décollage et l'atterrissage. Les hélicoptères ont des phases telles que Normal pour la translation et le décollage/atterrissage, Idle Up 1 pour le vol acrobatique et Idle Up 2 pour peut-être 3D.
 
 **Mixages**
 
