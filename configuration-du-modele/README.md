@@ -4,7 +4,7 @@ Un appui sur l'icône avion en bas de l'écran permet la configuration spécifiq
 
 #### Aperçu
 
-![](<../.gitbook/assets/0 (1).png>)
+![Icône Sélection du modèle](../assets/model-icon-modelselect.png)
 
 2 pages sont disponibles pour configurer chaque modèle, en balayant l'écran de droite à gauche et inversement, ou en utilisant le sélecteur rotatif.
 
