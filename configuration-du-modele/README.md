@@ -1,7 +1,7 @@
 # Configuration du modèle
 
 Un appui sur l'icône avion en bas de l'écran permet la configuration spécifique à chaque modèle. Voici une description succinte des fonctions accessibles.
-Chaque section est redéfinie précisemment.
+Chaque section est redéfinie précisemment par la suite.
 
 #### Aperçu
 
