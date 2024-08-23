@@ -1,6 +1,7 @@
 # Configuration du modèle
 
-Un appui sur l'icône avion en bas de l'écran permet la configuration spécifique à chaque modèle. 
+Un appui sur l'icône avion en bas de l'écran permet la configuration spécifique à chaque modèle. Voici une description succinte des fonctions accessibles.
+Chaque section est redéfinie précisemment.
 
 #### Aperçu
 
@@ -15,47 +16,42 @@ En sélectionnant un modèle, plusieurs options sont disponibles : sélectionner
 
 **Editer modèle**
 
-Modification des paramètres de base du modèle tels que configurés par l'assistant, ainsi que différentes options spécifiques au modèle
+Modification des paramètres de base du modèle tels que configurés par l'assistant, ainsi que différentes options spécifiques au modèle.
 
 **Phases de vol**
 
-Les modes de vol permettent de configurer les modèles pour des tâches spécifiques ou un comportement de vol sélectionnables par inter. Par exemple, les planeurs peuvent être configurés pour avoir des phases de vol tels que le décollage, la croisière, la vitesse et le thermique. Les avions à moteur peuvent avoir des phases de vol pour le vol normal, le décollage et l'atterrissage. Les hélicoptères ont des phases telles que Normal pour la translation et le décollage/atterrissage, Idle Up 1 pour le vol acrobatique et Idle Up 2 pour peut-être 3D.
+Les phases de vol permettent de configurer les modèles pour des tâches spécifiques ou un comportement de vol sélectionnables par inter. Par exemple, les planeurs peuvent être configurés pour avoir des phases de vol tels que le décollage, la croisière, la vitesse et le thermique. Les avions à moteur peuvent avoir des phases de vol pour le vol normal, le décollage et l'atterrissage. Les hélicoptères ont des phases telles que Normal pour la translation et le décollage/atterrissage, Idle Up 1 pour le vol acrobatique et Idle Up 2 pour peut-être 3D.
 
 **Mixages**
 
-La section Mixages est l'endroit où les fonctions de contrôle du modèle sont configurées. Il permet de combiner n'importe laquelle des nombreuses sources d'entrée comme on le souhaite et de les mapper sur l'un des voies de sortie.
-
-Cette section permet également de conditionner la source en définissant des Débattement/taux et des décalages, en ajoutant des courbes (ex : Expo). Le mixage peut être soumis à un switch et/ou à des modes de vol, et à l'ajout d'une fonction lente.
+Les mixages définissent les fonctions entre les sources (entrées) et les sorties. En fonction du type de modèle, un choix spécifique de mixages est proposé.
+D'autres fonctions sont accessibles : courses différentes selon la position d'un inter, décalages, courbes (exponentiel, différentiel, perso, etc..), etc..
 
 **Sorties**
 
-La section Sorties est l’interface entre la configuration logique et la réalité avec les servos, le contrôle des gouvernes aussi bien qu’avec les manches et les trims.
-
-Dans les mixages, nous avons mis en place ce que nous voulons que nos différents contrôles fassent. Cette section permet d'adapter ces sorties logiques pures aux caractéristiques mécaniques du modèle. C'est là que nous configurons les portées minimales et maximales, l'inversion du servo ou du canal, et ajustons le neutre du servo ou du canal à l'aide du réglage du subtrim, ou ajoutons un décalage à l'aide du sub-trim. Nous pouvons également définir une courbe pour corriger les problèmes de réponse du monde réel. Par exemple, une courbe peut être utilisée pour s'assurer que les volets gauche et droit suivent avec précision.
+Visualisation des effets des mixages sur les sorties en fonction du déplacement de la commande ou des trims.
+Configuration électronique des neutres / limites mécaniques / sens de déplacement / courbes pour chaque sortie.
+8 pages sont disponibles en glissant les écrans soit 64 voies.
 
 **Chronos**
 
-La section « Chronos » permet de configurer les huit chronos disponibles.
+Configuration jusqu'à 8 chronos par modèle.
 
 **Trims**
 
-La section Trims vous permet de configurer la plage de trim et la taille du pas de trim, ou de configurer le comportement de trim personnalisé pour chacun des 4 sticks de commande. Il permet également de configurer des coupes transversales et des coupes instantanées. Certains modèles ont deux commutateurs de trim supplémentaires T5 et T6, qui sont très utiles pour les réglages en vol. Des trims supplémentaires peuvent être configurées selon les besoins.
+Configuration la plage de trim et ainsi que du pas de trim pour chaque voie trimmable. Accès à toutes les fonctions de transfert de trim vers subtrim, de trim instantané, etc. Les accès aux trims supplémentaires disponibles pour certaines radios.
 
 **Système RF**
 
-Cette section permet de configurer l'ID d'enregistrement du propriétaire et les modules RF internes et/ou externes. C'est également là que la liaison du récepteur a lieu et que les options du récepteur sont configurées.
-
-L'identifiant d'enregistrement du propriétaire est un identifiant à 8 caractères qui contient un code aléatoire unique, qui peut être modifié si vous le souhaitez. Cet identifiant devient l'« ID d'enregistrement » lors de l'enregistrement d'un récepteur. Saisissez le même code dans le champ « ID d'enregistrement du propriétaire » de vos autres émetteurs avec lesquels vous souhaitez utiliser la fonction Smart Share. Cela doit être fait avant de créer le modèle sur lequel vous souhaitez l'utiliser.
+Configuration du système RF pour chaque modèle. Enregistrement de l'ID du propriétaire permettant une identification unique de l'émetteur. Appairage de/des récepteurs, test de portée, etc...  
 
 **Télémétrie**
 
-La télémétrie est utilisée pour transmettre les informations du modèle au pilote RC. Ces informations peuvent être assez étendues et comprennent RSSI (force du signal du récepteur) et VFR (fréquence d'images valide), diverses tensions et courants, ainsi que toute autre sortie de capteur telle que la position GPS, l'altitude, etc.
-
-Notez que les écrans de télémétrie sont configurés en tant que vues principales dans la section Configurer les écrans.
+Configuration et découvertes des capteurs de télémétrie. Activation / Désactivation du mode compétition.
 
 **Checklist**
 
-La section Liste de contrôle est utilisée pour définir des alertes de démarrage pour des éléments tels que la position initiale de l'accélérateur, si la sécurité intégrée est configurée, les positions des potentiomètres et des curseurs et les positions initiales des inters.
+Définition des positions des différents inters / potentiomètres, position du manche des gaz, etc.. afin de s'assurer d'avoir l'ensemble de la radio correctement configurée avant l'alimentation du récepteur. Chaque modèle possède sa propre checklist.
 
 **Inters logiques**
 
