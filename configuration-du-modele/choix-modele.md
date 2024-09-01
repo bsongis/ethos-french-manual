@@ -6,31 +6,28 @@ L'option de sélection du modèle est accessible en sélectionnant « Sélection
 
 ### Gestion des dossiers de modèles
 
-Ethos vous permet de créer vos propres dossiers de modèles pour trier et regrouper vos modèles. Les noms de dossier de modèle typiques peuvent être Avion, Planeur, Hélicoptère, Quad, Warbird, Bateau, Voiture, Modèle, Archive, etc.
-
-Tant que vous n'avez pas créé et organisé vos dossiers, Ethos créera automatiquement le dossier « Non trié »
+Ethos vous permet de créer vos propres dossiers pour trier et regrouper vos modèles. 
+Chaque nouveau modèle crée, reçu, ou stocké dans le répertoire /models de la carte SD ou eMMC sera stocké dans le dossier "non trié". Ethos supprime automatiquement ce dernier quand il est vide.
 
 ![](<../.gitbook/assets/2 (1).jpeg>)
 
-Tant que vous n'avez pas créé et organisé vos dossiers, Ethos créera automatiquement le dossier « Non trié ». Cela se produit lorsque vous effectuez une mise à niveau vers Ethos version 1.1.0 alpha 17 ou ultérieure, ou lorsque vous copiez un modèle du réseau ou d'un ami dans le dossier \Models de la carte SD ou eMMC. Ethos supprimera automatiquement le dossier « Non trié » lorsqu'il n'en aura plus besoin.
-
 ![](../.gitbook/assets/3.jpeg)
 
-Pour créer votre premier dossier, appuyez sur le « + » à droite de l'étiquette « Non catégorisé ». Entrez le nom dans la boîte de dialogue « Créer un dossier », puis appuyez sur OK. Les noms de dossiers peuvent comporter jusqu'à 15 caractères. Répétez l'opération pour vos autres catégories.
+Pour créer un dossier, appuyez « + » en aut à droite. Entrez le nom dans la boîte de dialogue « Créer nouveau dossier », puis appuyez sur OK. Les noms peuvent comporter jusqu'à 15 caractères. Répétez l'opération pour vos autres dossiers.
 
-*Notez que ces dossiers apparaissent sous forme de sous-dossiers sous le dossier \Models sur la carte SD ou eMMC.*
+NB: ces dossiers apparaissent sous forme de sous-répertoires sous le répertoire \models sur la carte SD ou eMMC, selon la radio.
 
-Les dossiers de catégories de modèles sont triés par ordre alphabétique, mais le dossier « Non catégorisé » apparaît toujours en dernier dans la liste.
+Les dossiers sont triés par ordre alphabétique, hormis le dossier « Non trié », toujours en dernier dans la liste.
 
 ![](<../.gitbook/assets/4 (1).jpeg>)
 
-Appuyez sur le nom d'un dossier pour faire apparaître une boîte de dialogue permettant de renommer ou de supprimer le dossier. S'il y avait des modèles dans le dossier en cours de suppression, Ethos les placera automatiquement dans le dossier « Non classé ».
+Un appui sur le nom de dossier fait apparaitre une boit ede dialogue afin de renommer, supprimer un dossier. Si des modèles étaient toujours présents dans le dossier supprimén Ethos les déplacent automatiquement dans "Non trié".
 
-### Déplacement de modèles vers un autre dossier
+### Déplacement d'un modèle vers un autre dossier
 
 ![](../.gitbook/assets/5.jpeg)
 
-Pour déplacer un modèle vers un autre dossier, appuyez sur l'icône du modèle, puis sélectionnez « Modifier le dossier » dans la boîte de dialogue.
+Pour déplacer un modèle vers un autre dossier, appuyez sur l'icône du modèle, puis sélectionnez « Déplacer » dans la boîte de dialogue.
 
 ![](../.gitbook/assets/6.jpeg)
 
