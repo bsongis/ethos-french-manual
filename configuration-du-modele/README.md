@@ -1,7 +1,7 @@
 # Configuration du modèle
 
 Un appui sur l'icône avion en bas de l'écran permet la configuration spécifique à chaque modèle. Voici une description succinte des fonctions accessibles.
-Chaque section est redéfinie précisemment par la suite.
+Chaque section est décrite précisemment par la suite.
 
 #### Aperçu
 
@@ -55,28 +55,23 @@ Définition des positions des différents inters / potentiomètres, position du 
 
 **Inters logiques**
 
-Les inters logiques sont des inters virtuels programmés par l'utilisateur. Ce ne sont pas des inters physiques que vous basculez d'une position à une autre, mais ils peuvent être utilisés comme déclencheurs de programme de la même manière que n'importe quel interrupteur physique. Ils sont activés et désactivés en évaluant les conditions de la programmation. Ils peuvent utiliser une variété d'entrées telles que des inters physiques, d'autres inters logiques et d'autres sources telles que des valeurs de télémétrie, des valeurs de canal, des valeurs de chrono ou des variables. Ils peuvent même utiliser les valeurs renvoyées par un script de modèle LUA.
+Les inters logiques sont des inters virtuels programmés par l'utilisateur. Ils sont activés et désactivés en fonction de conditions. Ils peuvent utiliser une variété d'entrées telles que des inters physiques, d'autres inters logiques et d'autres sources telles que des valeurs de télémétrie, des valeurs de voie, de chrono ou des variables. Ils peuvent même utiliser les valeurs renvoyées par un script de modèle LUA.
 
 **Fonctions**
 
-C'est là que les inters peuvent être utilisés pour déclencher des fonctions spéciales telles que le mode d'entraînement, la lecture de la bande sonore, la sortie vocale des variables, l'enregistrement des données, etc. Les fonctions spéciales sont utilisées pour configurer des fonctions spécifiques au modèle.
+Les fonctions spéciales, qui peuvent être globales à tous les modèles avec une option, permettent d'activer différentes actions telles que la lecture de fichier audio, la lecture de valeurs de télémétrie, l'enregistrement des données, la lecture du vario, etc..
 
 **Courbes**
 
-Les courbes personnalisées peuvent être utilisées dans la mise en forme des entrées, dans les mixages ou dans les sorties. Il y a 50 courbes disponibles, et peuvent être de plusieurs types (entre 2 et 21 points, avec des coordonnées x fixes ou définissables par l'utilisateur).
-
-Dans les mixages, une application typique utilise une courbe d'exposition pour adoucir la réponse autour du manche. Une courbe peut également être utilisée pour lisser un mixage de compensation volets-profondeur afin que l'avion ne se gonfle pas lorsque les volets sont serrés.
-
-Dans les sorties, une courbe d'équilibrage peut être utilisée pour assurer un suivi précis des volets gauche et droit.\
-
+Les courbes personnalisées peuvent être appliquées sur des entrées, des mixages ou des sorties. 50 courbes sont possibles, et peuvent être de plusieurs types (entre 2 et 21 points, avec des coordonnées x fixes ou définissables par l'utilisateur).
 
 **Vars**
 
-Les variables (Vars) peuvent être utilisées pour nommer et stocker les paramètres de réglage d'un modèle d'une manière qui peut ensuite être référencée ailleurs dans la programmation radio, y compris les mixages. Les variables peuvent être considérées comme des conteneurs qui contiennent des informations.
+Les variables (Vars) sont utilisées afin de faciliter les réglages d'un modèle en vol. Elles sont modifiables par différentes actions ( trim / Potentiomètre / etc. ) . Une fois les valeurs satisfasantes, Les paramètres peuvent être remplacer par la valeur de la VAR. Cela permet d'éviter systémaiquement de se poser afin de changer une valeur et recommencer.
 
 **Ecolage**
 
-La section Ecolage est utilisée pour définir la radio en tant que maître ou élève dans une configuration d'entraînement. La liaison avec le trainer peut se faire via Bluetooth ou un câble.
+La section Ecolage est utilisée pour définir la radio en tant que maître ou élève dans une configuration d'entraînement. La liaison avec le trainer peut se faire via Bluetooth entre 2 radios FrSky équipées ou via un câble. Voir aussi la possibilité d'écolage inversé avec 2 radios FrSky
 
 **Lua**
 
