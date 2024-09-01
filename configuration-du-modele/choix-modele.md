@@ -21,7 +21,7 @@ Les dossiers sont triés par ordre alphabétique, hormis le dossier « Non trié
 
 ![](<../.gitbook/assets/4 (1).jpeg>)
 
-Un appui sur le nom de dossier fait apparaitre une boit ede dialogue afin de renommer, supprimer un dossier. Si des modèles étaient toujours présents dans le dossier supprimén Ethos les déplacent automatiquement dans "Non trié".
+Un appui sur le nom de dossier fait apparaitre une boite de dialogue afin de renommer, supprimer un dossier. Si des modèles étaient toujours présents dans le dossier supprimé Ethos les déplace automatiquement dans "Non trié".
 
 ### Déplacement d'un modèle vers un autre dossier
 
@@ -77,14 +77,14 @@ Pour recevoir un modèle, sélectionnez la catégorie de modèle dans laquelle v
 
 ![](../.gitbook/assets/13.png)
 
-Appuyez sur « Recevoir le modèle » pour lancer le processus de réception d'un modèle d'une autre radio Ethos via Bluetooth.
+Appuyez sur « Recevoir » pour lancer le processus de réception d'un modèle d'une autre radio Ethos via Bluetooth.
 
 ![](../.gitbook/assets/14.png)
 
 Votre radio passera en mode d'attente et affichera également son adresse Bluetooth locale pour permettre l'identification de l'adresse correcte sur la radio émettrice.
 
 ![](../.gitbook/assets/15.png)\
-Sur la radio d'envoi, appuyez sur l'icône du modèle et sélectionnez « Envoyer le modèle » pour lancer le transfert.
+Sur la radio d'envoi, appuyez sur l'icône du modèle et sélectionnez « Envoyer » pour débuter le transfert.
 
 ![](../.gitbook/assets/16.png)\
 La radio réceptrice annoncera le fichier modèle sur le point d'être reçu pour confirmation. Appuyez sur Oui pour recevoir le modèle.
@@ -93,11 +93,13 @@ La radio réceptrice annoncera le fichier modèle sur le point d'être reçu pou
 
 ![Icône Sélection du modèle](../assets/model-icon-modelselect.png)
 
-Appuyez sur « Sélectionner le modèle » pour afficher une liste de vos modèles.
+Appuyez sur « Choix modèle » pour afficher une liste de vos modèles.
 
 ![](../.gitbook/assets/18.jpeg)
 
 Veuillez noter qu'après une mise à niveau de la version d'Ethos, ETHOS convertit les modèles individuellement lorsqu'ils sont sélectionnés avec l'écran de sélection des modèles. Il n'est pas nécessaire de sélectionner chaque modèle après une mise à jour car la conversion peut avoir lieu à une date ultérieure lorsqu'ils sont sélectionnés, même avec une version ultérieure d'Ethos. Il n'y a pas de retard notable dans le processus de conversion lorsqu'un modèle est sélectionné. Lorsque la conversion a lieu, la date de dernière modification en bas de l'écran de sélection du modèle passe à la date du jour. Si aucune conversion n'est nécessaire, la date ne change que si vous apportez une modification au modèle.
+
+NB: il est souhaitable de faire une sauvegarde avec Suite avant toute mise à jour afin de pouvoir revenir en arrière en cas de problème.
 
 ### Sélection rapide
 
@@ -111,7 +113,8 @@ Appuyez sur un modèle pour le mettre en surbrillance, puis appuyez à nouveau d
 
 Options dans le menu de gestion des modèles :
 
-* Appuyez sur « Définir le modèle actuel » pour faire du modèle en surbrillance le modèle actuel.
-* Vous pouvez cloner le modèle, ce qui dupliquera le modèle. Veuillez noter que lorsque vous clonez un modèle, Ethos attribue au clone un nouveau numéro de récepteur. Si vous lui donnez l'ancien numéro de récepteur, cela fonctionnera, pas besoin de relier.
+* Appuyez sur « Sélectionner » pour faire du modèle en surbrillance le modèle actuel.
+* Vous pouvez dupliquer le modèle. Le modèle dupliqué aura un numéro de récepteur different.Il n'est pas nécessaire d'appairer à nouveau si le récepteur possède le même numéro.
 * Vous modifiez le dossier du modèle.
-* Vous pouvez également supprimer le modèle. Notez que l'option Supprimer n'apparaît que si le modèle sélectionné n'est pas le modèle actuel.
+* Vous pouvez également supprimer le modèle.
+NB: L'option "Supprimer" n'apparaît que si le modèle sélectionné n'est pas le modèle actuel.
