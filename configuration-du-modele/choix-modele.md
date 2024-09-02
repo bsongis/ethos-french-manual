@@ -2,7 +2,7 @@
 
 ![Icône Sélection du modèle](../assets/model-icon-modelselect.png)
 
-L'option de sélection du modèle est accessible en sélectionnant « Sélection du modèle » dans le menu Modèle. Il permet de sélectionner le modèle actuel, d'ajouter un nouveau modèle, de le cloner ou de le supprimer.
+L'option de sélection du modèle est accessible en sélectionnant « Choix modèle » dans le menu Modèle. Il permet de sélectionner le modèle actuel, d'ajouter un nouveau modèle, de le cloner ou de le supprimer.
 
 ### Gestion des dossiers de modèles
 
@@ -31,7 +31,7 @@ Pour déplacer un modèle vers un autre dossier, appuyez sur l'icône du modèle
 
 ![](../.gitbook/assets/6.jpeg)
 
-Choisissez le dossier vers lequel le déplacer.
+Choisissez le dossier cible.
 
 ### Ajout d'un nouveau modèle
 
@@ -41,7 +41,7 @@ Pour créer un nouveau modèle, sélectionnez la catégorie de modèle sous laqu
 
 ![](<../.gitbook/assets/8 (1).png>)
 
-Appuyez sur l'icône \[+] pour lancer l'assistant « Créer un modèle ». (Vous devrez peut-être d'abord créer vos catégories de modèles, voir ci-dessus.)
+Appuyez sur l'icône [+] pour lancer l'assistant « Créer un modèle ». (Vous devrez peut-être d'abord créer vos catégories de modèles, voir ci-dessus.)
 
 ![](<../.gitbook/assets/9 (1).jpeg>)
 
