@@ -13,7 +13,7 @@ Chaque nouveau modèle crée, reçu, ou stocké dans le répertoire /models de l
 
 ![](../.gitbook/assets/3.jpeg)
 
-Pour créer un dossier, appuyez « + » en aut à droite. Entrez le nom dans la boîte de dialogue « Créer nouveau dossier », puis appuyez sur OK. Les noms peuvent comporter jusqu'à 15 caractères. Répétez l'opération pour vos autres dossiers.
+Pour créer un dossier, appuyez [+] » en aut à droite. Entrez le nom dans la boîte de dialogue « Créer nouveau dossier », puis appuyez sur OK. Les noms peuvent comporter jusqu'à 15 caractères. Répétez l'opération pour vos autres dossiers.
 
 NB: ces dossiers apparaissent sous forme de sous-répertoires sous le répertoire \models sur la carte SD ou eMMC, selon la radio.
 
@@ -37,11 +37,11 @@ Choisissez le dossier cible.
 
 ![](../.gitbook/assets/7.jpeg)
 
-Pour créer un nouveau modèle, sélectionnez la catégorie de modèle sous laquelle vous souhaitez créer le modèle, puis appuyez sur l'icône \[+] pour créer un nouveau modèle ou pour recevoir un modèle d'une autre radio Ethos via Bluetooth.
+Pour créer un nouveau modèle, sélectionnez la catégorie de modèle sous laquelle vous souhaitez créer le modèle, puis appuyez sur l'icône [+] pour créer un nouveau modèle ou pour recevoir un modèle d'une autre radio Ethos via Bluetooth.
 
 ![](<../.gitbook/assets/8 (1).png>)
 
-Appuyez sur l'icône [+] pour lancer l'assistant « Créer un modèle ». (Vous devrez peut-être d'abord créer vos catégories de modèles, voir ci-dessus.)
+Appuyez sur l'icône /[+] pour lancer l'assistant « Créer un modèle ». (Vous devrez peut-être d'abord créer vos catégories de modèles, voir ci-dessus.)
 
 ![](<../.gitbook/assets/9 (1).jpeg>)
 
