@@ -53,7 +53,7 @@ Décompose les 6 inters de fonction en 6 inters momentanés. Chaque interrupteur
 
 **Permanent**
 
-Si cette option est activée, l’inter de fonction sera dans le même état lorsque la radio sera allumée ou que le modèle sera rechargé.
+Si cette option est activée, l’inter de fonction sera dans le même état lors de la sélection du même modèle ou de la mise en marche de la radio.
 
 **Connecteur SPort**
 
@@ -65,10 +65,10 @@ La broche 5V sur le connecteur SPort peut être contrôlée modèle par modèle,
 
 ![](<../.gitbook/assets/5 (3).jpeg>)![](<../.gitbook/assets/6 (3).jpeg>)
 
-Il existe un paramètre global de filtre de convertisseur analogique-numérique sur la page Matériel sous Filtre analogique, ce qui peut améliorer la gigue autour du centre du manche. Ce paramètre spécifique au modèle peut être utilisé pour remplacer le paramètre global.
+Il existe un paramètre global de filtre de convertisseur analogique-numérique sur la page Matériel sous Filtre analogique, ce qui peut améliorer la détection autour du centre du manche. Ce paramètre spécifique au modèle peut être utilisé pour remplacer le paramètre global.
 
 **Supprimer tous les mixages**
 
 ![](<../.gitbook/assets/7 (3).png>)
 
-L'exécution de l'option « Réinitialiser tous les mixages » réinitialisera tous les mixages.
+L'exécution de l'option « Suppression mixages » réinitialisera tous les mixages.
