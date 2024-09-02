@@ -8,7 +8,7 @@ Il y a 8 chronos entièrement programmables qui peuvent compter vers le haut ou 
 
 ![](../.gitbook/assets/2.jpeg)
 
-Toucher n'importe quelle ligne de chrono fait apparaître une fenêtre contextuelle avec des options permettant de réinitialiser ou de modifier ce chrono, d'ajouter un nouveau chrono ou de déplacer ou de copier/coller le chrono.
+Toucher n'importe quelle ligne de chrono fait apparaître une fenêtre contextuelle avec des options permettant de réinitialiser ou de modifier ce chrono, d'ajouter un nouveau chrono ou de déplacer, de copier/coller le chrono, de dupliquer ou de le supprimer.
 
 **minuteur (vers le bas, diminue)**
 
