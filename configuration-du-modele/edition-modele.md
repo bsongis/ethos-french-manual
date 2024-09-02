@@ -2,13 +2,13 @@
 
 ![Icône édition du modèle](../assets/model-icon-edit.png)
 
-L'option 'Modifier le modèle' permet de modifier les paramètres de base du modèle tels qu'ils ont été configurés par l'assistant.
+L'option 'Editer modèle' permet de modifier les paramètres de base du modèle tels qu'ils ont été configurés par l'assistant.
 
 ![Edition du modèle](../assets/model-edit.png)
 
 **Nom, Image**
 
-Le modèle peut être renommé, ou l'image peut être attribuée ou modifiée. Lors de la recherche d'une image, une vignette d'aperçu s'affiche pour faciliter la localisation de l'image correcte.
+Le modèle peut être renommé, une image peut être attribuée ou modifiée. Lors de la recherche d'une image, une vignette d'aperçu s'affiche pour faciliter le choix de l'image.
 
 **Type de modèle**
 
@@ -22,7 +22,8 @@ La modification du type d'empennage ou du plateau oscillant de l'hélicoptère e
 
 ![](<../.gitbook/assets/2 (4).jpeg>)
 
-Les six inters de fonction sont disponibles partout où se trouvent les paramètres de « condition active ». Veuillez noter qu'ils ne peuvent pas être utilisés comme source comme le peuvent les inters normaux.
+Les six inters de fonction sont disponibles partout où se trouvent les paramètres de « condition active ». 
+NB : Ils ne peuvent pas être utilisés comme source comme les inters standards.
 
 ![](<../.gitbook/assets/3 (4).jpeg>)
 
@@ -58,7 +59,7 @@ Si cette option est activée, l’inter de fonction sera dans le même état lor
 
 ![](<../.gitbook/assets/4 (3).jpeg>)
 
-La broche 5V sur le connecteur SPort peut être contrôlée modèle par modèle, pour alimenter par exemple un récepteur externe dans une application d'entraînement.
+La broche 5V sur le connecteur SPort peut être contrôlée modèle par modèle, pour alimenter par exemple un récepteur externe pour une fonction d'écolage par exemple.
 
 **Filtre analogique**
 
