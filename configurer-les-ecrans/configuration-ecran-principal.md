@@ -40,7 +40,7 @@ Le widget peut également afficher un bitmap utilisateur, qui doit se trouver da
 
 Le widget Valeur affiche simplement la valeur de la source sélectionnée.
 
-	**Valeur min/max**
+**Valeur min/max**
 
 ![](../.gitbook/assets/????????.jpeg)
 
