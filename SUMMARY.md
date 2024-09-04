@@ -23,3 +23,7 @@
   * [Chronos](configuration-du-modele/chronos.md)
   * [Trims](configuration-du-modele/trims.md)
   * [Page 1](configuration-du-modele/page-1.md)
+* [Configurer les écrans](configurer-les-ecrans/README.md)
+  * [Configuration de l'écran principal](configurer-les-ecrans/configuration-ecran-principal.md)
+  * [Ajout d'écrans supplémentaires](configurer-les-ecrans/ajout-ecrans-supplementaires.md)
+  * [Ajout de widgets personnalisés](configurer-les-ecrans/ajout-widgets-personnalises.md)
