@@ -32,18 +32,18 @@ Durée d'utilisation de la radio depuis la mise en service de la radio ou une r�
 
 ![Erreurs](../assets/system-info-errors.png)
 
-Lorsque Ethos détecte une erreur, une icône d'avertissement d'erreur en triangle rouge s'affiche dans la barre supérieure de la vue principale.
+Lorsque Ethos détecte une erreur, un avertissement représenté par un triangle rouge s'affiche dans la barre supérieure de la vue principale.
 
 Les erreurs peuvent être dues à :
 
 **Erreurs de script Lua**\
-**Les problèmes liés au script Lua entraîneront des messages d'erreur.**\
+Les problèmes liés au script Lua entraîneront des messages d'erreur.
 
 **RAM backup error (erreur Mémoire de sauvegarde)**\
-**Un modèle peut être si énorme qu'il dépasse la RAM de sauvegarde. ETHOS a maintenant étendu l'espace RAM pour la sauvegarde des modèles de 4k à 32k, il est donc peu probable qu'il soit dépassé maintenant. Il s'agit d'une erreur majeure qui ralentira le chargement du modèle en mode d'urgence à partir de la carte SD au lieu de la RAM de secours.**\
+Chaque modèle dispose d'un espace mémoire de 32Ko qui permet de créer des modèles complexes. Le bon fonctionnement du modèle risque d'être problématique car il devra systématiquement être chargé depuis la carte SD.
 
-**Exécution d'une version de developpement / test  du firmware**\
-**Si une version de test du firmware a été chargée, l'icône d'avertissement sert à rappeler à l'utilisateur que ces versions ne sont pas sécurisées pour voler.**\
+**Exécution d'une version de developpement / test  du firmware (nightly)**\
+Si une version de test du firmware a été installée, l'icône d'avertissement sert à rappeler que cette version n'est pas destinée à voler.
 
 ### Manches
 
