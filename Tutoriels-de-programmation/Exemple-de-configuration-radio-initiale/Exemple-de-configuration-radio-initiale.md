@@ -1,4 +1,4 @@
-# Exemple de configuration radio initiale
+## Exemple de configuration radio initiale
 
 Cette section introductive décrit les étapes initiales de la configuration de la radio elle-même, avant de programmer des modèles spécifiques. Une fois terminé, n'importe lequel des exemples de programmation des sections suivantes peut être suivi.
 
