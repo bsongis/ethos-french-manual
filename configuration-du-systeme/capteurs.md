@@ -2,7 +2,7 @@
 
 ![Icône Capteurs](../assets/system-icon-devices.png)
 
-La page "capteurs" permet de configurer des périphériques FrSKy tels que des capteurs, des récepteurs avec Gyro intégré, le GasSuite, des servos, des émetteurs vidéo, etc...
+Frsky propose une série de capteurs et périphériques qui sont paramétrables par Ethos. 
 
 ![Capteurs](../assets/system-devices.png)
 
@@ -25,15 +25,18 @@ Les capteurs / périphériques suivants sont actuellement pris en charge :
 * Température
 * Inter NFC à distance
 
-Veuillez vous référer au manuel de l'appareil pour plus de détails.
+NB : Référez-vous  au manuel de chaque capteur / périphérique pour les options disponibles.
 
-Veuillez noter que la page « Capteurs » permet la modification des adresses physiques d'un capteur S.Port et des adresses d'application. Si vous avez plusieurs périphériques / Capteurs ayant les mêmes adresses, vous devez les connecter un par un, les découvrir dans la configuration du modèle / " Télémétrie / Découverte capteurs ", puis dans « Capteurs », modifier l'ID physique et l'ID d'application, puis revenir en arrière et les redécouvrir avec le nouvel ID. Reportez vous à la section Télémétrie S.Port.
+Veuillez noter que l'écran « Configuration de l'appareil » d'ETHOS vous permet de modifier les ID physiques du capteur S.Port et les ID d'application. Si vous avez plusieurs appareils qui ont la même fonction, vous devez les connecter un par un, les découvrir dans Télémétrie / « Découvrir de nouveaux capteurs », puis dans « Configuration de l'appareil », modifier l'ID physique et l'ID d'application, puis revenir en arrière et les redécouvrir avec le nouvel ID. Reportez-vous à la section Télémétrie SmartPort.
 
-Exemple de configuration du capteur d'intensité :
+### Sélection du module
+Choix du module RF à utiliser pour la configuation du capteur / Périphérique
 
-La configuration du capteur peut-être effectué via un ou des modules RF ou via le connecteur S.Port de la radio.
-
-![Capteur de courant](../assets/system-devices-current.png)
+Les options de sélection du module à utiliser sont les suivantes :
+Les deux modules RF
+Module RF interne
+Module RF externe
+Connecteur S.Port sur la radio.
 
 ![Choix du module](../assets/system-devices-module-choice.png)
 
