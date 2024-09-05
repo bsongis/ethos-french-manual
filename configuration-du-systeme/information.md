@@ -2,7 +2,9 @@
 
 ![Icône Information](../assets/system-icon-info.png)
 
-La page d'informations affiche des informations sur la version du firmawe de la radio, le type de manches installe, la version du firmwre du module RF, les versions de firmware des récepteur ACCESS, TD ou TW et des informations sur le module externe si disponibles.
+La page d'informations affiche des informations sur la version du firmware de la radio, du type de manches installés, la version du firmware du module RF interne, la version du firmware du récepteur ACCESS, TD ou TW et des informations sur le module RF externe.
+
+NB: Ethos ne peut pas lire la version du multimodule si ce dernier est utilisé.
 
 ![Information](../assets/system-info.png)
 
@@ -25,8 +27,6 @@ Date et heure de la version du firmware.
 ### Utilisation radio
 
 Durée d'utilisation de la radio depuis la mise en service de la radio ou une réinitialisation d'usine.
-
-NB : Ce paramètre ne peut être réinitialisé pour le moment sans une réinitialisation d'usine.
 
 ### Erreurs
 
