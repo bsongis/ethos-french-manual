@@ -47,32 +47,30 @@ Si une version de test du firmware a été installée, l'icône d'avertissement 
 
 ### Manches
 
-La version capteur à effet Hall des manches installée. L'ADC est pour l'analogique.
+La version des capteurs à effet Hall sur les manches installée. L'ADC est pour l'analogique.
 
 ### Module interne
 
-Détails du module RF interne, y compris les versions du matériel et du micrologiciel.
+Détails du module RF interne, y compris les versions du matériel et du firmware.
 
 ![Version du module interne](../assets/system-info-internal-module.png)
 
 ### Récepteurs
 
-Les détails des récepteurs liés sont affichés après le module interne. Si un récepteur redondant est lié au même emplacement que le récepteur principal, les détails du récepteur s'affichent alternativement à l'écran. L'exemple ci-dessus montre un Archer SR10 Pro et son R9MM-OTA redondant est illustré par rapport aux détails du récepteur1.
+Les détails du récepteur appairé sont affichés après le module interne. Si un récepteur redondant est lié au même emplacement que le récepteur principal, les détails du récepteur s'affichent alternativement à l'écran. L'exemple ci-dessus montre un Archer SR10 Pro et son R9MM-OTA redondant.
 
 ### Module externe
 
-Détails de tout module RF FrSky externe (le cas échéant), y compris les versions du matériel et du micrologiciel si le protocole ACCESS.
+Détails de tout module RF FrSky externe (le cas échéant), y compris les versions du matériel et du firmware si le protocole ACCESS.
 
-NB : Les infos des multimodules ne sont pas affichées à ce jour.
+NB : Les multimodules ne sont pas affichés.
 
 ### Réinitialiser paramètres usine
 
-Permet de rétablir les paramètres d'usine de la radio. Aucune connexion USB PC n'est nécessaire.
+Permet de rétablir les paramètres d'usine de la radio. 
 
 ![Réinitialisation de la radio](../assets/system-info-factory-reset.png)
 
 Lorsque vous confirmez que vous souhaitez réinitialiser les paramètres d'usine, la radio efface tous les modèles, les fichiers journaux, les captures d'écran, les documents, les scripts, les bitmaps et les paramètres de la radio.
 
 ![Confirmation de réinitialisation de la radio](../assets/system-info-factory-reset-confirm.png)
-
-Une barre de progression est affichée pendant le processus d'effacement, puis la radio redémarre, avec les paramètres par défaut d'usine.
