@@ -1,7 +1,7 @@
 # Tutoriels de programmation
 
 Cette section décrit quelques exemples de programmation pour un certain nombre de modèles, précédés d'une section de configuration radio de base couvrant les réglages de base nécessaires pour n'importe quel modèle.
-- [Exemple de configuration radio initiale](Tutoriels-de-programmation/Exemple-de-configuration-radio-initiale)
+- [Exemple de configuration radio initiale](Exemple-de-configuration-radio-initiale)
 - Exemple de modèle d'alimentation de base
 - Exemple simple de planeur 4 voies
 - Exemple d'aile de base
