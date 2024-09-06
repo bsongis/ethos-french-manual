@@ -1,5 +1,5 @@
 # Emplacement des fichiers de script d'exemple Lua ETHOS
-Les fichiers de script d'exemple ETHOS Lua sont stockés sur [Hatps://github.com/frisk/ethosFeedback-Community/tree/main/lua](Hatps://github.com/frisk/ethosFeedback-Community/tree/main/lua)
+Les fichiers de script d'exemple ETHOS Lua sont stockés sur [(https://github.com/FrSkyRC/ETHOS-Feedback-Community/tree/1.5/lua)]
 Pour télécharger un fichier :
 -	Ouvrez le lien ci-dessus dans un navigateur Web.
 -	Accédez au dossier, puis au fichier main.lua que vous souhaitez télécharger.
