@@ -3,86 +3,80 @@
 #### Mixages <a href="#toc170159560" id="toc170159560"></a>
 
 ![](<../.gitbook/assets/0 (3).jpeg>)\
-La fonction Mixages constitue le cœur de la radio. C'est là que les fonctions de contrôle du modèle sont configurées. La section Mixages permet de mixer ou de combiner n'importe laquelle des nombreuses sources d'entrée à volonté et de les mapper sur l'un des voies de sortie. Ethos dispose de 100 voies de mixage pour la programmation de votre modèle. Normalement, les voies numérotées les plus bas seront attribués aux servos, car les numéros de canal correspondent directement aux voies du récepteur. Le module RF (radiofréquence) interne dispose de jusqu'à 24 voies de sortie.
 
-Les voies de mixage supérieurs peuvent être utilisés comme « voies virtuels » dans une programmation plus avancée, ou comme voies réels en utilisant plusieurs modules RF (internes + externes) et SBus. L'ordre des voies est une question de préférence personnelle ou de convention, ou il peut être dicté par le récepteur. Nous utiliserons APGD (Aileron, Profondeur, Gaz, Dérive) pour notre exemple.
-
-La source ou l'entrée d'un mixage peut être choisie à partir d'entrées analogiques telles que les manches, les potentiomètres et les curseurs ; les interrupteurs à bascule ou les boutons ; tous les inters logiques définis ; les inters de trim ; tous les voies définis ; un axe gyroscopique ; un canal d'entraînement ; une chrono ; un capteur de télémétrie ; une valeur du système telle que la tension radio principale ou la tension de la batterie RTC ; ou une valeur 'spéciale' telle que 'minimum', 'maximum' ou 0.
-
-Cette section permet également de conditionner la source en définissant des Débattement/taux et des décalages, et en ajoutant des courbes (ex : Expo). Le mixage peut être soumis à un switch et/ou à des modes de vol, et une fonction slow peut être ajoutée. (Notez que les retards sont implémentés dans les inters logiques, car ils sont liés aux inters.)
-
-L'éditeur de mixage inclut des informations d'aide contextuelle qui changent dynamiquement lorsque les options de mixage sont touchées. La première ligne indique le type de mixage utilisé, tel que 'Aileron', 'Elevators' ou 'Free Mix', etc.
-
-Jusqu'à 120 mixages peuvent être définis. Un nouveau mix peut également être ajouté en appuyant sur le symbole '+' à côté des en-têtes de colonne sur l'écran principal des mixages.
+La fonction Mixages constitue le cœur de la radio. C'est là que les fonctions de contrôle du modèle sont configurées. La section Mixages permet de mixer ou de combiner n'importe laquelle des nombreuses sources d'entrée à volonté et de les diriger sur l'un des voies de sortie. Ethos dispose de 100 possibilités de mixage pour la programmation de votre modèle. Normalement, les voies numérotées les plus bas seront attribués aux servos, car les numéros correspondent géneralement aux voies du récepteur. Le module RF (radiofréquence) interne permet jusqu'à 24 voies physiques?.
+Il est conseillé d'utiliser les mixages au dela de 24 comme « voies virtuelles » dans une programmation avancée, ou comme voies réels en utilisant plusieurs modules RF (internes + externes) et SBus. L'ordre des voies est une question de préférence personnelle ou de convention, ou il peut être dicté par le récepteur. Nous utiliserons APGD (Aileron, Profondeur, Gaz, Dérive) pour notre exemple. (en anglais AETR)
+La source ou l'entrée d'un mixage peut être choisie à partir d'entrées analogiques telles que les manches, les potentiomètres et les curseurs ; les interrupteurs à bascule ou les boutons ; tous les inters logiques définis ; les inters de trim ; tous les voies définies ; un axe gyroscopique ; une voie élève ; un chrono ; un capteur de télémétrie ; une valeur du système telle que la tension radio principale ou la tension de la batterie RTC ; ou une valeur 'spéciale' telle que 'minimum', 'maximum' ou 0.
+Cette section permet également de conditionner la source en définissant des courses ( débattements) et des décalages, et en ajoutant des courbes (ex : Expo). Le mixage peut être soumis à un switch et/ou à des pahses de vol, et une fonction de ralenti peut être ajoutée. (Notez que les retards sont implémentés dans les inters logiques, car ils sont liés aux inters.) 
+L'éditeur de mixage inclut des informations d'aide contextuelle qui changent dynamiquement lorsque les options de mixage sont modifiées. La première ligne indique le type de mixage utilisé, tel que 'Ailerons', 'Profondeur' ou 'Mixage libre', etc. 
+Jusqu'à 120 mixages peuvent être définis. Un nouveau mixage peut également être ajouté en appuyant sur le symbole '+'..
 
 ![](<../.gitbook/assets/1 (3).png>)
 
-Si votre modèle a été créé à l'aide de l'un des assistants de création de modèle de la fonction « Sélection de modèle » du menu Système, les mixages de base s'afficheront lorsque vous appuierez sur « Mixages ».
-
-De plus, les mixages prédéfinis les plus courants peuvent être ajoutés ainsi que des mixages libres configurables par l'utilisateur. Dans l'écran principal des mixages (voir ci-dessus), de nouveaux mixages peuvent être ajoutés en appuyant sur le symbole « + » à côté des en-têtes de colonne. Il y a un mixage pour chaque contrôle et un affichage graphique pour ce mixage.
+Si votre modèle a été créé à l'aide d'un assistant  « Choix modèle » du menu Système, les mixages de base apparaitront dans cette section. 
+De plus, les mixages prédéfinis les plus courants peuvent être ajoutés ainsi que des mixages libres configurables par l'utilisateur. 
 
 ![](<../.gitbook/assets/2 (5).jpeg>)
 
-Pour modifier un mixage, touchez-le et touchez-le à nouveau pour accéder au menu contextuel, puis sélectionnez Modifier. D'autres options sont d'ajouter un nouveau mixage, de passer à la vue de regroupement « Affichage par canal » (décrite dans une section plus bas), de déplacer le mixage vers le haut ou vers le bas, de cloner un mixage ou de supprimer un mixage.
+Pour modifier un mixage, une fois sélectionné, appuyez à nouveau afin d'accéder au menu contextuel, puis sélectionnez Modifier. D'autres options sont d'ajouter un nouveau mixage, de passer à la 'vue par sorties' (décrite dans une section plus bas), de déplacer le mixage vers le haut ou vers le bas, de dupliquer un mixage ou de le supprimer.
 
-Veuillez noter que les mixages inactifs sont affichés en grisé, pour faciliter le débogage.
-
-La radio demande une confirmation avant de supprimer un mix, en cas de sélection par inadvertance.
+NB : Les mixages inactifs sont affichés en grisé, pour faciliter la programmation.
+NB : Une confirmation sera demandée avant la suppression d'un mixage par mesure de sécurité.
 
 **Mixages d'ailerons, de profondeur et de gouvernail**
 
-Nous utiliserons les ailerons comme exemple, mais les mixages de profondeur et de gouvernail sont très similaires.
+Le mixage 'ailerons' est proposé en exemple mais la programmation reste identique pour la profondeur et dérive.
 
 \
 ![](<../.gitbook/assets/3 (1).png>)
 
 _**Nom**_
 
-Ailerons a été renseigné comme nom par défaut, mais il peut être modifié.
+Ailerons a été renseigné par défaut, mais peut être modifié.
 
-**Condition active**
+**Condition**
 
-La condition active par défaut est « Toujours activé », ce qui est approprié pour les ailerons. Il peut être rendu conditionnel en choisissant parmi les positions des interrupteurs ou des boutons, les inters de fonction, les modes de vol, les inters logiques, un événement système tel que la coupure ou le maintien de l'accélérateur, ou les positions de trim.
+La condition d'activation par défaut est « Toujours », ce qui est approprié pour les ailerons. Le mixage peut être rendu conditionnel en choisissant parmi les positions des interrupteurs ou des boutons, les inters de fonction, les phases de vol, les inters logiques, un événement système tel que la coupure ou le maintien des gaz, ou les positions de trim.
 
-**Modes de vol**
+**Phases de vol**
 
-Si des modes de vol ont été définis, le mixage peut être conditionné à un ou plusieurs modes de vol. Cliquez sur 'Modifier' et cochez les cases des modes de vol dans lesquels ce mixage doit être actif.
+Si des phases de vol ont été définies, le mixage peut être conditionné à une ou plusieurs phases de vol. Cliquez sur 'Editer' et cochez les cases des phases de vol dans lesquels ce mixage doit être actif.
 
 **Courbe**
 
 ![](<../.gitbook/assets/4 (2).png>)
 
-Une option de courbe standard est Expo, qui par défaut a une valeur de 0, ce qui signifie que la réponse est linéaire (c'est-à-dire qu'il n'y a pas de courbe). Une valeur positive adoucira la réponse autour de 0, tandis qu'une valeur négative accentuera la réponse. L'exemple ci-dessus montre une Expo de 30%.
+Une oourbe 'Expo' est disponible en standard, avec une valeur par défaut de 0. Dans ce cas, la réponse est linéaire. Une valeur positive adoucira la réponse autour de 0, tandis qu'une valeur négative accentuera la réponse. L'exemple ci-dessus montre une Expo de 30%. Le résultat s'affiche en temps réèl dans la fenêtre de droite.
+Toute autre courbe préalablement définie dans le menu 'Courbes' peut être sélectionnée. Vous pouvez aussi ajouter une courbe directement. La sortie de mixage sera alors modifiée par cette courbe. 
+6 courbes peuvent être appliquer à un mixage, chacune avec une condition. Si plusieurs conditions sont remplies, la courbe la plus élevée dans la liste prévaut. 
+NB : La courbe est appliquée avant la course (débattement) 
 
-Toute courbe préalablement définie peut également être sélectionnée. La sortie de mixage sera alors modifiée par cette courbe. Alternativement, une nouvelle courbe peut être ajoutée.
+**Courses (débattements)**
 
-Vous pouvez spécifier jusqu'à 6 courbes, chacune avec une condition. Si plusieurs conditions sont remplies, la courbe la plus élevée dans la liste prévaut. Notez que la courbe est appliquée avant le Débattement.
+Plusieurs courses ou taux peuvent être définis, sous réserve d'une position de inter, d'un inter de fonction, d'un inter logique, d'une position de trim ou d'une phase de vol. Une ligne est ajoutée pour chaque course. La course par défaut (c'est-à-dire la première ligne) est actve lorsqu'aucune autre course n'est acrive.
+Pour supprimer une ligne, appuyer sur la croix dans le symbôle à gauche de la ligne correspondante. 
 
-**Débattement**
-
-Plusieurs Débattement ou taux peuvent être définis, sous réserve d'une position de inter, d'un inter de fonction, d'un inter logique, d'une position de trim ou d'un mode de vol. Une ligne est ajoutée pour chaque taux. Le taux par défaut (c'est-à-dire la première ligne de taux) est actif lorsqu'aucun des autres taux n'est actif. Il y a une petite croix à l'intérieur d'une flèche à gauche des taux définis qui peut être utilisée pour supprimer une ligne de taux.
-
-Dans l'exemple ci-dessus, trois débits ont été configurés sur l’inter SB.
+Dans l'exemple ci-dessus, trois courses ont été configurées selon l'inter SB.
 
 ![](<../.gitbook/assets/5 (4).jpeg>)
 
-Dans cet exemple, un appui long sur Entrée faisait apparaître la boîte de dialogue pour sélectionner une source au lieu de la valeur fixe par défaut, dans ce cas Pot1 était sélectionné. Le graphique de droite montre que le potentiomètre est à 65%, ce serait donc le Débattement pour les taux d'aileron, mais réglable en vol.
+Dans l'exemple ci-dessus, un appui long sur Entrée fait apparaître une boîte de dialogue pour sélectionner une source au lieu d'une valeur fixe par défaut, dans ce cas Pot1 est sélectionné. Le graphique de droite montre que le potentiomètre est à 65%, ce serait donc le Débattement pour les taux d'ailerons, mais réglable en vol.
 
 **Différentiel**
 
 ![](<../.gitbook/assets/6 (2).png>)
 
-Le différentiel offre plus de débattement dans une direction. Par exemple, pour les ailerons, on utilise généralement une plus grande course vers le haut que vers le bas pour réduire le lacet défavorable et pour améliorer les caractéristiques de virage et de maniabilité. Une valeur positive se traduira par une course vers le bas plus faible des ailerons, comme on peut le voir dans le graphique ci-dessus. (Valeur par défaut = 0. Plage de -100 à +100). Le différentiel de profondeur peut être utilisé pour les avions qui veulent moins de profondeur vers le bas que vers le haut, généralement dans des situations de course.
+Le différentiel offre plus de débattement dans une direction. Par exemple, pour les ailerons, on utilise généralement une plus grande course vers le haut que vers le bas pour réduire le lacet inverse et pour améliorer les caractéristiques de virage et de maniabilité. Une valeur positive se traduira par une course vers le bas plus faible des ailerons, comme on peut le voir dans le graphique ci-dessus. (Valeur par défaut = 0. Plage de -100 à +100). Le différentiel de profondeur peut être utilisé pour les avions qui veulent moins de profondeur vers le bas que vers le haut, généralement dans des situations de course. 
 
-Notez que le paramètre Différentiel n'est présent que lorsque vous avez plus d'un canal de sortie.
+NB : l'option Différentiel n'apparait que lorsque vous avez plus d'une voie de sortie (nombre voies).
 
-Le mixage des gouvernails n'aura le paramètre Différentiel que si le modèle est configuré pour l'empennage en V.
+Le mixage des dérives n'aura le paramètre Différentiel que si le modèle est configuré pour l'empennage en V.
 
 **Trim**
 
-Permet de déconnecter le trim associé à un mixage sans le désactiver, afin qu'il puisse être utilisé ailleurs.
+Permet de déconnecter le trim associé à un mixage sans le désactiver physiquement, afin qu'il puisse être utilisé ailleurs.
 
-**Nombre de voies**
+**Nombre voies**
 
 ![](<../.gitbook/assets/7 (4).png>)
 
@@ -98,57 +92,57 @@ Notez que \[ENT\_long] sur le canal de sortie sélectionné vous amènera direct
 
 Notez également que le graphique est codé par couleur pour les sorties. Dans l'exemple ci-dessus, Output1 est rouge, ce qui correspond à la courbe rouge du graphique, et Output2 est orange, ce qui correspond à la courbe orange du graphique.
 
-**Mixage des gaz**
+**Mixage "Gaz"**
 
-Le mixage d'accélérateur comporte des paramètres pour gérer la coupure et le maintien de l'accélérateur. La coupure de l'accélérateur est dotée d'un verrouillage de sécurité de l'entrée de l'accélérateur, tandis que le maintien de l'accélérateur est doté d'une fonction marche/arrêt simple.
+Des options supplémentaires sont disponibles : coupure et maintien des gaz. 
 
 ![](<../.gitbook/assets/8 (2).jpeg>)
 
 **Entrée**
 
-La source du mixage Manette des gaz peut être sélectionnée ici. Par défaut, il s'agit du manche d'accélérateur, mais il peut être remplacé par un analogique, un inter, un trim, un canal, un axe gyroscopique, un canal d'entraînement, un chrono ou une valeur spéciale.
+Choix de la source des gaz. Par défaut, il s'agit du manche des gaz mais il peut être remplacé par un potentiomètre, un curseur, un inter, un trim, un canal, un axe gyroscopique, une voie élève, un chrono ou toute autre valeur spéciale.
 
 **Trim**
 
-Permet de modifier le comportement du trim de gaz par rapport à la valeur par défaut.
+Permet de choisir un autre trim que celui de gaz par défaut.
 
 ![](<../.gitbook/assets/9 (3).png>)
 
-Il peut être modifié pour permettre à la sortie de la manette des gaz d'être ajustée par les inters de réglage de la gouverne de direction, de la profondeur, de la manette des gaz et des ailerons. Le X20 Pro/R/RS et le X18 permettent également d'attribuer les versions T5 ou T6.
+Le X20 Pro/R/RS et le X18 permettent également d'attribuer les versions T5 ou T6.
 
 **Trim Ralenti**
 
 ![](<../.gitbook/assets/10 (3).png>)
 
-Pour les moteurs à incandescence et à gaz, le « trim en position basse » est utilisé pour régler le régime de ralenti. Le régime de ralenti peut varier en fonction des conditions météorologiques, etc., il est donc important d'avoir un moyen d'ajuster le régime de ralenti sans affecter la position de plein gaz.
+Pour les moteurs à explosion, le « trim ralenti » est utilisé pour régler le ralenti moteur. Ce ralenti peut varier en fonction des conditions météorologiques, etc., il est donc important d'avoir un moyen d'ajuster le ralenti sans affecter la position de plein gaz.
 
-Si l'option « Trim en position basse » est activée, le canal d'accélérateur passe en position de ralenti de -75 % lorsque le manche des gaz est en position basse (Veuillez-vous référer à l'affichage de la barre de canal en bas de la capture d'écran ci-dessus). Le levier de trim de l'accélérateur peut alors être utilisé pour régler le régime de ralenti entre -100 % et -50 %. Coupure gaz peut ensuite être configuré pour couper le moteur à l'aide d'un interrupteur.
+Si l'option « Trim ralenti » est activée, la voie des gaz aura une valeur de -75 % lorsque le manche des gaz est en position basse (Veuillez-vous référer à l'affichage de la barre de canal en bas de la capture d'écran ci-dessus). Le trim de gaz peut alors être utilisé pour régler le régime de ralenti entre -100 % et -50 %.
 
 **Coupure gaz**
 
 ![](../.gitbook/assets/11.png)
 
-La coupure de l'accélérateur est dotée d'un verrouillage de sécurité de l'entrée de l'accélérateur qui garantit que le moteur ou l'accélérateur ne démarre qu'à partir d'une position d'accélérateur basse.
+La coupure permet à la voie un verrouillage de sécurité du manche des gaz qui garantit que la voie ne s'active qu'à partir d'une position des gaz au ralenti.
 
-Lorsqu'il est combiné avec le « trim en position basse » (voir ci-dessus), il peut être utilisé pour gérer les réglages de l'accélérateur et du ralenti sur les modèles à incandescence ou à essence.
+Lorsqu'il est combiné avec le « trim ralenti » (voir ci-dessus), il peut être utilisé pour gérer les réglages de l'accélérateur et du ralenti sur les modèles thermiques..
 
 **Condition**
 
-La condition active peut être choisie parmi les positions des interrupteurs ou des boutons, les inters de fonction, les modes de vol, les inters logiques ou les positions de trim.
+La condition d'activation peut être choisie parmi les positions des interrupteurs ou des boutons, les inters de fonction, les phases de vol, les inters logiques ou les positions de trim.
 
 **Sécurité armement**
 
-Lorsque « Sécurité armement » est en position ON, la sortie du canal d'accélérateur passe à la valeur de sortie de ralenti (par défaut -100 %) dès que la coupure de l'accélérateur devient active.
+Lorsque « Sécurité armement » est activé, la voie des gaz ne sera fonctionnelle que si la position du manche des gaz passe par une valeur inférieure à la valeur de déclenchement définie ci-après (par défaut -85 %).
 
-Lorsque « Sécurité armement » est en position OFF, une fois que la coupure de l'accélérateur devient active, la sortie du canal d'accélérateur sera commutée sur la « valeur de sortie de ralenti » (par défaut -100 %) uniquement lorsque le manche des gaz descend en dessous de la valeur de déclenchement (par défaut -85 %).
+**Valeur déclenchement**
 
-**Valeur de déclenchement**
-
-La valeur de déclenchement détermine la valeur en dessous de laquelle l'entrée de l'accélérateur déclenche le verrouillage de sécurité de l'accélérateur.
+La valeur de déclenchement détermine la valeur en dessous de laquelle l'entrée de l'accélérateur déclenche le fonctionnement d ela voie des gaz.
 
 **Valeur moteur coupé**
 
-Pour des raisons de sécurité, une fois que la coupure de l'accélérateur devient inactive, la sortie du canal d'accélérateur ne laissera la « valeur de sortie de ralenti » que si l'entrée de l'accélérateur a été inférieure à la valeur de déclenchement. Cela permet de s'assurer que le moteur ne démarre qu'à partir d'une faible valeur d'entrée de l'accélérateur.
+Lorsque la sécurité moteur est activé, la voie des gaz passera à cette valeur afin de s'assurer du bon arrêt du moteur qu'il soit themrique ou électrique.
+
+NB : Cette option est importante sur un modèle électrique afin d'éviter le démarrage intenpestif du moteur lors d'une manipulation de la radio par exemple.
 
 **Maintien gaz**
 
@@ -156,7 +150,7 @@ Le maintien de l'accélérateur fournit une fonction simple de maintien de l'acc
 
 ![](<../.gitbook/assets/12 (1).jpeg>)
 
-**Condition active**
+**Condition**
 
 La condition active peut être choisie parmi les positions des interrupteurs ou des boutons, les inters de fonction, les modes de vol, les inters logiques ou les positions de trim.
 
@@ -166,9 +160,9 @@ Une fois que la fonction de maintien de l'accélérateur est active, le réglage
 
 La valeur de maintien de l'accélérateur peut également provenir d'une source.
 
-**Modes de vol**
+**Phases de vol**
 
-Si des modes de vol ont été définis, le mixage peut être conditionné à un ou plusieurs modes de vol. Cliquez sur 'Modifier' et cochez les cases des modes de vol dans lesquels ce mixage doit être actif.
+Si desphases de vol ont été définies, le mixage peut être conditionné à une ou plusieurs phases de vol. Cliquez sur 'Modifier' et cochez les cases des phases de vol dans lesquels ce mixage doit être actif.
 
 **Courbe**
 
