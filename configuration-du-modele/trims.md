@@ -2,9 +2,9 @@
 
 ![](<../.gitbook/assets/0 (1).jpeg>)
 
-La section Trims vous permet de configurer la plage de trim et la taille du pas de trim, ou de configurer un comportement de trim personnalisé pour chacun des 4 manches de commande. Il permet également de configurer des raccords croisés et des raccords instantanés.
+La section Trims vous permet de configurer la plage de trim et le pas de trim, ou de configurer un comportement de trim personnalisé pour chacun des 4 manches de commande. Il permet également de configurer des trims croisés et des trims instantanés.
 
-Les X20 Pro/R/RS et la X18 disposent de deux inters de trim supplémentaires, T5 et T6, qui sont très utiles pour les réglages en vol.
+Les X20 Pro/R/RS et la X18 disposent de deux trims supplémentaires, T5 et T6, qui sont très utiles pour les réglages en vol.
 
 Des trims supplémentaires peuvent être configurées selon les besoins.
 
@@ -18,13 +18,13 @@ Les X20 Pro et x18 ont deux versions supplémentaires T5 et T6.
 
 **Configuration des trims**
 
-**Intervalle**
+**Plage**
 
-La plage de réglage par défaut est de +/- 25 %. La portée peut être modifiée pour couvrir jusqu'à la plage complète du manche de 100 %. Des précautions doivent être prises avec cette option, car maintenir les compensateurs trop longtemps pourrait ajouter tellement de trim que rendre votre modèle impossible à piloter.
+La plage de réglage par défaut est de +/- 25 %. Elle peut être modifiée pour couvrir jusqu'à la plage complète du manche de 100 %. Des précautions doivent être prises avec cette option, car maintenir les trims trop longtemps pourrait ajouter tellement de trim que rendre votre modèle impossible à piloter.
 
 Notez que sur l'écran principal, la plage de réglage par défaut est indiquée comme -100 à 100. Une plage de trim de 100 % affichera -400 à 400 (c'est-à-dire 4 fois la plage de trim normale).
 
-**Répétition**
+**Pas**
 
 ![](<../.gitbook/assets/3 (3).jpeg>)
 
