@@ -15,20 +15,20 @@ Bien que la radio soit configurée en utilisant des pourcentages comme entrée, 
 
 ![](<../.gitbook/assets/1 (7).jpeg>)
 
-L'écran Sorties affiche deux graphiques à barres pour chaque canal. La barre inférieure (verte) indique la valeur des mixages pour le canal, tandis que la barre supérieure (orange) indique la valeur réelle (en % et en μS) de la sortie après le traitement des sorties, qui est ce qui est envoyé au récepteur. Dans l'exemple ci-dessus, vous pouvez voir que les valeurs de mixage et de sortie pour CH4 Gaz sont à 100%.
+L'écran Sorties affiche deux graphiques à barres pour chaque voie. La barre inférieure (verte) indique la valeur des mixages pour le canal, tandis que la barre supérieure (orange) indique la valeur réelle (en % et en μS) de la sortie après le traitement des sorties, qui est ce qui est envoyé au récepteur. Dans l'exemple ci-dessus, vous pouvez voir que les valeurs de mixage et de sortie pour CH4 Gaz sont à 100%.
 
 Les voies qui ne sont pas transmis au module RF sont affichés avec un arrière-plan plus sombre. Dans l'exemple ci-dessus, les huit voies sont transmises, ils ont donc un arrière-plan gris plus clair.
 
-Remarque : Pour un accès rapide à cet écran de moniteur, un appui long sur la touche Entrée de l'écran « Mixages » et des écrans « Modes de vol » permet d'accéder aux sorties.
+Remarque : Pour un accès rapide à cet écran de moniteur, un appui long sur la touche Entrée de l'écran « Mixages » et des écrans « Phases de vol » permet d'accéder aux sorties.
 
 **Configuration des sorties**
 
-Appuyez sur le canal de sortie à modifier ou à réviser.
+Appuyez sur la voie à modifier.
 
 \
 ![](<../.gitbook/assets/2 (3).png>)
 
-**Aperçu de la chaîne**
+**Aperçu**
 
 Un aperçu des voies s'affiche en haut de l'écran de configuration des sorties. La valeur des mixages est affichée en vert, tandis que la valeur de sortie du canal est affichée en orange (thème par défaut). Un petit marqueur blanc indique le point 100%.
 
