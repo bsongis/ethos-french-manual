@@ -4,11 +4,11 @@
 
 ![](../.gitbook/assets/1.png)
 
-Il y a 8 chronos entièrement programmables qui peuvent compter vers le haut ou vers le bas.
+Il y a 8 chronos entièrement programmables qui peuvent compter (haut) ou décompter (bas).
 
 ![](../.gitbook/assets/2.jpeg)
 
-Toucher n'importe quelle ligne de chrono fait apparaître une fenêtre contextuelle avec des options permettant de réinitialiser ou de modifier ce chrono, d'ajouter un nouveau chrono ou de déplacer, de copier/coller le chrono, de dupliquer ou de le supprimer.
+Appuyer sur une ligne de chrono fait apparaître une fenêtre contextuelle avec des options permettant de réinitialiser ou de modifier ce chrono, d'ajouter un nouveau chrono ou de déplacer, de copier/coller le chrono, de le dupliquer ou de le supprimer.
 
 **mode (vers le bas, décompte)**
 
@@ -24,7 +24,7 @@ Permet de nommer le chrono.
 
 _**Mode**_
 
-Le chrono peut compter vers le haut ou vers **le bas**.
+Le chrono peut compter = haut ou décompter = bas.
 
 **Valeur de départ**
 
@@ -65,7 +65,7 @@ Sélectionnez la voix à utiliser pour les annonces vocales. Reportez-vous à la
 
 **Actions audio**
 
-Les actions audios sont très puissantes et flexibles, ce qui permet de configurer les alertes des chronos exactement selon les besoins de l'utilisateur.
+Les actions audios sont très puissantes et flexibles, ce qui permet de configurer les alertes des chronos selon les besoins de l'utilisateur.
 
 Cliquez sur « Ajout action audio ».
 
@@ -118,21 +118,21 @@ Le chrono peut compter **vers le haut** ou vers le bas.
 
 ![](../.gitbook/assets/10.jpeg)
 
-Si le chrono a été réglée sur le compte à rebours, le paramètre de valeur de l'alarme définit la valeur à laquelle le chrono s'écoule. Le minuteur continue de compter, mais la valeur devient rouge dans les widgets du minuteur.
+Si le chrono a été réglée sur le compte à rebours, le paramètre de valeur de l'alarme définit la valeur à laquelle le chrono s'écoule. Le chrono continue de fonctionner , mais la valeur devient rouge dans les widgets du chrono.
 
 **Condition de démarrage**
 
-La condition de démarrage démarre le minuteur. Si la condition d'arrêt ci-dessous est définie sur le réglage par défaut, le chrono démarre et s'arrête uniquement avec la condition de démarrage. Si la condition d'arrêt ci-dessous n'est pas « par défaut », le minuteur démarre lorsque la condition de démarrage devient d'abord True, puis continue de s'exécuter.
+La condition de démarrage démarre le chrono. Si la condition d'arrêt ci-dessous est définie sur le réglage par défaut, le chrono démarre et s'arrête uniquement avec la condition de démarrage. Si la condition d'arrêt ci-dessous n'est pas « par défaut », le chrono démarre lorsque la condition de démarrage devient d'abord True, puis continue de s'exécuter.
 
 **Condition d'arrêt**
 
-Si la condition d'arrêt est 'default', le chrono n'est contrôlé que par la condition de démarrage.
+Si la condition d'arrêt est 'défaut', le chrono n'est contrôlé que par la condition de démarrage.
 
-S'il ne s'agit pas de la valeur par défaut, une fois que le chrono est en cours d'exécution, la condition d'arrêt contrôle le chrono. Le minuteur s'arrête de s'exécuter lorsque la condition d'arrêt est True, mais continue de s'exécuter tant que la condition d'arrêt est False.
+S'il ne s'agit pas de la valeur par défaut, une fois que le chrono est en cours d'exécution, la condition d'arrêt contrôle le chrono. Le minuteur s'arrête de s'exécuter lorsque la condition d'arrêt est 'vraie', mais continue de s'exécuter tant que la condition d'arrêt est 'fausse'.
 
 **Source de synchronisation proportionnelle**
 
-S'il est réglé sur '---, le chronomètre compte en temps réel. Si une source de synchronisation proportionnelle est sélectionnée, la vitesse du chrono est contrôlée par cette source, par exemple le manche d'accélérateur ou même le canal d'accélérateur. Lorsque la valeur de l'accélérateur est de -100 %, le chrono est arrêté. Lorsque la valeur de l'accélérateur est de +100%, le chronomètre est compté en temps réel. Avec des valeurs d'accélérateur intermédiaires, le chrono compte proportionnellement.
+S'il est réglé sur '---, le chronomètre compte en temps réel. Si une source de synchronisation proportionnelle est sélectionnée, la vitesse du chrono est contrôlée par cette source, par exemple le manche des gaz ou même la voie des gaz. Lorsque la valeur des gaz est de -100 %, le chrono est arrêté. Lorsque la valeur des gaz est de +100%, le chronomètre compte en temps réel. Avec des positions intermédiaires, le chrono fonctionne proportionnellement.
 
 **Réinitialisation**
 
@@ -140,7 +140,7 @@ Le chrono peut être réinitialisée par les positions des inters, les inters de
 
 **Persistant**
 
-Le fait de mettre Persistant sur Activé permet de stocker la valeur du chrono en mémoire lorsque la radio est éteinte ou que le modèle est modifié. La valeur sera rechargée la prochaine fois que le modèle sera utilisé.
+Le fait de mettre Persistant sur Activé permet de stocker la valeur du chrono en mémoire lorsque la radio est éteinte ou que le modèle est modifié. La valeur sera rechargée à la prochaine utilisation du modèle.
 
 **Voix**
 
@@ -148,7 +148,7 @@ Sélectionnez la voix à utiliser pour les annonces vocales. Reportez-vous à la
 
 **Actions audio**
 
-Les actions audios sont très puissantes et flexibles, ce qui permet de configurer les alertes de le chrono exactement selon les besoins de l'utilisateur.
+Les actions audios sont très puissantes et flexibles, ce qui permet de configurer les alertes de le chrono selon les besoins de l'utilisateur.
 
 ![](../.gitbook/assets/11.jpeg)
 
