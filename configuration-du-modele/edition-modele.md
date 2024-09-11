@@ -16,7 +16,7 @@ La modification du type de modèle entraînera la réinitialisation de tous les 
 
 **Affectations de voies**
 
-La modification du type d'empennage ou du plateau oscillant de l'hélicoptère entraînera la réinitialisation de tous les mixages. Sur les autres voies, le nombre de voies attribués peut être modifié ou annulé.
+La modification du type d'empennage ou du plateau oscillant de l'hélicoptère entraînera la réinitialisation de tous les mixages. Sur les autres voies, le nombre de voies attribuées peut être modifié ou annulé.
 
 **Inters de fonction**
 
@@ -45,11 +45,11 @@ Divise les 6 inters de fonction en deux groupes de 3. Chaque groupe peut avoir u
 
 _**6 x 2 Pos**_
 
-Décompose les 6 interrupteurs de fonction en 6 interrupteurs de verrouillage. Chaque interrupteur peut être activé ou désactivé.
+Chacun des 6 interrupteur peut être activé ou désactivé.
 
 **Poussoir**
 
-Décompose les 6 inters de fonction en 6 inters momentanés. Chaque interrupteur est allumé lorsqu'il est enfoncé.
+Les 6 inters de fonction seront considérés comme momentanés. Chaque interrupteur est activé lorsqu'il est enfoncé.
 
 **Permanent**
 
