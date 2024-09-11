@@ -2,7 +2,7 @@
 
 ![Icône Sélection du modèle](../assets/model-icon-modelselect.png)
 
-L'option de sélection du modèle est accessible en sélectionnant « Choix modèle » dans le menu Modèle. Il permet de sélectionner le modèle actuel, d'ajouter un nouveau modèle, de le cloner ou de le supprimer.
+La sélection d'un modèle est accessible en sélectionnant « Choix modèle ». Il permet de sélectionner le modèle actuel, d'ajouter un nouveau modèle, de le dupliquer ou de le supprimer.
 
 ### Gestion des dossiers de modèles
 
@@ -13,7 +13,7 @@ Chaque nouveau modèle crée, reçu, ou stocké dans le répertoire /models de l
 
 ![](../.gitbook/assets/3.jpeg)
 
-Pour créer un dossier, appuyez [+] » en aut à droite. Entrez le nom dans la boîte de dialogue « Créer nouveau dossier », puis appuyez sur OK. Les noms peuvent comporter jusqu'à 15 caractères. Répétez l'opération pour vos autres dossiers.
+Pour créer un dossier, appuyez [+] » en haut à droite. Entrez le nom dans la boîte de dialogue « Créer nouveau dossier », puis appuyez sur OK. Les noms peuvent comporter jusqu'à 15 caractères. Répétez l'opération si besoin pour vos autres dossiers.
 
 NB: ces dossiers apparaissent sous forme de sous-répertoires sous le répertoire \models sur la carte SD ou eMMC, selon la radio.
 
