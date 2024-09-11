@@ -4,9 +4,12 @@
 
 ![](<../.gitbook/assets/0 (3).jpeg>)\
 
-La fonction Mixages constitue le cœur de la radio. C'est là que les fonctions de contrôle du modèle sont configurées. La section Mixages permet de mixer ou de combiner n'importe laquelle des nombreuses sources d'entrée à volonté et de les diriger sur l'un des voies de sortie. Ethos dispose de 100 possibilités de mixage pour la programmation de votre modèle. Normalement, les voies numérotées les plus bas seront attribués aux servos, car les numéros correspondent géneralement aux voies du récepteur. Le module RF (radiofréquence) interne permet jusqu'à 24 voies physiques?.
+La fonction Mixages constitue le cœur de la radio. C'est là que les fonctions de contrôle du modèle sont configurées. La section Mixages permet de mixer ou de combiner n'importe laquelle des nombreuses sources d'entrée à volonté et de les diriger sur l'un des voies de sortie. Ethos dispose de 100 possibilités de mixage pour la programmation de votre modèle. Normalement, les voies numérotées les plus bas seront attribués aux servos, car les numéros correspondent géneralement aux voies du récepteur. Le module RF (radiofréquence) interne permet jusqu'à 24 voies physiques.
+
 Il est conseillé d'utiliser les mixages au dela de 24 comme « voies virtuelles » dans une programmation avancée, ou comme voies réels en utilisant plusieurs modules RF (internes + externes) et SBus. L'ordre des voies est une question de préférence personnelle ou de convention, ou il peut être dicté par le récepteur. Nous utiliserons APGD (Aileron, Profondeur, Gaz, Dérive) pour notre exemple. (en anglais AETR)
+
 La source ou l'entrée d'un mixage peut être choisie à partir d'entrées analogiques telles que les manches, les potentiomètres et les curseurs ; les interrupteurs à bascule ou les boutons ; tous les inters logiques définis ; les inters de trim ; tous les voies définies ; un axe gyroscopique ; une voie élève ; un chrono ; un capteur de télémétrie ; une valeur du système telle que la tension radio principale ou la tension de la batterie RTC ; ou une valeur 'spéciale' telle que 'minimum', 'maximum' ou 0.
+
 Cette section permet également de conditionner la source en définissant des courses ( débattements) et des décalages, et en ajoutant des courbes (ex : Expo). Le mixage peut être soumis à un switch et/ou à des pahses de vol, et une fonction de ralenti peut être ajoutée. (Notez que les retards sont implémentés dans les inters logiques, car ils sont liés aux inters.) 
 L'éditeur de mixage inclut des informations d'aide contextuelle qui changent dynamiquement lorsque les options de mixage sont modifiées. La première ligne indique le type de mixage utilisé, tel que 'Ailerons', 'Profondeur' ou 'Mixage libre', etc. 
 Jusqu'à 120 mixages peuvent être définis. Un nouveau mixage peut également être ajouté en appuyant sur le symbole '+'..
@@ -70,7 +73,7 @@ Le différentiel offre plus de débattement dans une direction. Par exemple, pou
 
 NB : l'option Différentiel n'apparait que lorsque vous avez plus d'une voie de sortie (nombre voies).
 
-Le mixage des dérives n'aura le paramètre Différentiel que si le modèle est configuré pour l'empennage en V.
+NB : L'option Différention ne sera disponible que pour un empennage en V.
 
 **Trim**
 
@@ -88,9 +91,9 @@ L'assistant de création de modèle a attribué les voies 1 et 2 aux ailerons, c
 
 La valeur par défaut peut être modifiée si nécessaire, mais il faut faire preuve de prudence pour évaluer tout autre impact d'une modification ici.
 
-Notez que \[ENT\_long] sur le canal de sortie sélectionné vous amènera directement à cette page dans les sorties.
+NB :  \[ENT\_long] sur le canal de sortie sélectionné vous amènera directement à cette page dans les sorties.
 
-Notez également que le graphique est codé par couleur pour les sorties. Dans l'exemple ci-dessus, Output1 est rouge, ce qui correspond à la courbe rouge du graphique, et Output2 est orange, ce qui correspond à la courbe orange du graphique.
+NB: Le graphique est codé par couleur pour les sorties. Dans l'exemple ci-dessus, Output1 est rouge, ce qui correspond à la courbe rouge du graphique, et Output2 est orange, ce qui correspond à la courbe orange du graphique.
 
 **Mixage "Gaz"**
 
@@ -114,7 +117,7 @@ Le X20 Pro/R/RS et le X18 permettent également d'attribuer les versions T5 ou T
 
 ![](<../.gitbook/assets/10 (3).png>)
 
-Pour les moteurs à explosion, le « trim ralenti » est utilisé pour régler le ralenti moteur. Ce ralenti peut varier en fonction des conditions météorologiques, etc., il est donc important d'avoir un moyen d'ajuster le ralenti sans affecter la position de plein gaz.
+Pour les moteurs thermique, le « trim ralenti » est utilisé pour régler le ralenti moteur. Ce ralenti peut varier en fonction des conditions météorologiques, etc., il est donc important d'avoir un moyen d'ajuster le ralenti sans affecter la position de plein gaz.
 
 Si l'option « Trim ralenti » est activée, la voie des gaz aura une valeur de -75 % lorsque le manche des gaz est en position basse (Veuillez-vous référer à l'affichage de la barre de canal en bas de la capture d'écran ci-dessus). Le trim de gaz peut alors être utilisé pour régler le régime de ralenti entre -100 % et -50 %.
 
@@ -124,7 +127,7 @@ Si l'option « Trim ralenti » est activée, la voie des gaz aura une valeur de 
 
 La coupure permet à la voie un verrouillage de sécurité du manche des gaz qui garantit que la voie ne s'active qu'à partir d'une position des gaz au ralenti.
 
-Lorsqu'il est combiné avec le « trim ralenti » (voir ci-dessus), il peut être utilisé pour gérer les réglages de l'accélérateur et du ralenti sur les modèles thermiques..
+Lorsqu'il est combiné avec le « trim ralenti » (voir ci-dessus), il peut être utilisé pour gérer les réglages du plein gaz et du ralenti sur les modèles thermiques..
 
 **Condition**
 
@@ -140,13 +143,13 @@ La valeur de déclenchement détermine la valeur en dessous de laquelle l'entré
 
 **Valeur moteur coupé**
 
-Lorsque la sécurité moteur est activé, la voie des gaz passera à cette valeur afin de s'assurer du bon arrêt du moteur qu'il soit themrique ou électrique.
+Lorsque la sécurité moteur est activé, la voie des gaz passera à cette valeur afin de s'assurer du bon arrêt du moteur qu'il soit thermique ou électrique.
 
 NB : Cette option est importante sur un modèle électrique afin d'éviter le démarrage intenpestif du moteur lors d'une manipulation de la radio par exemple.
 
 **Maintien gaz**
 
-Le maintien de l'accélérateur fournit une fonction simple de maintien de l'accélérateur sans le verrouillage de sécurité de l'entrée de l'accélérateur de « Coupe de l'accélérateur » ci-dessus.
+Maintien des gaz sans le verrouillage de sécurité de « Coupure gaz » ci-dessus.
 
 ![](<../.gitbook/assets/12 (1).jpeg>)
 
@@ -156,44 +159,42 @@ La condition active peut être choisie parmi les positions des interrupteurs ou 
 
 **Valeur**
 
-Une fois que la fonction de maintien de l'accélérateur est active, le réglage de la valeur sera affiché sur le canal d'accélérateur. Sur les modèles électriques, la valeur de maintien de l'accélérateur est normalement de 100 %.
+Une fois que la fonction de maintien ds gaz est active, le réglage de la valeur sera affiché sur la voie des gaz. Sur les modèles électriques, la valeur de maintien des gaz est généralement de 100 %.
 
-La valeur de maintien de l'accélérateur peut également provenir d'une source.
+La valeur de maintien des gaz peut également provenir d'une source.
 
 **Phases de vol**
 
-Si desphases de vol ont été définies, le mixage peut être conditionné à une ou plusieurs phases de vol. Cliquez sur 'Modifier' et cochez les cases des phases de vol dans lesquels ce mixage doit être actif.
+Si des phases de vol ont été définies, le mixage peut être conditionné par une ou plusieurs phases de vol. Cliquez sur 'Modifier' et cochez les cases des phases de vol dans lesquels ce mixage doit être actif.
 
 **Courbe**
 
-Une courbe peut être définie pour modifier la sortie du canal d'accélérateur. Toute courbe préalablement définie peut également être sélectionnée.
+Une courbe peut être définie pour modifier la sortie de la voie des gaz pour plus de linéarité par exemple de puissance. Toute courbe préalablement définie peut également être sélectionnée.
 
-**Option d'affichage par canal (regroupement des mixages)**
+**Option d'affichage par voies (regroupement des mixages)**
 
-Avec des mixages complexes, il peut être difficile de voir l'effet d'autres mixages sur un canal particulier. L'option 'Afficher par canal' est particulièrement utile pour déboguer vos mixages, car tous les mixages qui affectent le canal sélectionné sont regroupés.
+Avec des mixages complexes, il peut être difficile de voir l'effet d'autres mixages sur une voie particulière. L'option 'Afficher par voie' est particulièrement utile pour mettre au point vos mixages, car tous les mixages qui affectent la voie sélectionnée sont regroupés.
 
 ![](<../.gitbook/assets/13 (3).png>)
 
-Pour cet exemple, nous allons examiner le canal Profondeurs. Nous pouvons voir dans la vue tableau des mixages ci-dessus que l'ascenseur est sur le canal 2, et que plus bas, il y a un mixage Flaps to Elevators également avec le canal 2 en sortie.
+Pour cet exemple, nous allons examiner la voie Profondeur. Nous pouvons voir dans la vue tableau des mixages ci-dessus que l'ascenseur est sur le canal 2, et que plus bas, il y a un mixage Flaps to Elevators également avec le canal 2 en sortie.
 
 \
 ![](<../.gitbook/assets/14 (2).png>)
 
-Pour voir l'effet de tous les mixages sur le canal Profondeur, appuyez sur le mixage Profondeurs et sélectionnez « Afficher par canal » dans la boîte de dialogue contextuelle.
+Pour voir l'effet de tous les mixages sur la voie de Profondeur, appuyez sur le mixage Profondeurs et sélectionnez « Afficher par voie » dans la boîte de dialogue contextuelle.
 
 ![](<../.gitbook/assets/15 (2).png>)(fr)
 
-L'exemple ci-dessus montre qu'il y a deux mixages qui ont un impact sur ce canal : le
+L'exemple ci-dessus montre qu'il y a deux mixages qui ont un impact sur cette voie : Les profondeurs se mixent eux-mêmes (contrôlés par le manche de profondeur) et un mixage Volets=>Profondeurs qui ajoute
 
-Les profondeurs se mixent eux-mêmes (contrôlés par le manche de profondeur) et un mixage Volets=>Profondeurs qui ajoute
+Compensation de la gouverne de profondeur lorsque les volets sont sortis. En regardant la ligne récapitulative des profondeurs V2 (en surbrillance), nous pouvons voir que la sortie du canal de profondeur est à +3%. Les mixages secondaires montrent qu'actuellement le manche de profondeur est au point mort (c'est-à-dire 0 %), mais que le mixage des volets à la profondeur ajoute +3 % au canal. L'utilisation de l'interrupteur Flap entraînera une modification de ce mixage de compensation.
 
-Compensation de la gouverne de profondeur lorsque les volets sont sortis. En regardant la ligne récapitulative des profondeurs CH2 (en surbrillance), nous pouvons voir que la sortie du canal de profondeur est à +3%. Les mixages secondaires montrent qu'actuellement le manche de profondeur est au point mort (c'est-à-dire 0 %), mais que le mixage des volets à la profondeur ajoute +3 % au canal. L'utilisation de l'interrupteur Flap entraînera une modification de ce mixage de compensation.
+Avec cette disposition 'Vue par voie', la contribution des différents mixages affectant un canal peut être facilement vue, car la valeur de chaque mixage est affichée à la fois sous forme graphique et numérique.
 
-Avec cette disposition 'Vue par canal', la contribution des différents mixages affectant un canal peut être facilement vue, car la valeur de chaque mixage est affichée à la fois sous forme graphique et numérique.
+**Gestion de l'affichage 'Vue par voie'**
 
-**Gestion de l'affichage 'Vue par canal'**
-
-**a) Passer d'un canal à l'autre dans « Affichage par canal »**
+**a) Passer d'une voie à l'autre dans « Affichage par voie »**
 
 ![](../.gitbook/assets/16.jpeg)
 
