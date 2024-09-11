@@ -227,15 +227,15 @@ Nous sommes de retour dans la vue tableau des mixages.
 
 **Mixage libre**
 
-Les mixages libres sont les mixages à usage général à tout faire. Les mixages prédéfinis sont à certains égards plus puissants, mais sont également plus limités à leur application spécifique. Toutes les options ne sont pas nécessairement disponibles dans les mixages gratuits, mais tout peut être fait avec eux, il faudra peut-être plus d'un mixage libre pour faire la même chose qu’ un seul mixage spécialisé.
+Les mixages libres sont les mixages à usage général à tout faire. Les mixages prédéfinis sont à certains égards plus puissants, mais sont également plus limités à leur application spécifique. Toutes les options ne sont pas nécessairement disponibles dans les mixages mis à disposition, mais tout peut être fait avec eux, il faudra peut-être plus d'un mixage libre pour faire la même chose qu’un seul mixage spécialisé.
 
-Appuyez sur n'importe quel mix, puis sélectionnez « Ajouter » dans le menu contextuel pour ajouter un nouveau mix.
+Appuyez sur n'importe quel mixage, puis sélectionnez « Ajouter » dans le menu contextuel pour ajouter un nouveau mixage.
 
 Sélectionnez « Mixage libre » dans la liste des mixages prédéfinis disponibles dans la bibliothèque de mixages.
 
 ![](<../.gitbook/assets/1 (5).jpeg>)
 
-Ensuite, il faut choisir la position du nouveau mix, dans cet exemple ajoutée après 'Dernière position'.
+Ensuite, il faut choisir la position du nouveau mixage, dans cet exemple ajoutée après 'Dernière position'.
 
 \
 ![](<../.gitbook/assets/2 (1).png>)
@@ -254,11 +254,11 @@ Un nom descriptif peut être saisi pour le Mixage libre.
 
 Condition active
 
-La condition active par défaut est « Toujours activé ». Il peut être rendu conditionnel en choisissant parmi les positions des interrupteurs ou des boutons, les inters de fonction, les modes de vol, les inters logiques, un événement système tel que la coupure ou le maintien de l'accélérateur, ou les positions de trim.
+La condition active par défaut est « Toujours activé ». Il peut être rendu conditionnel en choisissant parmi les positions des interrupteurs ou des boutons, les inters de fonction, les phases de vol, les inters logiques, un événement système tel que la coupure ou le maintien des gaz, ou les positions de trim.
 
-Modes de vol
+Phases de vol
 
-Si des modes de vol ont été définis, le mixage peut être conditionné à un ou plusieurs modes de vol. Cliquez sur 'Modifier' et cochez les cases des modes de vol dans lesquels ce mixage doit être actif.
+Si des phases de vol ont été définies, le mixage peut être conditionné à un ou plusieurs phases de vol. Cliquez sur 'Modifier' et cochez les cases des phases de vol dans lesquels ce mixage doit être actif.
 
 Source
 
@@ -295,7 +295,7 @@ La sortie de ce mixage remplacera le résultat de tout autre mixage sur le même
 
 Verrouillage
 
-Un canal qui est « verrouillé » ne sera jamais modifié par un autre mixage tant que le mixage verrouillé est actif. (Il s'agit d'une bonne alternative à la fonction Override d'OpenTX.)
+Une voie qui est « verrouillée » ne sera jamais modifiée par un autre mixage tant que le verrouillage est actif
 
 La combinaison de ces opérations permet la création d'opérations mathématiques complexes.
 
@@ -318,7 +318,7 @@ Les actions disponibles sont les suivantes :
 * Décalage
 * Ralenti
 
-Les actions peuvent être combinées pour créer, par exemple, plusieurs taux avec plusieurs courbes d'exposition, différents montants de différentiel, etc.
+Les actions peuvent être combinées pour créer, par exemple, plusieurs taux avec plusieurs courbes d'exposition, différentes valeurs de différentiel, etc.
 
 L'ordre des actions recommandées est Ralenti, Courbe, Débattement puis Décalage. Cette règle doit être respectée, à moins qu'il n'y ait une raison spécifique d'utiliser un ordre différent.
 
@@ -329,11 +329,11 @@ Débattement (course)
 Par défaut, le mixage libre commence par une action ‘Course’ de 100% qui est 'Toujours activé'.\
 ![](<../.gitbook/assets/9 (5).png>)
 
-**Important** : Pour configurer le poids du mixage libre appuyez sur la ligne Course par défaut et sélectionnez ‘Editer' pour apporter des modifications ou des ajouts. Sélectionner 'Ajouter une nouvelle action' ajouterait une deuxième action Course à la place.
+**Important** : Pour configurer le taux du mixage libre appuyez sur la ligne Course par défaut et sélectionnez ‘Editer' pour apporter des modifications ou des ajouts. Sélectionner 'Ajouter une nouvelle action' ajouterait une deuxième action Course à la place.
 
 ![](<../.gitbook/assets/10 (6).png>)
 
-Appuyez sur « Ajout course » pour ajouter des débattements supplémentaires. Par exemple, pour créer plusieurs débattements, il suffit d'ajouter plus de cources rendues conditionnelles par exemple par un switch à 3 positions.
+Appuyez sur « Ajout course » pour ajouter des débattements supplémentaires. Par exemple, pour créer plusieurs débattements en fonction d'un inter 3 positions.
 
 ![](<../.gitbook/assets/11 (1).png>)
 
@@ -365,7 +365,6 @@ Pour ajouter des courbes au mixage, sélectionnez « Courbe » dans le menu dér
 ![](<../.gitbook/assets/17 (1).png>)
 
 Une option de courbe standard est Expo, qui par défaut a une valeur de 0, ce qui signifie que la réponse est linéaire (c'est-à-dire qu'il n'y a pas de courbe). Une valeur positive adoucira la réponse autour de 0, tandis qu'une valeur négative accentuera la réponse.\
-
 
 Exemple de « Débattements » d'exponentiels multiples
 
@@ -464,7 +463,7 @@ Sortie
 
 N'importe quel canal peut être sélectionné pour recevoir la sortie de ce mixage. Si le nombre de voies ci-dessus est supérieur à un, un canal doit être configuré pour chaque sortie.
 
-_**Suite de la bibliothèque de mixes...**_
+_**Suite de la bibliothèque de mixages**_
 
 _**Aileron, Gouverne de profondeur, Dérive**_
 
@@ -472,11 +471,11 @@ Veuillez-vous référer à la description détaillée des mixages de gouverne de
 
 **Volets**
 
-Le mixage Flaps mixera une entrée sur un ou plusieurs voies avec des Débattement individuels. Il offre également des options de ralentissement et de ralentissement.
+Le mixage 'Volets' mixera une entrée sur un ou plusieurs voies avec des Débattement individuels. Il offre également des options de vitesses.
 
 **Gaz**
 
-Le mixage d'accélérateur est destiné au contrôle du moteur et comprend des options de coupure et de maintien de l'accélérateur. Veuillez-vous référer à la discussion détaillée sur le mixage des gaz ci-dessus.
+Le mixage 'Gaz' est destiné au contrôle du moteur et comprend des options de coupure et de maintien de l'accélérateur. Veuillez-vous référer à la discussion détaillée sur le mixage des gaz ci-dessus.
 
 **QuadroFlap**
 
@@ -494,9 +493,9 @@ Le mixage d'aérofreins est similaire au mixage de papillon ci-dessous, sauf qu'
 
 Le freinage papillon ou crocodile est utilisé pour contrôler le taux de descente d'un avion. Les ailerons sont réglés pour monter un peu plus haut, tandis que les volets s'abaissent beaucoup. Cette combinaison crée beaucoup de traînée, et est très efficace pour le freinage et donc idéale pour contrôler l'approche à l'atterrissage. L'entrée est normalement réglée sur un curseur (ou sur le manche des gaz d'un planeur).
 
-Une compensation est également nécessaire sur la gouverne de profondeur pour éviter que le planeur ne gonfle lorsque le crocodile est appliqué.
+Une compensation est également nécessaire sur la gouverne de profondeur pour éviter que le planeur monte lorsque le crocodile est appliqué.
 
-Veuillez noter que le mixage a un décalage intégré de sorte que la sortie de mixage est nulle à la position neutre des volets, c'est-à-dire lorsque le manche des gaz (ou la source alternative) est à sa position basse, et au maximum à la position des volets complètement déployés, c'est-à-dire la position haute du manche des gaz (ou de la source alternative). Ce décalage est désactivé lorsqu'une courbe utilisateur est ajoutée pour donner à cette courbe un contrôle total.
+NB : ce mixage a un décalage intégré afin que la sortie de mixage soit nulle à la position neutre des volets, c'est-à-dire lorsque le manche des gaz (ou toute autre source) est à sa position basse, et au maximum à la position des volets complètement déployés, c'est-à-dire la position haute du manche des gaz (ou de la source alternative). Ce décalage est désactivé lorsqu'une courbe utilisateur est ajoutée pour donner à cette courbe un contrôle total.
 
 **Courbure**
 
@@ -504,11 +503,11 @@ Le mixage de carrossage est généralement utilisé pour appliquer un peu de cam
 
 **Volet => PRF**
 
-Le mixage volet à profondeur est utile pour la compensation volets/carrossage/crocodile, où une courbe de compensation personnalisée est requise.
+Le mixage volet à profondeur est utile pour la compensation de sortie des volets, où une courbe de compensation personnalisée est requise.
 
 **SnapFlap**
 
-Également connu sous le nom de Snap Flap, ce mixage ajoute du carrossage à l'aile lorsque la profondeur est appliquée. Cela permet à l'aile de générer de la portance plus efficacement lorsque l'avion reçoit des commandes de tangage.
+Ce mixage ajoute des volets à l'aile lorsque la profondeur est appliquée. Cela permet à l'aile de générer de la portance plus efficacement lorsque l'avion reçoit des commandes de profondeur.
 
 _**Dir**_** => **_**Ail**_
 
@@ -520,7 +519,7 @@ Ce mixage peut aider à améliorer le vol en lame de couteau lorsqu'il y a des p
 
 **Snap Roll**
 
-Le roulis brusque est une manœuvre d'auto-rotation dans un état de décrochage. Lors d'un claquement, une aile est décrochée tandis que l'autre est accélérée autour de l'axe de roulis. Cela crée une accélération soudaine du taux de roulis que vous ne pouvez pas obtenir en entrant simplement l'aileron. Pour atteindre cette condition dans un modèle, plusieurs entrées doivent être données, notamment la profondeur, la gouverne de direction et l'aileron. Par exemple, vous pouvez effectuer un claquement intérieur gauche en programmant le mixage pour appliquer simultanément la gouverne de profondeur vers le haut, la gouverne de direction gauche et l'aileron gauche pendant 1 à 2 secondes. Récupérez de la manœuvre en neutralisant les manches et en ajoutant immédiatement la dérive droit pour corriger votre perte de cap.
+Le déclenché ( Snap Roll) est une manœuvre d'auto-rotation dans un état de décrochage. Lors d'un claquement, une aile est décrochée tandis que l'autre est accélérée autour de l'axe de roulis. Cela crée une accélération soudaine du taux de roulis que vous ne pouvez pas obtenir en entrant simplement l'aileron. Pour atteindre cette condition dans un modèle, plusieurs entrées doivent être données, notamment la profondeur, la gouverne de direction et l'aileron. Par exemple, vous pouvez effectuer un claquement intérieur gauche en programmant le mixage pour appliquer simultanément la gouverne de profondeur vers le haut, la gouverne de direction gauche et l'aileron gauche pendant 1 à 2 secondes. Récupérez de la manœuvre en neutralisant les manches et en ajoutant immédiatement la dérive droit pour corriger votre perte de cap.
 
 **Gaz => Prf**
 
